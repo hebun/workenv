@@ -1,0 +1,19 @@
+.merhaba {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFF;
+}
+
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+a:visited {
+	color: #FC3;
+}
+a:hover {
+	color: #FF0;
+}

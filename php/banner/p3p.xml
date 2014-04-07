@@ -1,0 +1,42 @@
+<POLICIES xmlns="http://www.w3.org/2002/01/P3Pv1">
+<POLICY name="policy1" 
+	discuri="http://www.faceshopping.org/banner/p3phr.xml">
+	<ENTITY>
+		<DATA-GROUP>
+			<DATA ref="#business.name">clicksem</DATA>
+			<DATA ref="#business.department"></DATA>
+			<DATA ref="#business.contact-info.postal.street">maslak</DATA>
+			<DATA ref="#business.contact-info.postal.city">maslak</DATA>
+			<DATA ref="#business.contact-info.postal.stateprov">istanbul</DATA>
+			<DATA ref="#business.contact-info.postal.postalcode">34000</DATA>
+			<DATA ref="#business.contact-info.telecom.telephone.intcode">0532595359</DATA>
+			<DATA ref="#business.contact-info.telecom.telephone.loccode">0532595359</DATA>
+			<DATA ref="#business.contact-info.telecom.telephone.number">0532595359</DATA>
+			<DATA ref="#business.contact-info.online.email">info@clicksem.net</DATA>
+		</DATA-GROUP>
+	</ENTITY>
+	<ACCESS><nonident/></ACCESS>
+	<DISPUTES-GROUP>
+		<DISPUTES resolution-type="service" 
+			service="http://www.faceshopping.org/banner/"
+		>
+		<IMG src="http://www.faceshopping.org/banner/p3p.xml"/>
+		<REMEDIES><correct/></REMEDIES>
+		</DISPUTES>
+	</DISPUTES-GROUP>
+	<STATEMENT>
+		<PURPOSE>
+			<current required="always" />
+		</PURPOSE>
+		<RECIPIENT>
+			<ours></ours>
+		</RECIPIENT>
+		<RETENTION>
+			<no-retention/>
+		</RETENTION>
+		<DATA-GROUP>
+			visitors
+		</DATA-GROUP>
+	</STATEMENT>
+</POLICY>
+</POLICIES>

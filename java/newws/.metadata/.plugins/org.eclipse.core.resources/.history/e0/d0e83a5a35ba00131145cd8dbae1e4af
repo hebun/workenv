@@ -1,0 +1,26 @@
+package Xpack;
+
+import javax.swing.JButton;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.table.TableModel;
+
+public class XTable extends JScrollPane {
+
+	private static final long serialVersionUID = 6908667529782919971L;
+	private JTable table;
+	private TableModel model;
+	int height = 400;
+	int width = 400;
+	private JButton but;
+
+	public XTable() {
+		table = new JTable();
+		this.add(table);
+		this.setSize(width, height);
+		this.setLocation(20, 20);
+		
+		this.add(but);
+		// but.repaint();
+	}
+}

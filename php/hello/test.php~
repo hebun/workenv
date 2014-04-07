@@ -1,0 +1,11 @@
+<?php
+
+function getob($var){
+ 
+  echo $var & 123;
+
+}
+
+echo getob(458778440845511);
+
+?>

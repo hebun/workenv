@@ -1,0 +1,36 @@
+<?php
+
+class Dapi{
+  public $isLocal=true;
+  protected $host="localhost";
+  protected $user="clicks_banner";
+  protected $dbname="tedzin";
+
+  protected $linkId;
+  protected $debug=false;
+  protected $connected=false;
+  public function connectdb(){
+    if(true==$this->connected) return;
+    if(true==$isLocal){
+      $this->linkId=mysql_connect("localhost","root","2882")
+	or die('could not connect to'.$this->host.' : '.mysql_error());
+
+    }else{
+      $this->linkId= mysql_connect($this->host,$this->use,$this->password)
+	or die('could not connect to'.$this->host.' : '.mysql_error());
+
+    }
+
+    mysql_query("SET character_set_results = 'utf8', character_set_client = " .
+		  "'utf8', character_set_connection = 'utf8', character_set_database = " .
+		  "'utf8', character_set_server = 'utf8'");
+      
+    mysql_select_db($this->dbname) or die('could not select db:'.$this->dbname);
+    mysql_query("SET NAMES 'utf8'");
+    $this->connected=true;
+  }
+
+  
+}
+
+?>

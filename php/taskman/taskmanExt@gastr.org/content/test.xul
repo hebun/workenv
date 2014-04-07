@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>  
+    <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>  
+      
+    <window onload="init();"  
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+       <script src="chrome://taskmanExt/content/taskman.js" type="application/x-javascript"/>
+	   
+	   	<vbox>  
+    <groupbox align="start">  
+      <caption label="Yeni Is Ekle"/>  
+      <radiogroup>  
+        <vbox>  
+          <hbox>  
+            <label  value="Is Tanimi:"/>  
+            <textbox id="your-fname" value=""/>  
+          </hbox>  
+          <hbox>  
+            <label  value="Baslangic Zamani:"/>  
+            <datepicker id="your-lname" type="popup"/>  
+          </hbox>  
+          <hbox>  
+            <button label="Kaydet" oncommand="saveToJson()">  
+            
+            </button>  
+          </hbox>  
+        </vbox>  
+      </radiogroup>  
+    </groupbox>  
+  </vbox>  
+   <description>   Isler:</description>  
+    <tree id="elementList" flex="1" context="taskmenu">  
+      <treecols>  
+        <treecol id="0" label="Element" primary="true" flex="1"/>  
+		<treecol id="1" label="2.ele" primary="false" flex="1"/>  
+      </treecols>  
+      <treechildren/>  
+    </tree>  
+  	<menupopup id="taskmenu">  
+	  <menuitem label="Göster" onclick="showSelected()" />  
+	  <menuitem label="Ekle" onclick="addChild()"/>  
+	  <menuitem label="Paste"/>  
+	</menupopup> 
+    </window>  

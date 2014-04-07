@@ -1,0 +1,7 @@
+body {font:12px/1.4 Verdana,Arial; background:#ffffff;  height:600px; margin:25px 0; padding:0}
+.label {
+    color: #666666;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+}

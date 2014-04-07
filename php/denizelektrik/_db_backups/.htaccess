@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "User Backups"
+AuthUserFile /home/content/78/7658978/html/stats/.statspwd
+require valid-user
+Options +Indexes

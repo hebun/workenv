@@ -1,0 +1,9 @@
+package setest;
+
+public class MyMap {
+
+	public MyMap() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

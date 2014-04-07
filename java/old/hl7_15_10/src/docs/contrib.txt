@@ -1,0 +1,12 @@
+Initial design, implementation and current maintainer:
+
+Mike Litherland (michael.litherland@gmail.com)
+
+Development, new features:
+
+Andrew Love (drewncrew@gmail.com)
+
+Unit tests, lots of good ideas:
+
+Peter Gillogley <pgillogley@optusnet.com.au>
+

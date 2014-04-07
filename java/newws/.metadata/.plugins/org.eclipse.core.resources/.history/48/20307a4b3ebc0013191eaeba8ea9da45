@@ -1,0 +1,9 @@
+package com.betfair.aping.util;
+
+public class LevenshteinDistance {
+
+	public LevenshteinDistance() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

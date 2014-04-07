@@ -1,0 +1,16 @@
+CREATE  PROCEDURE `addGorsel`(IN `_tarih` INT(11),  IN `_account` VARCHAR(100),
+ IN `_clicks` INT(10), IN `_impressions` INT(10), IN `_ctr` VARCHAR(10), IN `_avgCPC` FLOAT(3,2), IN `_cost` FLOAT(10), IN `_customerId` INT(11))
+BEGIN
+	  IF not EXISTS (SELECT 1 FROM adwords WHERE tarih=_tarih and keyword=_keyword and campaign=_campaign LIMIT 1) THEN
+		     insert into adwords set 
+	       	tarih=_tarih,
+		,clicks=_clicks
+		,impressions=_impressions
+		,ctr=_ctr
+		,avgCPC=_avgCPC
+		,cost=_cost
+                ,customerId=_customerUd
+		,account=_account;
+	end if ;
+
+END

@@ -1,0 +1,196 @@
+package com.betfair.aping;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Properties;
+import java.util.Set;
+import java.util.logging.Logger;
+
+import com.betfair.aping.api.ApiNgJsonRpcOperations;
+import com.betfair.aping.api.ApiNgOperations;
+import com.betfair.aping.entities.ExBestOfferOverRides;
+import com.betfair.aping.entities.MarketBook;
+import com.betfair.aping.entities.MarketCatalogue;
+import com.betfair.aping.entities.MarketFilter;
+import com.betfair.aping.entities.PriceProjection;
+import com.betfair.aping.enums.MarketProjection;
+import com.betfair.aping.enums.MarketSort;
+import com.betfair.aping.enums.PriceData;
+import com.betfair.aping.exceptions.APINGException;
+import com.betfair.aping.util.Jdbc;
+
+/**
+ * This is a demonstration class to show a quick demo of the new Betfair API-NG.
+ * When you execute the class will: <li>find a market (next horse race in the
+ * UK)</li> <li>get prices and runners on this market</li> <li>place a bet on 1
+ * runner</li> <li>handle the error</li>
+ * 
+ */
+public class ApiNGDemo {
+
+	private static Properties prop = new Properties();
+	private static Boolean jsonRpcRequest;
+	private static String applicationKey;
+	private static String sessionToken;
+	private static String jsonOrRescript;
+	private static boolean debug;
+	private final static Logger LOGGER = Logger.getLogger(ApiNGDemo.class
+			.getName());
+	static {
+		try {
+			InputStream in = ApiNGDemo.class
+					.getResourceAsStream("/apingdemo.properties");
+			prop.load(in);
+			in.close();
+
+			debug = new Boolean(prop.getProperty("DEBUG"));
+
+		} catch (IOException e) {
+			System.out.println("Error loading the properties file: "
+					+ e.toString());
+		}
+	}
+	public static ApiNgJsonRpcOperations jsonOperations;
+
+	public static void main(String[] args) {
+
+		jsonOperations = ApiNgJsonRpcOperations.getInstance();
+		// getting the AppKey and the session token
+
+		applicationKey = "5DWDmqno4izTvPPf";
+		sessionToken = "qvRgdM64Et+nWXflBhICNPDrs3b7PvDvdx+Q1NBUEfk=";
+		jsonOrRescript = "json-rpc";
+
+		if (jsonOrRescript.equalsIgnoreCase("json-rpc")) {
+			jsonRpcRequest = true;
+		} else if (jsonOrRescript.equalsIgnoreCase("rescript")) {
+			jsonRpcRequest = false;
+		}
+
+		fetchMarkets();
+		/*
+		 * if(jsonRpcRequest) { ApiNGJsonRpcDemo jsonRpcDemo = new
+		 * ApiNGJsonRpcDemo(); jsonRpcDemo.start(applicationKey, sessionToken);
+		 * } else { ApiNGJRescriptDemo rescriptDemo = new ApiNGJRescriptDemo();
+		 * rescriptDemo.start(applicationKey, sessionToken); }
+		 */
+	}
+
+	/**
+	 * 
+	 */
+	public static void fetchMarketBook() {
+		try {
+			MarketFilter filter = new MarketFilter();
+			Set<String> eventTypeIds = new HashSet<String>();
+			eventTypeIds.add("1");
+			filter.setEventTypeIds(eventTypeIds);
+
+			Set<MarketProjection> marketProjection = new HashSet<MarketProjection>();
+			marketProjection.add(MarketProjection.RUNNER_DESCRIPTION);
+
+			List<String> marketIds = new ArrayList<String>();
+			marketIds.add("1.109943535");
+			// marketIds.add("1.113291175");
+			PriceProjection priceProjection = new PriceProjection();
+			HashSet<PriceData> hashSet = new HashSet<PriceData>();
+			hashSet.add(PriceData.EX_BEST_OFFERS);
+			priceProjection.setPriceData(hashSet);
+			List<MarketBook> result = jsonOperations.listMarketBook(marketIds,
+					priceProjection, null, null, null, applicationKey,
+					sessionToken);
+			System.out.println(result);
+			Jdbc.start();
+			for (MarketBook catalogue : result) {
+				// LOGGER.info(catalogue.getInsert());
+				// Jdbc.query(catalogue.getInsert());
+			}
+			// jsonOperations.listEventTypes(filter, applicationKey,
+			// sessionToken);
+			// jsonOperations.listEvents(filter, applicationKey, sessionToken);
+		} catch (APINGException e) {
+			System.out.println("error blabla :");
+			e.printStackTrace();
+		} finally {
+			Jdbc.close();
+		}
+	}
+
+	public static void fetchEvents() {
+		MarketFilter filter = new MarketFilter();
+		Set<String> eventTypeIds = new HashSet<String>();
+		eventTypeIds.add("1");
+		filter.setEventTypeIds(eventTypeIds);
+		try {
+			jsonOperations.listEvents(filter, applicationKey, sessionToken);
+		} catch (APINGException e) {
+			LOGGER.severe(e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * 
+	 */
+	public static void fetchMarkets() {
+		long xxx = 0,yyy = 0,zzz = 0;
+		long start = System.currentTimeMillis();
+		try {
+			MarketFilter filter = new MarketFilter();
+			Set<String> eventTypeIds = new HashSet<String>();
+			// Set<String> eventIds = new HashSet<String>();
+			// eventIds.add("27170459");
+			eventTypeIds.add("1");
+			filter.setEventTypeIds(eventTypeIds);
+			// filter.setEventIds(eventIds);
+
+			Set<MarketProjection> marketProjection = new HashSet<MarketProjection>();
+			marketProjection.add(MarketProjection.EVENT);
+			marketProjection.add(MarketProjection.EVENT_TYPE);
+			// marketProjection.add(MarketProjection.RUNNER_DESCRIPTION);
+			// marketProjection.add(MarketProjection.MARKET_DESCRIPTION);
+
+			List<MarketCatalogue> result = jsonOperations.listMarketCatalogue(
+					filter, marketProjection, MarketSort.FIRST_TO_START,
+					"1000", applicationKey, sessionToken);
+			xxx=System.currentTimeMillis();
+		
+			Jdbc.start();
+			String minsert = MarketCatalogue.startInsert();
+			for (MarketCatalogue catalogue : result) {
+				minsert += catalogue.getInsert() + ",";
+				// LOGGER.info(catalogue.getInsert());
+				// Jdbc.query(catalogue.getInsert());
+
+				// catalogue.getEvent().getInsert();
+			}
+			minsert = minsert.substring(0, minsert.length() - 1);
+			yyy=System.currentTimeMillis();
+			Jdbc.query(minsert);
+			zzz=System.currentTimeMillis();
+			// System.out.println(minsert);
+			// jsonOperations.listEventTypes(filter, applicationKey,
+			// sessionToken);
+			// jsonOperations.listEvents(filter, applicationKey, sessionToken);
+		} catch (APINGException e) {
+			System.out.println("error blabla :");
+			e.printStackTrace();
+		} finally {
+			Jdbc.close();
+			System.out.println("times:"+start+"==X"+xxx+"=Y"+yyy+"==Z"+zzz);
+		}
+	}
+
+	public static Properties getProp() {
+		return prop;
+	}
+
+	public static boolean isDebug() {
+		return debug;
+	}
+}

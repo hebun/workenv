@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+	<server>localhost</server><!--server will be connect-->
+	<outPort>13020</outPort><!--outBound port-->
+	<inPort>13020</inPort><!--inBound port-->
+	<refresh>15</refresh>
+</options>

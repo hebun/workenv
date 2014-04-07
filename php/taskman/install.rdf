@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:extension:file:"
+                   em:package="content/" >
+				   <em:unpack>true</em:unpack>
+				   
+				 </RDF:Description>  
+  <RDF:Description RDF:about="rdf:#$qOePo2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="2.0"
+                   em:maxVersion="11.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="hga@myUniqueDomain.com"
+                   em:name="hga@myUniqueDomain.com"
+                   em:version="1.3.1"
+                   em:creator="aleksandr puskin"
+                   em:description=""
+                   em:homepageURL="http://www.gastr.org/"                   
+                   >
+				   <em:unpack>true</em:unpack>
+    <em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>12.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+    <em:file RDF:resource="urn:mozilla:extension:file:"/>
+  </RDF:Description>
+</RDF:RDF>

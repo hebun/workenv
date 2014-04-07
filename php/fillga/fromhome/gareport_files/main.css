@@ -1,0 +1,593 @@
+﻿body
+{
+    margin: 0px;
+    font-family: Arial;
+    font-size: 10pt;
+}
+.main
+{
+    text-align: center;
+    width: 100%;
+}
+#content
+{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    width: 1000px;
+    padding-top: 70px;
+}
+a
+{
+    text-decoration: none;
+}
+#center
+{
+    background-color: #e6e9ef;
+    height: auto;
+}
+#footer
+{
+    background-color: #e6e9ef;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.anasayfa_ustbaslik
+{
+    font-size: 14pt;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.anasayfa_baslik
+{
+    font-weight: bold;
+    font-size: 10pt;
+}
+.kampanya_baslik
+{
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.aktif_baslik
+{
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.paused
+{
+    background-image: url('images/paused.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.active
+{
+    background-image: url('images/active.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.deleted
+{
+    background-image: url('images/deleted.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.buton
+{
+    background-image: url('images/buton.JPG');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 47px;
+    height: 23px;
+    border: none;
+    text-align: center;
+}
+.kelimeEkleButon
+{
+    background-image: url('images/addKeywords.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 139px;
+    height: 23px;
+    border: none;
+}
+.reklamEkleButon
+{
+    background-image: url('images/reklamEkle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 93px;
+    height: 20px;
+    border: none;
+}
+.iptalButon
+{
+    background-image: url('images/iptal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 20px;
+    border: none;
+}
+.kaydetButon
+{
+    background-image: url('images/kaydet.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 51px;
+    height: 20px;
+    border: none;
+}
+.kullaniciEkle
+{
+    background-image: url('images/kullaniciEkle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140px;
+    height: 20px;
+    border: none;
+}
+.YeniOdemeEkleButon
+{
+    background-image: url('images/yeniOdeme.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140px;
+    height: 20px;
+    border: none;
+}
+.kampDurdur
+{
+    background-image: url('images/kampDurdur.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140px;
+    height: 20px;
+    border: none;
+}
+.kampBaslat
+{
+    background-image: url('images/kampBaslat.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140px;
+    height: 20px;
+    border: none;
+}
+
+
+.help
+{
+    background-image: url('images/help.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 13px;
+    margin-left: 5px;
+}
+
+.help:hover
+{
+    background-image: url('images/help_hvr.jpg');
+    background-repeat: no-repeat;
+}
+
+div#tipDiv
+{
+    padding: 10px;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #fff6c3;
+    border: 1px solid #ffef9c;
+    width: 300px;
+}
+
+.puan
+{
+    background-image: url('images/puan.png');
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}
+.puan:hover
+{
+    background-image: url('images/puanHover.png');
+    height: 12px;
+    width: 12px;
+}
+#item
+{
+    display: none;
+    background-color: #FFF6C3;
+    border: 4px solid #FFEF9C;
+    height: 250px;
+    width: 250px;
+}
+toolTipDiv
+{
+    display: none;
+    background-color: #FFF6C3;
+    border: 4px solid #FFEF9C;
+    height: 250px;
+    width: 250px;
+}
+.toolTip
+{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #FFF6C3;
+    border: 2px solid #FFEF9C;
+    height: 138px;
+    --width: 222px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.toolTip a
+{
+    font-size: 9pt;
+    color: #3399FF;
+}
+#divTarihAraligi
+{
+    background-color: White;
+    text-align: center;
+    float: left;
+    display: none;
+    padding: 5px;
+    border: solid 1px gray;
+    border-top: none;
+    width: 226px;
+}
+#divDropDown
+{
+    border: solid 1px Gray;
+    height: 23px;
+    width: 100%;
+}
+#tarihKriter
+{
+    border: 1px solid #b0b0b0;
+    background-color: White;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+}
+.oval4
+{
+    border: 1px solid #b0b0b0;
+    background-color: White;
+    padding: 10px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#chartdiv
+{
+    width: 99%;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#basic-modal
+{
+    border-bottom: 1px solid #008844;
+    background-color: #e5e5e5;
+    height: 32px;
+    padding: 5px;
+}
+
+
+
+.tabloBaslik tr th
+{
+    font-weight: bold;
+    background-color: #e4e4e4;
+    padding: 10px 3px 10px 3px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabloicerik tr
+{
+    background-color: White;
+}
+.tabloIcerik tr td
+{
+    border: 1px solid #e5e5e5;
+    font-weight: normal;
+    border-top: none;
+    border-left: none;
+    padding: 3px;
+    cursor: default;
+}
+.tabloIcerik tr td a
+{
+    color: #0066cc;
+}
+.tabloIcerik tr td a:hover
+{
+    color: Red;
+}
+
+.solKenar
+{
+    border-left: 1px solid #CCCCCC;
+}
+.tabloIcerik tr:hover
+{
+    background-color: #e4e4e4;
+    border: 1px solid #CCCCCC;
+}
+
+.tabloFooter tr td
+{
+    font-weight: bold;
+    background-color: #e4e4e4;
+    border: 1px solid #CCCCCC;
+    padding: 10px 3px 10px 3px;
+    border-left: none;
+}
+.durum
+{
+    width: 50px;
+}
+.duzenle
+{
+    cursor: pointer;
+}
+.duzenle:hover
+{
+    cursor: pointer;
+    background-image: url(images/btn.jpg);
+    background-position: right top;
+    border: 1px solid #959595;
+    background-repeat: no-repeat;
+    padding-top: 2px;
+}
+.maxTBM
+{
+    cursor: pointer;
+}
+.maxTBM:hover
+{
+    cursor: pointer;
+    background-image: url(images/btnTers.jpg);
+    background-position: left top;
+    border: 1px solid #959595;
+    background-repeat: no-repeat;
+    padding-top: 2px;
+}
+.tablo
+{
+    font-size: 9pt;
+}
+.tablo td
+{
+    border: 1px solid #E4E4E4;
+    border-bottom: none;
+    border-collapse: collapse;
+}
+.sag
+{
+    text-align: right;
+}
+.sol
+{
+    text-align: left;
+}
+.Reklamsol
+{
+    text-align: left;
+    /*width:30%*/
+}
+.merkez
+{
+    text-align: center;
+}
+
+.tabloyonetim
+{
+    font-size: 9pt;
+    border-left: 1px solid #E4E4E4;
+}
+.tabloyonetim td
+{
+    border: 1px solid #E4E4E4;
+    border-bottom: none;
+    border-collapse: collapse;
+    border-left: none;
+}
+
+.solMenu
+{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+.solMenu li
+{
+    margin-top:7px;
+}
+.solMenu li a
+{
+    color: #0066cc;
+}
+.solMenu li a:hover
+{
+    color: DarkRed;
+}
+
+.solMenu li img
+{
+    vertical-align:middle
+}
+
+
+.solMenuic
+{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25px;
+    list-style-type: none;
+}
+.solMenuic li
+{
+    list-style-image: none;
+}
+
+.ekleButon
+{
+    background-image: url('images/plus.png');
+}
+.textBox
+{
+    border: 1px solid #CCCCCC;
+    font-size: 9pt;
+    width:200px;
+    background-color: White;
+}
+.wordButon
+{
+    background-image: url('images/word.png');
+}
+
+.printButon
+{
+    background-image: url('images/print.png');
+}
+
+.excelButon
+{
+    background-image: url('images/excel.png');
+}
+
+.textBox300
+{
+    border: 1px solid #CCCCCC;
+    width: 300px;
+    font-size: 9pt;
+    background-color: White;
+}
+.Red
+{
+    border: 1px solid #cccccc;
+    background-color: #bb0000;
+    color: White;
+}
+.Yellow
+{
+    border: 1px solid #cccccc;
+    background-color: #ffffce;
+}
+
+.inputButon
+{
+    border: 1px solid #BFBFBF;
+    background-repeat: no-repeat;
+    background-position: 7px;
+    font-family: Arial;
+    font-size: 9pt;
+    background-color: #FCFCFC;
+    font-weight: bold;
+    padding: 6px;
+    text-align:center;
+    padding-left:25px;
+    color: #000000;
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+}
+.inputButon:hover
+{
+    border-color: #808080;
+    background-color: #EEEEEE;
+}
+.ekleButon
+{
+    background-image: url('images/plus.png');
+}
+
+.mailButon
+{
+    background-image: url('images/mail.png');
+}
+
+.wordButon
+{
+    background-image: url('images/word.png');
+}
+
+.printButon
+{
+    background-image: url('images/print.png');
+}
+
+.excelButon
+{
+    background-image: url('images/excel.png');
+}
+
+.pdfButon
+{
+    background-image: url('images/pdf.png');
+}
+.tamamButon
+{
+    background-image: url('images/tamam.png');
+}
+.hayirButon
+{
+    background-image: url('images/hayir.png');
+}
+.yenileButon
+{
+    background-image: url('images/yenile.png');
+}
+.UserEkleButon
+{
+    background-image: url('images/AddUser.png');
+}
+.OdemeYapButon
+{
+    background-image: url('images/para.png');
+    }
+.on{ background-image:url('images/On.png'); border:none; background-repeat:no-repeat; height:16px; height:16px; vertical-align:top}
+.off{ background-image:url('images/off.png'); border:none; background-repeat:no-repeat; height:16px; height:16px; vertical-align:top}
+.help{ background-image:url('images/help.jpg'); border:none; background-repeat:no-repeat; height:16px; height:16px; vertical-align:middle}
+.helphover{ background-image:url('images/help_hvr.jpg');  background-repeat:no-repeat; height:16px; height:16px; vertical-align:middle}
+.gridDel{ width:20px; background-image:url('images/del1.png'); background-repeat:no-repeat}
+
+
+#easyTooltip{
+	padding:5px 10px;
+	border:1px solid #195fa4;
+	background:#195fa4 url(bg.gif) repeat-x;
+	color:#fff;
+	}
+
+#easyTooltip2{
+	padding:5px 10px;
+	border:1px solid #5e5e5e;
+	background:#5e5e5e url(bg2.gif) repeat-x;
+	color:#fff;
+	width:250px;
+	}
+#easyTooltip2 h4, #easyTooltip2 p{
+	margin:.25em 0;
+	}
+.para{font-size:7pt}	
+    .yesil_kutu2
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 97%;
+    border: 1px solid #c3e6b2;
+    background: #f3ffec;
+    color: #000;
+}

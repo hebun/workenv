@@ -1,0 +1,62 @@
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class TimePass extends JPanel implements WorkbookListener,
+		ActionListener {
+
+	private static final long serialVersionUID = 3992217048186698165L;
+	private JLabel label;
+
+	public TimePass() {
+		super();
+		setLayout(new FlowLayout());
+		setSize(300, 300);
+		setLayout(null);
+		label = new JLabel("blblblal");
+		label.setLocation(20, 20);
+		label.setSize(200, 20);
+		this.add(label);
+
+		Calendar calendar = new GregorianCalendar(2014, 3, 25, 12, 0);
+
+		long diff = Calendar.getInstance().getTimeInMillis()
+				- calendar.getTimeInMillis();
+
+		label.setText(getDiff(diff));
+
+	}
+
+	private String getDiff(long diff) {
+		long diffSeconds = diff / 1000 % 60;
+		long diffMinutes = diff / (60 * 1000) % 60;
+		long diffHours = diff / (60 * 60 * 1000) % 24;
+		long diffDays = diff / (24 * 60 * 60 * 1000);
+		String ret = "";
+		ret += diffDays + " days, ";
+		ret += diffHours + " hours, ";
+		ret += diffMinutes + " minutes, ";
+		ret += diffSeconds + " seconds.";
+		ret+=diff+" total";
+		return ret;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
+	}
+
+	@Override
+	public boolean exiting(WindowEvent e) {
+
+		return false;
+	}
+
+}

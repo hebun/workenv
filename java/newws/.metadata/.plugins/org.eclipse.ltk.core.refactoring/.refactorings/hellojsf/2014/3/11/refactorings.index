@@ -1,0 +1,9 @@
+1394373705699	Rename field 'detailDisabled'
+1394373716391	Rename method 'isDetailDisabled'
+1394373739971	Rename method 'setDetailDisabled'
+1394391378788	Extract local variable 'configuration'
+1394455320428	Extract method 'extracted'
+1394493658668	Move file
+1394825772192	Copy compilation unit
+1394825779029	Delete element
+1394829143362	Extract local variable 'createCriteria'

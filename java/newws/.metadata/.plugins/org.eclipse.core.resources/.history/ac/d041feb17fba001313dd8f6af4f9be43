@@ -1,0 +1,9 @@
+package com.betfair.aping.api;
+
+public class Tempobet {
+
+	public Tempobet() {
+
+	}
+
+}

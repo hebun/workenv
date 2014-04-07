@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+/home/ismet/workenv/java/newws/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3232997021.index
+1374273213.index
+3396549325.index
+1348133775.index
+325783306.index
+3518089054.index
+1656636159.index
+986665836.index
+2079020850.index

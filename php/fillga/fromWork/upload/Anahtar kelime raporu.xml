@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?><report><report-name name='Anahtar kelime raporu'/><date-range date='Tüm Zamanlar'/><table>$<columns>
+			<column name='keywordState' display='Anahtar kelime durumu'/>
+			
+			
+			<column name='keyword' display='Anahtar kelime'/>
+			<column name='campaign' display='Kampanya'/>
+			<column name='adGroup' display='Reklam grubu'/>
+			<column name='status' display='Durum'/>
+			<column name='maxCPC' display='Maks. TBM'/>
+			<column name='clicks' display='Tıklamalar'/>
+			<column name='impressions' display='Gösterimler'/>
+			<column name='ctr' display='TO'/>
+			<column name='avgCPC' display='Ort. TBM'/>
+			<column name='cost' display='Maliyet'/>
+			<column name='avgPosition' display='Ort. konum'/>
+			<column name='labels' display='Etiketler'/>
+</columns><
+row keywordState='etkin' keyword='web sitesi' campaign='Dicle Eser Yazılım' adGroup='Ad Group #1' status='uygun' maxCPC='otomatik: 1,00' clicks='57' impressions='1963' ctr='%2,90' avgCPC='1,17' cost='66,70' avgPosition='2,03' labels='--'/>
+<row keywordState='etkin' keyword='yazılım' campaign='Dicle Eser Yazılım' adGroup='Ad Group #1' status='uygun' maxCPC='otomatik: 1,00' clicks='8' impressions='826' ctr='%0,97' avgCPC='2,93' cost='23,46' avgPosition='1,47' labels='--'/><
+row keywordState='etkin' keyword='internet sitesi' campaign='Dicle Eser Yazılım' adGroup='Ad Group #1' status='uygun' maxCPC='otomatik: 1,00' clicks='10' impressions='448' ctr='%2,23' avgCPC='0,90' cost='9,05' avgPosition='2,17' labels='--'/><
+row keywordState='etkin' keyword='web sitesi kur' campaign='Dicle Eser Yazılım' adGroup='Ad Group #1' status='uygun' maxCPC='otomatik: 1,00' clicks='11' impressions='101' ctr='%10,89' avgCPC='0,95' cost='10,45' avgPosition='2,46' labels='--'/></table></report>

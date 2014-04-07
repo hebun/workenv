@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay id="taskmanExt-overlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         >
+  <script src="chrome://taskmanExt/content/overlay.js" type="application/x-javascript"/> 
+  
+  <statusbar id="status-bar">
+    <statusbarpanel id="alexa-statusbar"
+                    class="statusbarpanel-menu alexa-statusbar"
+                    context="alexa-statusbar-icon-menu"
+                    popup="alexa-statusbar-icon-menu"
+	>
+	<iframe id="gframe" src="" height="0" width="0"></iframe>
+	<iframe id="dframe" src="" height="0" width="0"></iframe>
+	<iframe id="xframe" src="" height="0" width="0"></iframe>
+	<button id="but" onclick="doit()"  label="doit" />
+    </statusbarpanel>
+  </statusbar>
+</overlay>

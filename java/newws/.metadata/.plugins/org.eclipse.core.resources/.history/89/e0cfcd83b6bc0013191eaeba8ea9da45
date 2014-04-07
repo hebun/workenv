@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+<f:view contentType="text/html">
+	<h:head>
+		<h:outputStylesheet>
+.order-table{   
+	border-collapse:collapse;
+}
+ 
+.order-table-header{
+	text-align:center;
+	background:none repeat scroll 0 0 #E5E5E5;
+	border-bottom:1px solid #BBBBBB;
+	padding:16px;
+}
+ 
+.order-table-odd-row{
+	text-align:center;
+	background:none repeat scroll 0 0 #FFFFFFF;
+	border-top:1px solid #BBBBBB;
+}
+ 
+.order-table-even-row{
+	text-align:center;
+	background:none repeat scroll 0 0 #F9F9F9;
+	border-top:1px solid #BBBBBB;
+}
+</h:outputStylesheet>
+	</h:head>
+	<h:body>
+
+		<h:form id="f">
+			<h:commandButton id="marketBook" widgetVar="bookButton"
+				value="fetchMArketBook" style="display:none">
+				<f:ajax event="click" execute="marketBook" render="betDt"
+					listener="#{betting.fetchMarketBook}"></f:ajax>
+			</h:commandButton>
+			<h:dataTable value="#{betting.matches}" var="m" id="betDt"
+				styleClass="order-table" headerClass="order-table-header"
+				rowClasses="order-table-odd-row,order-table-even-row">
+
+
+				<h:column>
+					<f:facet name="header">Mac </f:facet>
+    				#{m.homeTeam} vs #{m.awayTeam}
+    			</h:column>
+				<h:column>
+					<f:facet name="header">1</f:facet>
+    				#{m.ht/100}
+    			</h:column>
+				<h:column>
+					<f:facet name="header">0</f:facet>
+    				#{m.draw/100}
+    			</h:column>
+				<h:column>
+					<f:facet name="header">2</f:facet>
+    				#{m.at/100}
+    			</h:column>
+				<h:column>
+
+					<f:facet name="header">tarih</f:facet>
+
+
+					<h:outputText value="#{fn:substring(m.tarih,5,16)}">
+					</h:outputText>
+
+				</h:column>
+
+
+			</h:dataTable>
+		</h:form>
+		<h:outputScript>
+		
+		(function worker() {
+  
+  
+     	 setTimeout(worker, 100000);
+     	 
+     	   document.getElementById("f:marketBook").click();
+     	 
+   
+		})();
+		
+		</h:outputScript>
+	</h:body>
+</f:view>
+
+</html>

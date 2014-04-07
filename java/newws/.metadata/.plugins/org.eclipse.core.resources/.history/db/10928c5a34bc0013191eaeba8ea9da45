@@ -1,0 +1,13 @@
+import java.sql.Date;
+
+public class DualMatch {
+
+	String homeTeam, awayTeam;
+	Integer ht2, draw2, at2, ht3, draw3, at3;
+	Date tarih;
+
+	public DualMatch() {
+
+	}
+
+}

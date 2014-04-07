@@ -1,0 +1,23 @@
+	/*mxGraph graph = new mxGraph();
+		Object parent = graph.getDefaultParent();
+
+		graph.getModel().beginUpdate();
+		try
+		{
+			Object v1 = graph.insertVertex(parent, null, null, 10, 200, 80,
+					30);
+			Object v2 = graph.insertVertex(parent, null, "World!", 240, 150,
+					80, 30);
+			graph.insertEdge(parent, null, "Edgexx", v1, v2);
+		}
+		finally
+		{
+			graph.getModel().endUpdate();
+		}
+
+		mxGraphComponent graphComponent = new mxGraphComponent(graph);
+		graphComponent.setLocation(100,100);
+		
+		graphComponent.setSize(400, 200)
+		;
+		container.add(graphComponent);*/

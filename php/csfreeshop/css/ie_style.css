@@ -1,0 +1,34 @@
+.button_header,
+.button_content		{display:inline}
+
+#piGal ul 					{margin-left:0px;}
+
+.input_radio input			{margin: 0px 0px 0px 0px;}
+.radio_set					{margin: 1px 0px 0px 0px;display:inline-block;}
+
+.row_table					{width:100px;}
+.view-first .bottom,
+.view-tenth .bottom	{display:none;}
+
+.view-first:hover .bottom,
+.view-tenth:hover	.bottom{display:inline-block;}
+.view-first .mask {
+	 background:#a1a3a5;
+}
+.view .top {
+	 background:#727578;
+}
+.view .button__padd {
+	 margin: 0px auto 0px 110px;
+}
+
+#piGal ul.thumbs	{
+	padding:3px 0px 3px 0px;margin:10px 0px 0px -9px;
+}
+#piGal ul.thumbs li	{
+	margin:5px 0px 0px 9px;	
+	border:1px solid #c4c4c4;
+}
+#piGal ul.thumbs li:hover	{
+	border:1px solid #575757;
+}

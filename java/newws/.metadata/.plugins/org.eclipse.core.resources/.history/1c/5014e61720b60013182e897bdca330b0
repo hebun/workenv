@@ -1,0 +1,38 @@
+package com.betfair.aping;
+
+import java.util.logging.Logger;
+
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name = "app", eager = true)
+@ApplicationScoped
+public class App {
+	private static Logger log = Logger.getLogger(App.class.getName());
+	int callerCount = 0;
+	private boolean inProgress;
+
+	public App() {
+		log.info("app created");
+		inProgress = false;
+	}
+
+	public void updateBetfair() {
+		Thread thread = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				ApiNGDemo.fetchMarketBook();
+
+			}
+		});
+		if (false == inProgress) {
+			inProgress=true;
+			thread.start();
+			inProgress=false;
+
+		}
+		System.out.println("cc:" + callerCount++);
+	}
+
+}

@@ -1,0 +1,4 @@
+[15-Feb-2014 16:17:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'clicks_ismet'@'server.clicksem.net' (using password: YES) in /home/clicks/public_html/billypanel/inc/database.inc.php on line 58
+[15-Feb-2014 16:18:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'clicks_ismet'@'server.clicksem.net' (using password: YES) in /home/clicks/public_html/billypanel/inc/database.inc.php on line 58
+[15-Feb-2014 16:18:28] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'clicks'@'server.clicksem.net' (using password: YES) in /home/clicks/public_html/billypanel/inc/database.inc.php on line 58
+[19-Feb-2014 15:24:04] PHP Fatal error:  Call to undefined function  php_info() in /home/clicks/public_html/billypanel/info.php on line 1

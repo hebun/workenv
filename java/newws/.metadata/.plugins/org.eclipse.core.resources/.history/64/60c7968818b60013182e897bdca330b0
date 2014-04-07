@@ -1,0 +1,43 @@
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class TimePass extends JPanel implements WorkbookListener,
+		ActionListener {
+
+	private static final long serialVersionUID = 3992217048186698165L;
+	private JLabel label;
+
+	public TimePass() {
+		super();
+		setLayout(new FlowLayout());
+		setSize(300, 300);
+		setLayout(null);
+		label=new JLabel("blblblal");
+		label.setLocation(20,20);
+		label.setSize(200, 20);
+		this.add(label);
+		
+		Calendar calendar=new GregorianCalendar(2014, 3, 25,12,0);
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
+	}
+
+	@Override
+	public boolean exiting(WindowEvent e) {
+
+		return false;
+	}
+
+}

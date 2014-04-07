@@ -1,0 +1,48 @@
+/*	private void loadXml() {
+		DefaultHandler handler = new DefaultHandler() {
+			int current = 0;
+
+			String curNode="";
+			public void startElement(String uri, String lname, String qname,
+					Attributes attributes) {
+
+				if (qname.equals("day")) {
+					int no = Integer.parseInt(attributes.getValue("no"));
+					current = no;
+				
+				}
+				curNode=qname;
+			}
+
+			public void endElement(String uri, String name, String qName) {
+
+			}
+
+			public void characters(char[] ch, int start, int finish) {
+
+				if(!curNode.equals("day"))
+					return;
+				String value = new String(ch, start, finish);
+				if (value == "\n\t")
+					return;
+
+				hashtable.put(current, value);
+
+			}
+		};
+		try {
+			SAXParser parser = getParser();
+			parser.parse("schedule.xml", handler);
+		} catch (Exception e) {
+
+			System.out.println(e.getMessage());
+
+			return;
+		}
+
+	}
+
+	public SAXParser getParser() throws Exception {
+		SAXParserFactory factory = SAXParserFactory.newInstance();
+		return factory.newSAXParser();
+	}*/

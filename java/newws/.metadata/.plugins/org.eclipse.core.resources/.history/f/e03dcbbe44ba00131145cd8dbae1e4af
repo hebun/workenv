@@ -1,0 +1,57 @@
+package com.betfair.aping;
+
+import java.io.Serializable;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.ViewScoped;
+import javax.faces.event.AjaxBehaviorEvent;
+
+import com.betfair.aping.util.DataTable;
+import com.betfair.aping.util.Jdbc;
+
+@ViewScoped
+@ManagedBean
+public class Betting implements Serializable {
+	// multi threading
+
+	private static final long serialVersionUID = 1120356482214096067L;
+
+	private DataTable matches;
+
+	@ManagedProperty(value = "#{app}")
+	App app;
+
+	public DataTable getMatches() {
+		return matches;
+	}
+
+	public void setMatches(DataTable matches) {
+		this.matches = matches;
+	}
+
+	public Betting() {
+		System.out.println("creating Betting");
+		refresh();
+	}
+
+	public void refresh() {
+		matches = Jdbc
+				.select("select homeTeam,awayTeam,ht,at,draw,tarih from betfairView");
+		Jdbc.close("refresh");
+	}
+
+	public void fetchMarketBook(AjaxBehaviorEvent ajaxBehaviorEvent) {
+		app.updateBetfair();
+	//	refresh();
+	}
+
+	public App getApp() {
+		return app;
+	}
+
+	public void setApp(App app) {
+		this.app = app;
+	}
+
+}

@@ -1,0 +1,20 @@
+[13-Jan-2013 13:43:22 America/Denver] PHP Parse error:  syntax error, unexpected '<' in /home/clicks/public_html/faceapp/kazan.php on line 11
+[13-Jan-2013 13:48:21 America/Denver] PHP Parse error:  syntax error, unexpected '<' in /home/clicks/public_html/faceapp/index.php on line 19
+[13-Jan-2013 15:12:38 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home/clicks/public_html/faceapp/index.php on line 89
+[13-Jan-2013 15:20:01 America/Denver] PHP Parse error:  syntax error, unexpected T_ELSE in /home/clicks/public_html/faceapp/index.php on line 97
+[13-Jan-2013 15:53:06 America/Denver] PHP Parse error:  syntax error, unexpected T_LOGICAL_OR in /home/clicks/public_html/faceapp/index.php on line 65
+[13-Jan-2013 16:34:02 America/Denver] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/clicks/public_html/faceapp/sonuc.php on line 23
+[13-Jan-2013 16:49:33 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home/clicks/public_html/faceapp/sonuc.php on line 25
+[13-Jan-2013 16:50:25 America/Denver] PHP Parse error:  syntax error, unexpected T_LOGICAL_OR in /home/clicks/public_html/faceapp/sonuc.php on line 26
+[13-Jan-2013 16:50:33 America/Denver] PHP Parse error:  syntax error, unexpected T_LOGICAL_OR in /home/clicks/public_html/faceapp/sonuc.php on line 26
+[13-Jan-2013 16:50:50 America/Denver] PHP Fatal error:  Call to undefined function db_fetch_array() in /home/clicks/public_html/faceapp/sonuc.php on line 25
+[13-Jan-2013 16:51:07 America/Denver] PHP Fatal error:  Call to undefined function db_fetch_array() in /home/clicks/public_html/faceapp/sonuc.php on line 25
+[13-Jan-2013 16:52:00 America/Denver] PHP Fatal error:  Call to undefined function db_fetch_array() in /home/clicks/public_html/faceapp/sonuc.php on line 25
+[13-Jan-2013 16:52:09 America/Denver] PHP Fatal error:  Call to undefined function db_fetch_array() in /home/clicks/public_html/faceapp/sonuc.php on line 25
+[13-Jan-2013 17:10:37 America/Denver] PHP Parse error:  syntax error, unexpected T_WHILE in /home/clicks/public_html/faceapp/sonuc.php on line 33
+[13-Jan-2013 17:11:20 America/Denver] PHP Parse error:  syntax error, unexpected T_WHILE in /home/clicks/public_html/faceapp/sonuc.php on line 30
+[13-Jan-2013 17:11:26 America/Denver] PHP Parse error:  syntax error, unexpected T_WHILE in /home/clicks/public_html/faceapp/sonuc.php on line 30
+[13-Jan-2013 17:22:18 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home/clicks/public_html/faceapp/sonuc.php on line 35
+[13-Jan-2013 17:22:36 America/Denver] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/clicks/public_html/faceapp/sonuc.php on line 39
+[13-Jan-2013 17:23:19 America/Denver] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/clicks/public_html/faceapp/sonuc.php on line 39
+[13-Jan-2013 17:40:16 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home/clicks/public_html/faceapp/sonuc.php on line 35

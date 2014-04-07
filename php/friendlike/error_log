@@ -1,0 +1,32 @@
+[10-Mar-2013 13:01:16 America/Denver] Bad Signed JSON signature!
+[10-Mar-2013 13:01:16 America/Denver] Bad Signed JSON signature!
+[10-Mar-2013 13:04:55 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Facebook OAuthException: Error validating application' in /home/clicks/public_html/canvas/bitkiblog/face/base_facebook.php:270
+Stack trace:
+#0 /home/clicks/public_html/canvas/bitkiblog/face/facebook.php(90): BaseFacebook->getAppId()
+#1 /home/clicks/public_html/canvas/bitkiblog/face/facebook.php(67): Facebook->constructSessionVariableName('state')
+#2 /home/clicks/public_html/canvas/bitkiblog/face/base_facebook.php(230): Facebook->getPersistentData('state')
+#3 /home/clicks/public_html/canvas/bitkiblog/face/facebook.php(39): BaseFacebook->__construct('CURLOPT_SSL_VER...', Array)
+#4 /home/clicks/public_html/canvas/bitkiblog/index.php(28): Facebook->__construct('CURLOPT_SSL_VER...', Array)
+#5 {main}
+  thrown in /home/clicks/public_html/canvas/bitkiblog/face/base_facebook.php on line 270
+[10-Mar-2013 13:05:47 America/Denver] CSRF state token does not match one provided.
+[10-Mar-2013 13:24:28 America/Denver] PHP Fatal error:  Call to a member function reset() on a non-object in /home/clicks/public_html/canvas/bitkiblog/index.php on line 77
+[10-Mar-2013 13:24:53 America/Denver] PHP Fatal error:  Call to undefined method Dapi::exec() in /home/clicks/public_html/canvas/bitkiblog/index.php on line 78
+[10-Mar-2013 15:43:53 America/Denver] CSRF state token does not match one provided.
+[10-Mar-2013 15:46:03 America/Denver] CSRF state token does not match one provided.
+[10-Mar-2013 15:52:34 America/Denver] CSRF state token does not match one provided.
+[10-Mar-2013 15:54:44 America/Denver] CSRF state token does not match one provided.
+[11-Mar-2013 08:30:04 America/Denver] CSRF state token does not match one provided.
+[11-Mar-2013 09:33:30 America/Denver] CSRF state token does not match one provided.
+[11-Mar-2013 10:51:34 America/Denver] CSRF state token does not match one provided.
+[11-Mar-2013 11:48:53 America/Denver] CSRF state token does not match one provided.
+[12-Mar-2013 10:14:24 America/Denver] CSRF state token does not match one provided.
+[12-Mar-2013 15:05:25 America/Denver] CSRF state token does not match one provided.
+[12-Mar-2013 15:10:21 America/Denver] CSRF state token does not match one provided.
+[13-Mar-2013 17:06:33 America/Denver] PHP Fatal error:  Uncaught OAuthException: Error validating access token: The session was invalidated explicitly using an API call.
+  thrown in /home/clicks/public_html/canvas/bitkiblog/face/base_facebook.php on line 1144
+[13-Mar-2013 17:08:10 America/Denver] CSRF state token does not match one provided.
+[13-Mar-2013 17:09:41 America/Denver] CSRF state token does not match one provided.
+[14-Mar-2013 08:16:11 America/Denver] CSRF state token does not match one provided.
+[14-Mar-2013 08:16:29 America/Denver] CSRF state token does not match one provided.
+[15-Mar-2013 08:06:34 America/Denver] CSRF state token does not match one provided.

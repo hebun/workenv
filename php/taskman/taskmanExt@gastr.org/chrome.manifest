@@ -1,0 +1,5 @@
+content taskmanExt content/
+
+overlay chrome://browser/content/browser.xul chrome://taskmanExt/content/overlay.xul
+
+

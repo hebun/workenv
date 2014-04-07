@@ -1,0 +1,5714 @@
+.UrunBilgisiUrunKisaAciklamaTr{display:none;}
+/*UST REKLAM BOLUMU  CLASSLARI*/
+
+#UstMenum{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	line-height: 32px;
+}
+
+#UstMenum ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight: bold;
+}
+
+#UstMenum li {
+	display: inline;
+}
+
+#UstMenum a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color:#FFFFFF;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0;
+	padding-left: 8px;
+	}
+
+#UstMenum a:hover {
+	color: #FFFFFF;
+	background-image: url('/images/Tasarim1_25.gif');
+	background-repeat: repeat-x;
+}
+.TextStyle1 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D1D1BA;
+}
+.TextStyle2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+.TextStyle3 {
+	font-size: 28px;
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	color: #726159;
+}
+.TextStyle4 {
+	font-size: 28px;
+	font-family: Tahoma, Verdana, Arial;
+ 	font-weight: normal;
+	color: #0b85cd;
+}
+.TextStyle5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #AA9A93;
+	font-weight: normal;
+}
+.TextStyle6 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.TextStyle7 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2567A1;
+	text-decoration: none;
+}
+.TextStyle8 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #c80c6f;
+	text-decoration: none;
+}
+.LinkStyle2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.LinkStyle2:hover{
+	color: #0b85cd;
+	text-decoration: none;
+}
+.LinkStyle3 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10px;
+	color: #dd187d;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.LinkStyle3:hover{
+	color: #266BA6;
+	text-decoration: none;
+}
+.LinkStyle4 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #0b85cd;
+	font-weight: normal;
+	text-decoration: none;
+}
+.LinkStyle4:hover{
+	color: #000;
+}
+.LinkStyle5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #D0E4F4;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.LinkStyle5:hover{
+	color: #FFFFFF;
+}
+.LinkStyle6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #e1f1fe;
+	font-weight: bold;
+	text-decoration: none;
+}
+.LinkStyle6:hover{
+	color: #FFFFFF;
+}
+.InputStyle1 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #000;
+	FONT-FAMILY: tahoma, Arial;
+	width:auto;
+	border: 1px solid #750d3c;
+	background-color: #fcdbed;
+	height:18px;
+	padding:1px;
+	margin:0px 2px 0px 2px;
+}
+.InputStyle2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #403631;
+	FONT-FAMILY: tahoma, Arial;
+	width:auto;
+	border: 0px solid #D1CFC2;
+	background-color: #fff;
+	height:20px;
+	padding:1px;
+        margin:4px 0px 0px 0px;
+}
+
+
+#ReklamSepetDiv{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-style: normal;
+color: #dd187d;
+padding:0px;
+margin:0px;
+float:right
+
+}
+#ReklamSepetDiv p{padding:2px;margin:0px;font-size:12px}
+
+#ReklamSepetDiv a{text-decoration:underline; font-weight:bold;color: #000;}
+#ReklamSepetDiv a:hover{color: #dd187d}
+
+
+#ReklamUyelikDiv {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 13px;color: #02B8CB;}
+
+#ReklamUyelikDiv a{font-family: 'Calibri', Helvetica, Tahoma;font-size: 15px;color: #02B8CB;text-decoration: 
+
+none;background:url("/images/uygulama/toplogin3.jpg") no-repeat scroll left bottom transparent;padding:8 16px 6 9px; font-weight:bold;}
+#ReklamUyelikDiv a:hover{color: #FF1596;background:url("/images/uygulama/toploginHover.jpg") no-repeat scroll left bottom transparent;}
+
+#ReklamUyelikDiv form{padding:0px;margin:0px;}
+
+#ReklamAramaDiv{width:250px;position:absolute;display:none;z-index:1500;height:0px;left:522px !important;}
+
+.ReklamAramaKapatDiv{height:18px;float:left;cursor:pointer;padding:2px 5px 0 
+
+19px;background-image:url('/images/ReklamAramaKapat.gif');background-repeat:no-repeat;background-position:2px 2px;}
+
+.AramaSonuclariInput{font-family: Verdana,tahoma, Arial;font-size:10px;width:250px;background:#eee;color:#666;border:solid 1px #999;}
+
+.UstUyeGirisTablo{font-family:Tahoma, Verdana, Arial;font-size:11px;color:#FFFFFF;}
+
+/*SÝTE GENEL CLASSLARI*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url('/images/head-bg94.jpg'); 
+	background-position:center top; 
+	background-repeat:no-repeat;
+
+}
+
+h1,h2,h3,h4{padding:0px;margin:0px;font-weight:normal}
+form{padding:0;magin:0}
+
+.AnaTablo {width:100%; text-align:center;}
+.AnaTabloUstTd{text-align:center}
+.SiteUstTablo{text-align:center; width:100%;}
+.AnaSayfaOrtaAlanTd{padding: 0px;}
+.AnaSayfaUrunGosterimAlanTd{padding:10px;}
+
+.OrtaAlanTabloOrtaTd{padding:0px; }
+
+.OrtaAlanTablo{
+	background-color: #FFFFFF;
+	width:952px;
+}
+
+
+
+/*SÝTE GENEL SAÐ SOL KOLON*/
+.OrtaAlanTabloSolTd{width:202px;padding:5px 0 0 0; display:none;}
+.OrtaAlanTabloSagTd{width:202px;padding:5px 0 0 0; display:none;}
+
+/*KATEGORÝ SAYFASI SAÐ SOL KOLON*/
+
+.KategoriOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.KategoriOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*ÜRÜN BÝLGÝSÝ SAYFASI SAÐ SOL KOLON*/
+.UrunBilgisiOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.UrunBilgisiOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*YARDIM SAYFASI SAÐ SOL KOLON*/
+
+.YardimOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0;}
+.YardimOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0;display:none}
+
+/*ÝÇERÝK SAYFASI SAÐ SOL KOLON*/
+
+.IcerikOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0;}
+.IcerikOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0;display:none}
+
+/*SEPETÝM SAYFASI SAÐ SOL KOLON*/
+
+.SepetOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.SepetOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*SATIN ALMA AÞAMALARI SAÐ SOL KOLON*/
+
+.SatinAlOrtaAlanTabloSolTd{width:220px;padding:5px 0 0 0; display:none;}
+.SatinAlOrtaAlanTabloSagTd{width:202px;padding:5px 0 0 0;display:none}
+
+
+
+/*ALT KATEGORÝLER ve MARKALAR AÇILIR MENÜ*/
+
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.CollapsiblePanelTab {
+	font-family: Verdana, Arial;
+	color:#766450;
+	font-size:10px;
+	font-weight:bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 6px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	cursor: pointer;
+	background-image:url('/images/AltKategoriLinkBack.gif');
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 2px;
+}
+
+.CollapsiblePanelContent ul {margin: 0;padding: 0;list-style: none;}
+
+.CollapsiblePanelContent li {display: inline;}
+
+.CollapsiblePanelContent a {margin: 1px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:2px 5px;border-right:1px solid #ccc;display: block;float: left;}
+
+.CollapsiblePanelContent a:hover {color: #dd187d;}
+
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-image:url('/images/AltKategoriLinkBackActive.gif');
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	background-color: #FFFFCC;
+}
+
+/*ÜRÜN BÝLGÝSÝ TAB MENÜ*/
+
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%;
+}
+
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:bold;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	border: 1px solid #c7c5c0;
+	background-image: url('/images/TabButonBack.gif');
+}
+
+
+.TabbedPanelsTabHover {
+	color: #dd187d;
+}
+
+
+.TabbedPanelsTabSelected {
+	background-image: url('/images/TabButonBackActive.gif');
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	color: #dd187d;
+}
+
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	background-color: #FFFFFF;
+	border: 1px solid #c7c5c0;
+}
+
+
+.TabbedPanelsContent {
+	padding: 4px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+}
+
+
+.TabbedPanelsContentVisible {
+}
+
+
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
+/*ALT REKLAM ALANI*/
+
+.SiteAltTablo{width:100%;margin:0 auto 0 auto;text-align: left}
+
+
+/*URUN ÞABLONU STÝLLERÝ*/
+
+.UrunSablonUrunAdiLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color:#dd187d ;
+	text-decoration:none;
+	font-weight:bold
+}
+.UrunSablonUrunAdiLink:hover {color: #000}
+
+.UrunSablonKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 18px; color: #5e534d;text-decoration:none;font-weight:bold }
+.UrunSablonKategoriLink:hover {color: #5e534d}
+
+.UrunSablonMarkaLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #dd187d;
+	text-decoration:none;
+	font-weight:bold
+}
+.UrunSablonMarkaLink:hover {color: #dd187d}
+
+.UrunSablonPromosyonKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	letter-spacing: -1px;
+}
+
+.UrunSablonPiyasadaKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonPiyasaFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #999999;
+	font-weight:normal;
+	text-decoration: line-through;
+
+}
+.UrunSablonBizdeKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonBizdeFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #333;
+	font-weight:bold;
+
+
+}
+
+.UrunSablonÝndirimYuzdeOran{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.UrunSablonÝndirimYuzdeKelimesi{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+}
+
+
+.UrunSablonÝndirimliFiyatKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonÝndirimliFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+
+
+.UrunSablonMinTaksitTutari{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 9px;
+	color: #F28D15;
+	font-weight:bold;
+
+}
+.UrunSablonMinTaksitKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:normal;
+	letter-spacing: -1px;
+
+}
+
+.UrunSablonKurFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+.UrunSablonKurKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+
+}
+
+.UrunSablonUrunKodLink{ font-family: verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;font-weight:bold }
+.UrunSablonUrunKodLink:hover {color: #5e534d}
+
+
+
+
+
+
+
+/*GENEL SAYFALAR*/
+
+.SayfayiKapatDiv{float:right;margin:0 3px 0 3px;padding:0 2px 0 2px}
+.SayfayiKapatDiv a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SayfayiKapatDiv a:hover{	
+	color: #086ca7;
+}
+.GenelYardimDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url(/images/YardimDivBack.gif);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.GenelYardimDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelYardimDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;
+}
+
+.GenelYardimDiv a{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.GenelYardimDiv a:hover {color: #dd187d}
+
+
+.GenelBilgiDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url(/images/BilgiDivBack.gif);
+
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.GenelBilgiDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelBilgiDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;
+}
+
+.GenelBilgiDiv a{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.GenelBilgiDiv a:hover {color: #dd187d}
+
+
+.SiteUyariDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url('/images/KategoriUrunGrubuYokimage.gif');
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	width: 500px;
+}
+
+.SiteUyariDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.SiteUyariDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;       
+}
+
+
+.SiteUyariDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+.SiteUyariDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+
+#PopUpAlertBackDiv {
+	position: absolute;
+	left:0;
+	width: 100%;
+	background-color: #000;
+	cursor: pointer;
+	z-index: 15;
+	text-align:center;
+}
+#PopUpAlertDiv{
+	position:absolute;
+	z-index:253;
+	width:700px;
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	text-align: left;
+	filter:alpha(opacity=100);
+	-moz-opacity:100;
+	opacity:100;
+	border: 4px solid #d7d6d6;
+	margin: 80px 0 0 220px;
+	
+
+}
+
+#PopUpAlertDiv h2{
+     
+	font-family: Tahoma, Verdana, Arial;
+	color:#086ca7;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 6px 5px 5px 8px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+
+}
+#PopUpAlertDivP{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0;
+	padding: 10px 0 0 0;       
+}
+
+
+#PopUpAlertDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+#PopUpAlertDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+
+#PopUpSepetDiv{
+	position:absolute;
+	z-index:253;
+	width:700px;
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	text-align: left;
+	filter:alpha(opacity=100);
+	-moz-opacity:100;
+	opacity:100;
+
+	border: 4px solid #d7d6d6;
+	margin: 80px 0 0 220px;
+	
+
+}
+
+#PopUpSepetDiv h2{
+     
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 6px 5px 5px 8px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+
+}
+#PopUpSepetDivP{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #dd187d;
+	margin: 0;
+	padding: 10px 0 0 0;       
+}
+
+
+#PopUpSepetDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+#PopUpSepetDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+.GenelUyariDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url('/images/KategoriUrunGrubuYokimage.gif');
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin: 5px;
+}
+
+.GenelUyariDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelUyariDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;       
+}
+
+
+.GenelUyariDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+.GenelUyariDiv a:hover{
+   color: #6E6159;
+}
+
+.GenelFormTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	width:100%;
+	margin-bottom:10px;
+}
+
+
+.GenelTarihDiv{
+	font-family: verdanaTahoma, Arial, Tahoma;
+	font-size: 10px;
+	font-weight:bold;
+	color: #000000;
+	float:right;margin:0 3px 0 3px;
+	padding:0 2px 0 2px;
+	}
+
+
+.GenelFormIcerikTd{padding:5px 5px 5px 5px}
+
+.GenelFormBaslikTd{
+background-color:#FFFFFF;
+
+}
+
+.GenelFormBaslikTd h2{
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 5px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+}
+
+.GenelFormBaslikTd h3{
+	font-family: Tahoma, Verdana, Arial;
+	color:#6f625c;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 0 2px 0;
+}
+
+
+.GenelFormIlanTd{
+	padding-bottom:10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+	padding-top: 5px;
+}
+.GenelFormIlanTd2{
+	padding-bottom:10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+	padding-top: 5px;
+font-size:16px
+
+}
+
+.GenelFormIlanBaslik{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:bold;
+	color:#06297c;
+	padding:5px 0 5px 0
+}
+
+.GenelFormIlanIcerik{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color:#6e5e57;
+}
+
+.GenelFormAciklamaTd{
+	color:#086ca7;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+.GenelFormAciklamaTd strong{
+	color:#dd187d;
+}
+
+
+.GenelFormAciklamaTd a{
+	color:#086ca7;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.GenelFormElemanUstTd{height:5px}
+.GenelFormElemanAltTd{border-bottom: solid 2px #ebebeb;height:5px}
+.GenelFormTextArea{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #a3c9df;
+	background-color: #f1faff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	padding: 2px;
+}
+
+
+.GenelFormTextArea1{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #999999;
+	background-color: #FFFEDD;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+padding: 2px;
+
+}
+.GenelFormInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #a3c9df;
+	background-color: #f1faff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	height:20px;
+	padding:2px 2px;
+
+
+
+}
+.GenelFormInput1{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #999999;
+	background-color: #FFFEDD;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+	height:20px;
+	padding:2px 1px;
+
+}
+.GenelFormInput2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #aaaaaa;
+	background-color: #fff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+	height:20px;
+	padding:2px 1px;
+}
+
+.GenelFormInput3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #aaaaaa;
+	background-color: #fff;
+	text-align:left;
+	color: #000000;
+	height:17px;
+	padding:1px;
+	margin-top: 1px;
+	margin-right: 2px;
+	margin-bottom:1px;
+	margin:0px 2px 0px 2px;
+}
+
+.GenelFormButonTd{
+
+padding:2px 0 2px 0;
+}
+.GenelFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+.GenelFormButon1{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #275eb0;border: 1px solid 
+
+#1d4b9a;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+
+
+.GenelFormLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline
+}
+.GenelFormLink:hover {color: #5e534d}
+
+.GenelFormLink1{
+	font-family: verdana,Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:underline;
+}
+.GenelFormLink1:hover {color: #5e534d}
+
+.GenelFormLink2{
+	font-family: verdana,Tahoma, Arial, Tahoma;
+	font-size: 9px;
+	color: #000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.GenelFormLink2:hover {color: #5e534d}
+
+/*SÝTE HARÝTASI BÖLÜMÜ*/
+
+.SiteHaritasiMenu {
+	margin: 0px;
+	width: 100%;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	text-align: left;
+
+}
+.SiteHaritasiMenu ul {
+	line-height: normal;
+	padding: 0px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	
+}
+.SiteHaritasiMenu ul ul {
+	margin-left: 20px;
+	
+}
+.SiteHaritasiMenu ul ul ul {
+	margin-left: 30px;
+	
+}
+
+.SiteHaritasiMenu li a {
+	display: block;
+	border-bottom: 1px solid #EBEBEB;
+	color: #000000;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-weight: normal;
+	padding-left: 3px;
+}
+
+.SiteHaritasiMenu li a:hover{
+	color: #f40200;
+	background-color: #F7F7F7;
+
+}
+.SiteHaritasiMenu a {
+	display: block;
+	border-bottom: 1px solid #EBEBEB;
+	color: #000000;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 3px;
+}
+
+.SiteHaritasiMenu a:hover{
+	color: #f40200;
+	background-color: #F7F7F7;
+
+}
+
+
+
+/*ÝÇERÝK BÖLÜMÜ*/
+.IcerikOrtaTablo{background-color: #FFFFFF; width:100% }
+.IcerikOrtaTabloBaslikTd{
+	border-bottom: solid 1px #ccc;
+	padding-top: 8px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+
+.IcerikOrtaTabloBaslikTd h2{font-family: tahoma;color:#000000;font-size:13px;font-weight:bold;padding:0;margin:0}
+
+
+.IcerikOrtaTabloIcerikTd{font-family: tahoma;font-size:11px;padding:10px;text-align:left;margin:0px}
+
+.IcerikMenuDiv{padding:0px 10px 0 10px;}
+
+.IcerikMenuDiv ul{list-style:none;padding:0px;margin:0px}
+
+.IcerikMenuDiv li{border-bottom:1px dashed #ebebeb;padding:5px 0 5px 0}
+
+.IcerikMenuDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #fff;text-decoration:none }
+.IcerikMenuDiv a:hover {color: #fff}
+
+.IcerikMenuTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+
+.IcerikMenuBaslikTr{height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+
+.IcerikMenuBaslikTd{padding:8px 0 0 55px;font-weight:bold;color:#6E6363;font-size:12px;}
+
+.IcerikMenuTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;}
+
+.IcerikMenuAltTd{height:14px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+.ZorunluAlanSpan{color:#FF0000}
+
+
+
+
+/*MÜÞTERÝ HÝZMETLERÝ SAYFASI*/
+
+
+
+
+.MusteriHizmetleriBaslik{
+	background-image:url('/images/MusteriHizmetleriBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:11px;
+	color: #666666;
+	font-weight:normal;
+	padding-left: 15px;
+	margin: 0px;
+
+
+}
+.MusteriHizmetleriBaslik h2{
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-size:12px;
+	color: #dd187d;
+	font-weight:bold;
+}
+.MusteriHizmetleriBaslik p{
+	line-height:18px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.MusteriHizmetleriBaslik a{
+	color: #097ABE;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.MusteriHizmetleriBaslik a:hover {color: #dd187d}
+
+
+
+
+
+/*ALIÞVERÝÞ SEPETÝM SAYFASI*/
+
+.AlisverisSepetimBaslik{
+	font-family: tahoma;
+
+	color:#086ca7;
+	font-size:12px;
+
+	font-weight:bold;
+}
+
+
+
+.AlisverisSepetimBirimFiyat{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;color:#6e6159;font-weight:bold}
+.AlisverisSepetimBirimTutar{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;color:#086ca7;font-weight:bold}
+
+.SepetimToplamTabloAraToplamTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;color:#6e6159;}
+.SepetimToplamTabloAraToplamDegerTd{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 11px;color:#6e6159;font-weight:bold}
+
+.SepetimToplamTabloKdvToplamTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#ef7a2d;}
+.SepetimToplamTabloKdvToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#ef7a2d;font-weight:bold}
+
+.SepetimToplamTabloKdvDahilToplamTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;color:#086ca7;}
+.SepetimToplamTabloKdvDahilToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#086ca7;font-weight:bold}
+
+
+.AlisverisSepetimTabloIlanTd{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+}
+
+.AlisverisSepetimKuponInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	border: 1px solid #C1BCA2;
+	background-color: #F3F2ED;
+	height:20px;
+	padding:2px 1px;
+}
+
+
+.AlisverisSepetimAdetInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #FFFFCC;
+	border: 1px solid #CCCCCC;
+	font-weight: normal;
+	height:20px;
+	padding:2px 1px;
+}
+.AlisverisSepetimSatinAlButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #086ca7;
+	border: 1px solid #085887;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+
+.AlisverisSepetimAlisverisListemeEkleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+	font-weight:bold;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.AlisverisSepetimUrunleriSilButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimGuncelleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #009900;
+	border: 1px solid #006600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimSepetiBosaltButon{
+	color:#FFFFFF;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+.AlisverisSepetimSilButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #086ca7;
+	border: 1px solid #085887;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimAlýþveriseDevamButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimHizliSatinAlButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+.AlisverisSepetimSatinAlButon2{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+
+.SepeteAktarButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+	font-weight:bold;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.AlarmDuzenleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+
+.SepetimTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimUstTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimToplamTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimTabloUstTd{padding:0px 0 2px 0 }
+
+.SepetimTabloAltTd{padding:5px 0 5px 0 }
+
+.SepetimUstTabloTd{	font-weight: bold;}
+
+/* YORUM OKU*/
+
+.YorumOkuYorumDiv {
+	padding: 5px;
+	border: #ebebeb solid 1 px;
+
+
+}
+.YorumOkuYorumDiv h3{
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:11px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-bottom: 0px;
+	height:20px;
+	padding-top: 0px;
+}
+.YorumOkuAdTarihDiv{
+	float:right;
+	margin:0 3px 0 3px;
+	padding:0 2px 0 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+
+.YorumOkuAd{
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+
+}
+.YorumDegerlendirmeDiv{
+	width:50%;
+	border:solid 1px #888888;
+	background-color:#f5f5f5;
+	height: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.YorumOranDiv{
+	background-image:url('/images/anketback.gif');
+	float:left;
+	height: 15px;
+	text-align:right;
+	color:#FFFFFF;
+}
+/*KREDÝ KART TABLOSU*/
+
+.FormKrediKartTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #CCCCCC;
+       width:98%;
+       margin:0 auto;
+}
+
+.KrediKartToplamDiv{font-family: Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;height:20px;}
+
+.FormKrediKartBosTd{background-color:#fff;}
+
+.FormKrediVadeTr{background-color:#fff;}
+.FormKrediVadeBaslikTr{background-color:#fff;font-family: verdana,Tahoma, Arial, Tahoma;font-size: 
+
+10px;font-weight:bold;height:20px;text-align:center;}
+
+.FormKrediVadeAyTr{text-align:center}
+.FormKrediVadeAy1Td{font-weight:bold;BACKGROUND-COLOR: #efeff0;color:#000}
+.FormKrediVadeAy2Td{font-weight:bold;BACKGROUND-COLOR: #fff;color:#000}
+
+.FormKrediKartAdi1Td{padding: 2px 5px 2px 2px; border-bottom:#4dac22 solid 2px;background-color:#fff}
+.FormKrediKartVade1Td{background-color:#006600;color:#fff}
+.FormKrediKartAdi1Div{color:#006600;font-weight:bold;}
+.FormKrediVade1Tr{background-color:#e2f4da}
+
+
+.FormKrediKartAdi2Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#ffbf05 solid 2px;background-color:#fff}
+.FormKrediKartAdi2Div{color:#ebb823;font-weight:bold;}
+.FormKrediKartVade2Td{background-color:#ebb823;color:#fff}
+.FormKrediVade2Tr{background-color:#ffffe6}
+
+.FormKrediKartAdi3Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#011284 solid 2px;background-color:#fff}
+.FormKrediKartAdi3Div{color:#010c81;font-weight:bold;}
+.FormKrediKartVade3Td{background-color:#010c81;color:#fff}
+.FormKrediVade3Tr{background-color:#e4e9f8}
+
+.FormKrediKartAdi4Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#f01a84 solid 2px;background-color:#fff}
+.FormKrediKartAdi4Div{color:#f01a84;font-weight:bold;}
+.FormKrediKartVade4Td{background-color:#f01a84;color:#fff}
+.FormKrediVade4Tr{background-color:#fbdbeb}
+
+
+
+.FormKrediKartAdi15Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#7d2b92 solid 2px;background-color:#fff}
+.FormKrediKartAdi15Div{color:#7d2b92;font-weight:bold;}
+.FormKrediKartVade15Td{background-color:#7d2b92;color:#ffff}
+.FormKrediVade15Tr{background-color:#ffff}
+
+.Tutar4_7{font-weight:bold;}
+
+.FormKrediKartAdi5Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#663399 solid 2px;background-color:#fff}
+.FormKrediKartAdi5Div{color:#663399;font-weight:bold;}
+.FormKrediKartVade5Td{background-color:#663399;color:#ffffff}
+.FormKrediVade5Tr{background-color:#663399}
+
+.FormKrediKartAdi9Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#7d2b92 solid 2px;background-color:#fff}
+.FormKrediKartAdi9Div{color:#7d2b92;font-weight:bold;}
+.FormKrediKartVade9Td{background-color:#7d2b92;color:#fff}
+.FormKrediVade9Tr{background-color:#f4defa}
+
+
+
+
+
+/* SÝPARÝÞ SAYFASI*/
+
+
+.SiparisBilgileriAsamaTd{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.OdemeToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;height:20px;color:#d40a0a}
+
+.OdemeBankaDegerTd{font-family:Verdana, Tahoma, Arial, Tahoma;font-size: 10px;}
+
+
+
+.SiparisBilgileriKargoBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+.SiparisBilgileriOdemeBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+.SiparisBilgileriTeslimatBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+
+.SiparisIlanTd{
+	font-size:12px;
+	font-weight:bold;
+	font-family: Tahoma, Verdana, Arial;
+	padding-top:10px
+}
+
+.SiparisSozlesmeDiv{
+	overflow:auto;
+	border: 1px solid #ccc;
+	height: 150px;
+	width: 99%;
+	padding: 6px;
+}
+
+.SiparisDuzenleDiv{float:right;margin:0 3px 0 3px;padding:0 2px 0 2px}
+.SiparisDuzenleDiv a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: underline;
+	letter-spacing: -1px;
+}
+.SiparisDuzenleDiv a:hover{	
+	color: #086ca7;
+}
+
+
+.SiparisKargoIndirim{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;font-weight:bold;color:#086ca7;margin-bottom:5px}
+
+.SiparisBilgileriKargoUcreti{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;color:#086ca7}
+
+.SiparisBilgileriKargoAdi{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 11px;}
+
+.SiparisHavaleOdeme{color:#5e5346;font-weight:bold}
+.SiparisOdemeTipi{color:#5e5346;font-weight:bold}
+.SiparisKrediKartOdeme{color:#5e5346;font-weight:bold}
+
+.SiparisHavaleIndirim{color:#086ca7;font-weight:bold}
+.SiparisOdemeIndirim{color:#086ca7;font-weight:bold}
+.SiparisNakitIndirim{color:#086ca7;font-weight:bold}
+
+
+.SiparisOdemeTutar{font-weight:bold}
+.SiparisKrediKartTutar{font-weight:bold}
+.SiparisHavaleTutar{font-weight:bold}
+
+
+.SiparisKargoSecimTd{	padding: 10px 0 10px 0;}
+.SiparisOdemeSecimTd{	padding: 5px 0 5px 0;}
+
+
+
+
+
+
+/*ÜRÜN BÝLGÝSÝ SAYFASI*/
+
+
+.urunBalonu{position:absolute;z-index:255;font-family: tahoma;font-size: 11px;padding: 5px;top: 0px;left: 0px;color: 
+
+#003366;background-color: #FFFFFF;border: 1px solid #00ccff;}
+
+.UrunBilgisiAnaOrtaTabloUstTr{background:#f6f6f6;font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #CCCCCC;}
+
+.UrunBilgisiAnaOrtaTabloUstTd{
+	padding:10px 5px 5px 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+}
+
+.UrunBilgisiAnaOrtaTabloOrtaTd{padding:10px 15px 10px 10px;;}
+
+
+.UrunBilgisiOrtaTabloTd{padding:0;font-family:Tahoma, Arial, Tahoma;font-size: 11px;}
+
+
+
+
+.UrunBilgisiOrtaTablo{width:100%;}
+
+.UrunBilgisiResimAlanDiv{float:left;width:330px;}
+
+.UrunBilgisiBilgiAlanDiv{margin-right:20px;}
+
+
+
+.UrunBilgisiResimTablo{}
+
+.UrunBilgisiUrunResmiTd{padding:10px;border:solid 1px #edead8;margin:0 auto; }
+
+.UrunBilgisiUrunDurumTd{padding-top:10px;text-align:left}
+
+
+.UrunBilgisiUrunResmi{margin:0 auto; }
+
+.UrunBilgisiUrunAdiTd{padding:5px 0 5px 0; }
+
+.UrunBilgisiUrunAdiText{font-family: Tahoma, Arial, Tahoma;font-size: 12px; font-weight:bold;color: #dd187d;}
+
+.UrunBilgisiUrunAdiKucukText{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px;color: #086ca7;text-align:center;}
+
+.UrunBilgisiXmlVeriTd{	font-family: Tahoma, Verdana, Arial;	font-size: 11px;	padding:5px;	background-color: #FFFFF2;	
+
+border: 1px solid #FFFFBB;
+}
+
+.UrunBilgisiAktifUrun{font-weight:bold}
+
+.UrunBilgisiAltKategoriTd{ padding-bottom:10px}
+
+.UrunBilgisiAltKategorilerDiv{
+	background-image:url('/images/AltKategorilerBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+}
+.UrunBilgisiAltKategorilerDiv h3{
+	height:25px;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+}
+
+
+.UrunBilgisiAltKategorilerDiv ul {margin: 0;padding: 0;list-style: none;}
+
+.UrunBilgisiAltKategorilerDiv li {display: inline;}
+
+.UrunBilgisiAltKategorilerDiv a {margin: 1px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:2px 5px;border-right:1px solid #ccc;display: block;float: left;}
+
+.UrunBilgisiAltKategorilerDiv a:hover {color: #dd187d;}
+
+
+
+.UrunBilgisiOneriKutusuTd{padding:0 5px 0 5px;}
+
+
+
+.UrunBilgisiOneriKutusuAciklamaLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiOneriKutusuAciklamaLink:hover {color: #00000}
+
+.UrunBilgisiOneriKutusuBaslikTd{}
+
+.UrunBilgisiOneriKutusuBaslikDiv{
+	height:40px;
+	background-image:url('/images/OnerilerinizBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 45px;
+}
+
+.UrunBilgisiAltKategoriLink{ font-family:verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:none; padding:2px 
+
+4px 2px 4px;border-right: 1px solid #5e5346;}
+.UrunBilgisiAltKategoriLink:hover {color: #5e5346;}
+
+
+.UrunBilgisiPromosyonUrunTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color: #000;padding-top:5px;	}
+
+.PromosyonluUrunDiv{float:left;margin:5px 5px 5px 0px;border: 1px solid #c0d2ee;padding:5px;	}
+
+.PromosyonluUrunText{float:left}
+
+.UrunBilgisiPromosyonUrunBaslik{margin-bottom:5px;font-family:Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold;}
+
+.UrunBilgisiXmlVeriLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiXmlVeriLink:hover {	color: #00000}
+
+.UrunBilgisiUrunMarkaLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiUrunMarkaLink:hover {color: #00000}
+
+.UrunBilgisiDriverLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiDriverLink:hover {color: #00000}
+
+.UrunBilgisiTaksitSecenekLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiTaksitSecenekLink:hover {color: #00000}
+
+.UrunBilgisiOzelliklerDegerLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiOzelliklerDegerLink:hover {color: #00000}
+
+.UrunBilgisiUrunKisaAciklamaTd{font-family:'calibri', Tahoma, Arial;font-size: 25px;color: #02B8CB;padding: 0 0 8px 0;}
+
+
+.UrunBilgisiUrunBilgiBaslikTd{ }
+
+.UrunBilgisiUrunBilgiBaslikDiv{
+	height:48px;
+	background-image:url('/images/UrunBilgisiBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 45px;
+}
+
+
+
+.UrunBilgisiAksesuarBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiAksesuarBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+.UrunBilgisiBunudaAldiBaslikTd{
+
+	padding-top: 20px
+}
+
+
+.UrunBilgisiBunudaAldiBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiBunudaAldiBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+.UrunBilgisiDigerUrunlerBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiDigerUrunlerBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+
+
+.UrunBilgisiDigerUrunlerTd{padding-bottom: 10px}
+
+
+
+.UrunBilgisiDigerUrunlerTumuLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiDigerUrunlerTumuLink:hover {color: #00000}
+
+.UrunBilgisiUrunBilgiIcerikTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;padding: 0px 4px 15px 10px;}
+
+.UrunBilgisiUrunBilgiKategoriIcerikTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;padding: 0px 4px 4px 10px;}
+
+.UrunBilgisiUrunMiktarInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFF2;
+	width:22px;
+	font-weight: bold;
+	margin: 0px;
+	height:20px;
+	padding:2px 1px;
+}
+
+.UrunBilgisiUrunResimSlaytTd{	padding:5px 0 5px 0;border-top:solid 1px #edead8;text-align:right }
+
+
+.UrunBilgisiUrunDetaylariTablo{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;line-height:22px;}
+
+.pasifresim{float:left;cursor:pointer;border:solid 1px #fff;}
+
+.aktifresim{float:left;cursor:pointer;border:solid 1px #d54444;}
+
+.UrunBilgisiUrunDetaylariTablo{width:100%;border:solid 1px #fafbfb;}
+
+.UrunBilgisiUrunDetaylariTr{height:18px}
+
+.UrunBilgisiUrunKoduTd{ width:30%}
+
+.UrunBilgisiOzelliklerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold}
+
+.UrunBilgisiUrunSecenekBaslikTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold}
+
+.UrunSecenekTablo{font-family: Verdana;Tahoma, Arial;font-size: 10px;border: 1px solid #efe9c1; background-color: #f8f6eb;}
+
+.UrunSecenekTabloSelectBox{font-family: Verdana;Tahoma, Arial;font-size: 10px;border: 1px solid #d0c57a; background-color: #fff;}
+
+.UrunSecenekTabloBaslikTd{font-family: Verdana;Tahoma, Arial;font-size: 11px;font-weight:bold;padding:2px }
+
+.UrunBilgisiKdvDahilTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;font-weight:bold}
+.UrunBilgisiKdvDahilDegerTd{ font-family: Tahoma, Arial, Tahoma;font-size: 12px;color: #a70808;font-weight:bold}
+
+.UrunDurumDiv{float:right}
+
+.UrunBilgisiSepeteAtTablo{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;font-weight:bold;}
+
+.UrunBilgisiSepeteAtTd{padding-top:10px}
+
+
+
+.UrunBilgisiOneriKutusuDusunceTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #000;
+	margin-bottom:2px;
+	width:98%;
+	margin-top: 5px;
+	margin-right: auto;
+
+	margin-left: auto;
+}
+.UrunBilgisiOneriKutusuDusunceTr{
+
+}
+
+
+/*KATEGORÝ YAZDIR MENU*/
+
+.KategoriYazdirAnaSayfaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #000;text-decoration:none; font-weight:bold;}
+.KategoriYazdirAnaSayfaLink:hover {color: #06297c}
+
+.KategoriYazdirAktifLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #dd187d;text-decoration:none; }
+.KategoriYazdirAktifLink:hover {color: #000}
+
+.KategoriYazdirKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #06297c;text-decoration:none; }
+.KategoriYazdirKategoriLink:hover {color: #dd187d}
+
+/*KATEGORÝ GÖSTERÝM SAYFASI*/
+.KategoriOrtaTablo{width:100%}
+
+.KategoriAramaFormDiv{float:left}
+
+.KategorilerMarkaSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #baaea8;background-color: 
+
+#f3f1e8;color:#726159}
+
+
+.KategoriOrtaTabloUstTr{font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #CCCCCC;}
+.KategoriOrtaTabloUstTd{
+        font-family: Tahoma, Arial;font-size: 11px; font-weight:normal;color: #666;
+	padding:9px 0 9px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+}
+.KategoriOrtaTabloUstTd h2{
+font-family: Tahoma, Arial, Tahoma;font-size: 13px; font-weight:bold;color: #dd187d;
+padding:0px;
+margin:0px;
+}
+.KategoriOrtaTabloUstTd p{
+font-family: Tahoma, Arial, Tahoma;font-size: 11px; font-weight:normal;color: #666;
+padding:3px 0 0 0;
+margin:0px;
+}
+
+
+.KategoriUrunListeGosterimAlanTd{padding:0px 10px;}
+
+.KategoriOrtaTabloGosterimTd{
+        padding:0px 5px 0px 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+	color:#666666;
+	}
+.KategoriOrtaTabloAltKategoriBaslikDiv{
+	margin:2px 10px 2px 0px;
+	padding:1px 4px 3px 0px;
+	font-family:Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #949393;
+	font-weight:bold;
+	border-bottom: dashed 1px #b7b7b7
+}
+
+.KategoriOrtaTabloAltKategoriDiv{float:left; padding:1px 1px 1px 1px;margin:2px 4px 2px 0;}
+
+.KategoriOrtaTabloAltKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; }
+.KategoriOrtaTabloAltKategoriLink:hover {color: #5e5346;}
+
+.KategoriOrtaTabloAltKategoriTd{ padding:1px 2px;background:#fff;border-bottom: 1px solid #c1c0c0;}
+
+.KategoriOrtaTabloMarkaBaslikDiv{
+	margin:2px 10px 2px 0px;
+	padding:1px 4px 3px 0px;
+	font-family:Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #949393;
+	font-weight:bold;
+	border-bottom: dashed 1px #b7b7b7
+}
+
+.KategoriOrtaTabloMarkaDiv{float:left; padding:1px 1px 1px 1px;margin:2px 4px 2px 0;}
+
+.KategoriOrtaTabloMarkaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; }
+.KategoriOrtaTabloMarkaLink:hover {color: #5e5346;}
+
+.KategoriOrtaTabloMarkaTd{ font-family:Tahoma, Arial, Tahoma;font-size: 9px; color: #5e534d;padding:1px 2px 5px 
+
+5px;background:#fff;height:30px;border-bottom: 1px solid #c1c0c0;}
+
+
+
+
+.KategoriOrtaTabloKriterTd{ padding:1px 2px 0px 5px;border-bottom: 1px solid 
+
+#c1c0c0;margin:0px;height:25px;background-image:url('/images/KriterTdBack.gif');background-repeat:repeat-x;}
+
+.KategoriOrtaTabloKriterLink{	font-family: verdana,Tahoma, Arial, Tahoma;font-size: 9px;color: 
+
+#666;font-weight:normal;text-decoration:none;letter-spacing:-1px; border-top:#c1c0c0 solid 1px;border-left:#c1c0c0 solid 
+
+1px;border-right:#c1c0c0 solid 1px;vertical-align:bottom; padding:2px 3px 2px 
+
+3px;background-image:url('/images/TabloKriterLinkBack.gif');background-repeat:repeat-x;}
+.KategoriOrtaTabloKriterLink:hover {color: #e9292a;}
+
+
+.KategoriOrtaTabloKriterAktifLink{font-family: verdana,Tahoma, Arial, Tahoma;font-weight:bold;font-size: 9px;color: 
+
+#fff;text-decoration:none; border-top:#dd187d solid 1px;border-left:#dd187d solid 1px;border-right:#dd187d solid 
+
+1px;vertical-align:bottom; padding:2px 3px 2px 
+
+3px;background-image:url('/images/TabloKriterLinkAktifBack.gif');background-repeat:repeat-x;background-color:#443b36}
+.KategoriOrtaTabloKriterLink:hover {color: #000;}
+
+
+.KategoriUrunGrubuYokDiv{font-family: Tahoma, Arial, Tahoma;font-size: 11px;font-weight: normal;color: #000000;padding-top: 
+
+8px;padding-right: 2px;	padding-bottom: 5px;padding-left: 35px;	background-image: url('/images/KategoriUrunGrubuYokimage.gif');	
+
+background-repeat: no-repeat;	background-position: 8px 8px;	text-align: left;line-height: 20px;background-color: #FEFDBA;	border: 
+
+1px solid #D6D003;	margin-top: 15px;	margin-bottom: 10px;	margin-right: 15px;	margin-left: 15px;
+}
+
+.KategoriUrunGrubuYokSpan{color: #ff0000;font-weight: bold;}
+
+.KategoriOrtaTabloSayfalamaTablo{text-align:right;}
+
+.KategoriOrtaTabloSayfalarText{font-family: Tahoma, Arial;font-size: 11px; color: #666;}
+.KategoriOrtaTabloSayfalamaTd{padding:8px 5px 3px 5px;text-align:right;border-bottom:solid 1px #ccc}
+.KategoriOrtaTabloSayfalamaSayfalarTd{padding:3px 3px 0 3px }
+.KategoriOrtaTabloAktifSayfaText{font-family: Tahoma, Arial;font-size: 11px; color: #dd187d;}
+
+.KategoriOrtaTabloSayfaLink{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; 
+
+font-weight:bold;}
+.KategoriOrtaTabloSayfaLink:hover {color: #dd187d}
+
+
+.UrunListeGosterimTablo {font-family: Tahoma, Verdana, Arial;font-size: 11px;color: #000000;background:#c7c5c0;width:100%;margin:0px 0 
+
+5px 0}
+
+
+.UrunListeGosterimTabloUstBaslikTr{
+	line-height: 30px;
+	background-color:#FFFFFF;
+
+}
+
+
+.UrunListeGosterimTabloBaslikTr{
+	font-weight: bold;
+	background-image:url('/images/ListeGorunumTabloBaslikBack.gif');
+	background-repeat:repeat-x;
+	background-position:bottom;
+	line-height: 25px;
+	font-family: Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #dd187d;
+	background-color:#f7f7f6;
+
+
+}
+
+.UrunListeGosterimTabloListeTr{background:#fdfdf8}
+.UrunListeGosterimTabloListeTr1{background:#fdfdf8}
+.UrunListeGosterimTabloListeTr2{background:#fff}
+
+
+
+.UrunListeGosterimTabloBaslikLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; 
+
+font-weight:bold;}
+.UrunListeGosterimTabloBaslikLink:hover {color: #000}
+
+.UrunListeGosterimTabloListeUrunLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #000;text-decoration:none; }
+.UrunListeGosterimTabloListeUrunLink:hover {color: #dd187d}
+dd187d
+.UrunListeGosterimTabloListeLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #a70808;text-decoration:none; }
+.UrunListeGosterimTabloListeLink:hover {color: #dd187d}
+
+.UrunListeGosterimTabloText{font-size: 10px; font-weight:bold;color: #dd187d;}
+
+.UrunListeGosterimTabloStokVar{font-size: 10px; font-weight:bold;color: #dd187d;}
+
+.UrunListeGosterimTabloStokYok{font-size: 10px; font-weight:bold;color: #c01717;}
+
+
+.KategoriUrunGosterimAlanTd{padding:10px;}
+
+
+
+
+/*ÜST KAYAN YAZI*/
+
+.UstKayanYaziTd{text-align:center; width:95%;height:20px;text-align:left;padding-left:10px;background:#ebebeb 
+
+url('/images/KayanYaziTdBack.gif') repeat-x bottom; }
+
+.UstKayanYazi{font-family: Verdana,Tahoma, Arial, Tahoma; font-weight:bold;font-size:11px;color:#000;}
+
+/*ÜST ORTA MENU*/
+.UstOrtaMenuTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color:#000; background:#097abe 
+
+url('/images/UstOrtaMenuBack.gif');background-repeat:repeat-x; text-align:center; 
+
+width:95%;height:30px;text-align:left;padding-left:10px}
+
+.UstOrtaMenuLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #08537f;text-decoration:none; font-weight:bold;}
+.UstOrtaMenuLink:hover {color: #000}
+
+
+/*ALT MENU*/
+
+.AltMenuTablo{width:100%}
+.AltMenuTabloTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color:#b7a99a; background:#ebebeb 
+
+url('/images/AltMenuTdBack.gif');background-repeat:repeat-x; 
+
+text-align:center;height:30px;text-align:left;padding-left:10px;text-align:center}
+
+.AltMenuTabloLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; font-weight:bold;}
+.AltMenuTabloLink:hover {color: #ce098c}
+
+
+.AltKategoriMenuTd{ text-align:center;background-color: #ebebeb;}
+/*ÜST KATEGORÝ MENU*/
+
+.UstKategoriMenuTd{ text-align:center;background-color: #ebebeb;}
+
+
+.UstKategoriMenuDiv{height: 34px; margin:3px 2px 3px 0px; padding:4px 5px;width:auto}
+
+.UstKategoriMenuDiv ul {margin: 0;padding: 0;list-style: none;}
+
+
+
+.UstKategoriMenuDiv li {display: inline;}
+
+.UstKategoriMenuDiv a {margin: 2px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:4px 5px;border:1px solid #ccc; background:#fff 
+
+url('/images/UstKategoriLinkBack.gif');background-repeat:repeat-x;background-position:bottom;display: block;float: left;}
+
+.UstKategoriMenuDiv a:hover {color: #dd187d;background-color: #fff;border:1px solid #ccc;background:#fff 
+
+url('/images/UstKategoriLinkHoverBack.gif');background-repeat:repeat-x;background-position:bottom }
+
+
+
+/*ÜST MARKA MENU*/
+
+.UstMarkaMenuTd{ text-align:center; width:95%;background-color: #ebebeb;}
+
+
+.UstMarkaMenuDiv{height: 34px; margin:3px 2px 3px 0px; padding:4px 5px;width:auto}
+
+.UstMarkaMenuDiv ul {margin: 0;padding: 0;list-style: none;}
+
+.UstMarkaMenuDiv li {display: inline;}
+
+.UstMarkaMenuDiv a {margin: 1px 2px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #5e534d;text-decoration:none;padding:4px 
+
+5px;border:1px solid #ccc; background:#fff 
+
+url('/images/UstKategoriLinkHoverBack.gif');background-repeat:repeat-x;background-position:bottom;display: block;float: left;}
+
+.UstMarkaMenuDiv a:hover {color: #dd187d;background-color: #fff;border:1px solid #ccc;background:#fff 
+
+url('/images/UstKategoriLinkBack.gif');background-repeat:repeat-x;background-position:bottom }
+
+
+.UrunAramaAjaxMarkaLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; 
+
+font-weight:bold;}
+.UrunAramaAjaxMarkaLink:hover {color: #a70808}
+
+
+
+/*YAN KATEGORÝ MENU*/
+.YanKategoriMenuTablo{font-family: Tahoma, Arial, Tahoma;font-size:11px;width:100%}
+.YanKategoriMenuBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+/* acilir menü tepe baslik rengi*/
+.YanKategoriMenuBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+.YanKategoriMenuListeTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 5px 15px; height:25px; 
+
+line-height:25px}
+.YanKategoriMenuListeTd1{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 0px 0px;}
+.YanKategoriMenuListeTd2{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 0px 0px;}
+.YanKategoriMenuListeTd3{padding:0px 0 0px 0px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;}
+
+.YanKategoriMenuListeAltTabloTd{padding:0px 5px 0px 0px;}
+
+.YanKategoriMenuListeLink{line-height:25px;font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: 
+
+/* acilir menü 2 rengi*/
+#333;text-decoration:none;font-weight:bold; background: url('/images/0mbox_ok.gif') no-repeat 0 0px; padding-left:19px }
+.YanKategoriMenuListeLink:hover {color: #FFFFFF}
+
+.YanKategoriMenuListeLink img {display:none;}
+
+
+.YanKategoriMenuListeLink1{line-height:18px; font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #FFFFFF;text-decoration:none; 
+
+margin:2px 10 2px 10px;}
+.YanKategoriMenuListeLink1:hover {color: #5e534d}
+
+.YanKategoriMenuListeLink2{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #FFFFFF;text-decoration:none }
+.YanKategoriMenuListeLink2:hover {color: #dd187d}
+
+.YanKategoriMenuListeLink3{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #FFFFFF;text-decoration:none }
+.YanKategoriMenuListeLink3:hover {color: #dd187d}
+
+.YanKategoriMenuAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*YAN KATEGORÝ CSS POPUP MENU*/
+.KategoriMenu {
+	text-align: left;
+	color:#7b634f;
+	padding:0;
+	width:202px;
+}
+
+.KategoriMenu ul {margin:0px;  list-style : none; padding:0px;z-index:200;}
+.KategoriMenu li {
+	margin: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c7c5c0;
+}
+.KategoriMenu li a {
+	color: #275eb0;
+	text-decoration: none;
+	padding:3px 0 0 5px;
+	display: block;
+	height:20px
+}
+.KategoriMenu li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	background-color: #dd187d;
+}
+.KategoriMenu ul li {position: relative;}
+.KategoriMenu li ul { 
+	position: absolute; 
+	left: 197px;
+	top:-1px;
+	margin:0px;
+	width:100%;
+	padding:0px;
+	background: #fdfdf5;
+border: 1px solid #c9bbaf;
+} 
+
+.KategoriMenu li:hover ul {
+	display: block; 
+
+} 
+.KategoriMenu li:hover>ul { 
+	visibility:visible; 
+
+} 
+.KategoriMenu li:hover>a {
+	color:#FFF;
+	background-color: #dd187d;
+} 
+
+.KategoriMenu ul ul {
+	visibility:hidden; 
+} 
+
+/*SATIÞ ORTAKLIÐI MODÜLÜ*/
+.SatisOrtakligiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+
+
+.SatisOrtakligiListeTr{padding:2px 15px 2px 15px;}
+.SatisOrtakligiListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.SatisOrtakligiListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.SatisOrtakligiListeLink:hover {color: #dd187d}
+
+.SatisOrtakligiKayanAlan{margin:0; padding:0;height:150px}
+
+
+/*HAFTANIN ÜRÜNÜ MODÜLÜ*/
+.HaftaninUrunuTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.HaftaninUrunuBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.HaftaninUrunuBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.HaftaninUrunuListeTr1{background-color: #fefef8;}
+.HaftaninUrunuListeTr2{padding:2px 0px 2px 15px;}
+.HaftaninUrunuListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.HaftaninUrunuBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.HaftaninUrunuBaslikLink:hover {color: #DD187D}
+
+.HaftaninUrunuListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.HaftaninUrunuListeLink:hover {color: #dd187d}
+
+.HaftaninUrunuAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*ALIÞVERÝÞ SEPETÝM MODÜLÜ*/
+.SepetimModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.SepetimModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.SepetimModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.SepetimModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;}
+
+.SepetimModulBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #FFFFFF;text-decoration:none;font-weight:bold; }
+.SepetimModulBaslikLink:hover {color: #DD187D}
+
+#pluginBasket{}
+#pluginBasket form{padding:0px;margin:0px;}
+
+
+.SepetimModulUrunDiv{border-bottom:dashed 1px #c7c5c0;padding:5px 0px;}
+.SepetimModulUrunDiv a{ font-family: verdana, Arial, Tahoma;font-size: 10px; color: #24639c;text-decoration:underline; }
+.SepetimModulUrunDiv a:hover {color: #06297c}
+
+.SepetimModulUrunSilDiv{float:right}
+
+.SepetimModulUrunAdetDiv{float:left;font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;padding:0px;margin:2px 5px 0px 0px;}
+
+.SepetimModulUrunFiyatDiv{font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;font-weight:bold; }
+
+.SepetimModulSepetBosDiv{ font-family: verdana, Arial, Tahoma;font-size: 9px; color: #dd187d;margin:0 auto 0 auto;text-align:center}
+
+.SepetimModulSepeteGitDiv{margin-top:5px;float:right}
+
+.SepetimModulUrunToplamDiv{ font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;font-weight:bold;padding:5px 0px 0px 0px}
+
+.ToplamDeger{ font-size: 13px; color: #06297c;}
+
+
+
+.SepetimModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*EN ÇOK SATANLAR MODÜLÜ*/
+.EnCokSatanlarTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnCokSatanlarBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnCokSatanlarBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnCokSatanlarListeTr1{background-color: #fefef8;}
+.EnCokSatanlarListeTr2{}
+.EnCokSatanlarListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnCokSatanlarBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.EnCokSatanlarBaslikLink:hover {color: #DD187D}
+
+.EnCokSatanlarListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnCokSatanlarListeLink:hover {color: #dd187d}
+
+.EnCokSatanlarAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*GRUPMODÜLÜ*/
+.GrupModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.GrupModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.GrupModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+
+.GrupModulListeTr{padding:2px 15px 2px 15px;}
+.GrupModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.GrupModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*EN SON BAKILANLAR MODÜLÜ*/
+.EnSonBakilanlarTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnSonBakilanlarBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnSonBakilanlarBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnSonBakilanlarListeTr1{background-color: #fefef8;}
+.EnSonBakilanlarListeTr2{padding:2px 0px 2px 15px;}
+.EnSonBakilanlarListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnSonBakilanlarListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnSonBakilanlarListeLink:hover {color: #dd187d}
+
+.EnSonBakilanlarAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*FÝYAT LÝSTESÝ  MODÜLÜ*/
+.FiyatListesiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.FiyatListesiBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.FiyatListesiBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+
+.FiyatListesiBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.FiyatListesiBaslikLink:hover {color: #DD187D}
+
+.FiyatListesiAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*FÝYATI DÜÞENLER MODÜLÜ*/
+.FiyatiDusenlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.FiyatiDusenlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.FiyatiDusenlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.FiyatiDusenlerListeTr1{background-color: #fefef8;}
+.FiyatiDusenlerListeTr2{padding:2px 0px 2px 15px;}
+.FiyatiDusenlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.FiyatiDusenlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.FiyatiDusenlerBaslikLink:hover {color: #DD187D}
+
+.FiyatiDusenlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.FiyatiDusenlerListeLink:hover {color: #dd187d}
+
+.FiyatiDusenlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*E-POSTA LÝSTESÝ MODÜLÜ*/
+.EPostaListesiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EPostaListesiBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EPostaListesiBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+
+.EPostaListesiFormTr{padding:2px 15px 2px 15px;}
+.EPostaListesiFormTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: #fcfcfb;}
+.EPostaListesiFormInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #fcfcfb;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+
+.EPostaListesiFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+
+
+
+.EPostaListesiAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+
+/*ANKETMODÜLÜ*/
+.AnketTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.AnketSoruTablo{font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.AnketBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.AnketBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.AnketFormSoruTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+.AnketListeTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 
+
+1px #c7c5c0;background-color:#fcfcfb;}
+.AnketFormButonTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+
+.AnketCevapDiv{font-family: verdana, Tahoma, Arial;font-size:10px;font-weight:bold;padding:2px 0 4px 0}
+.AnketDegerlendirmeDiv{
+	width:50%;
+	border:solid 1px #888888;
+	background-color:#f5f5f5;
+	height: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.AnketOranDiv{
+	background-image:url('/images/anketback.gif');
+	float:left;
+	height: 15px;
+	text-align:right;
+}
+.AnketFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+.AnketFormButon1{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #275eb0;border: 1px solid 
+
+#1d4b9a;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+
+.AnketAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*ÜRÜN ARAMA MODÜLÜ*/
+.UrunAramaTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.UrunAramaBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.UrunAramaBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.UrunAramaFormTr{}
+.UrunAramaFormTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+.UrunAramaFormInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #BAB9B9; background-color: #EEEEEE;	
+
+height:20px;
+	padding:2px 1px;}
+.UrunAramaFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+.UrunAramaFormSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+.UrunAramaFormMarkaSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+.UrunAramaAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+.UrunAramaFormDetayliAramaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:underline 
+
+;margin-top:5px;}
+.UrunAramaFormDetayliAramaLink:hover {color: #dd187d}
+
+/*DÖVÝZ KURLARI MODÜLÜ*/
+.DovizKurlariTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.DovizKurlariBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+
+.DovizKurlariBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.DovizKurlariDolarTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px #c7c5c0;background-color: 
+
+#fcfcfb;}
+.DovizKurlariEuroTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px #c7c5c0;background-color: 
+
+#fcfcfb;}
+
+.DovizKurlariDolarYazi{font-weight:bold;}
+.DovizKurlariEuroYazi{font-weight:bold;}
+
+.DovizKurlariDolarDeger{color:#796b5a;}
+.DovizKurlariEuroDeger{color:#796b5a;}
+
+.DovizKurlariAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*EN ÇOK GEZÝLENLER MODÜLÜ*/
+.EnCokGezilenlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnCokGezilenlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnCokGezilenlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnCokGezilenlerListeTr1{background-color: #fefef8;}
+.EnCokGezilenlerListeTr2{padding:2px 0px 2px 15px;}
+.EnCokGezilenlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnCokGezilenlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.EnCokGezilenlerBaslikLink:hover {color: #DD187D}
+
+.EnCokGezilenlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnCokGezilenlerListeLink:hover {color: #dd187d}
+
+.EnCokGezilenlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*ÝNDÝRÝMLÝ URUNLER MODÜLÜ*/
+.IndirimliUrunlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.IndirimliUrunlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.IndirimliUrunlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.IndirimliUrunlerListeTr1{background-color: #fefef8;}
+
+.IndirimliUrunlerListeTr2{padding:2px 0px 2px 15px;}
+.IndirimliUrunlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.IndirimliUrunlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.IndirimliUrunlerBaslikLink:hover {color: #DD187D}
+
+.IndirimliUrunlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.IndirimliUrunlerListeLink:hover {color: #dd187d}
+
+.IndirimliUrunlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*YENÝ ÜRÜNLER MODÜLÜ*/
+.YeniUrunlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.YeniUrunlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.YeniUrunlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.YeniUrunlerListeTr1{background-color: #fefef8;}
+.YeniUrunlerListeTr2{padding:2px 0px 2px 15px;}
+.YeniUrunlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.YeniUrunlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.YeniUrunlerBaslikLink:hover {color: #DD187D}
+
+.YeniUrunlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.YeniUrunlerListeLink:hover {color: #dd187d}
+
+.YeniUrunlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+/*HABERLER MODÜLÜ*/
+.HaberlerModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.HaberlerModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.HaberlerModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.HaberlerModulListeTr{padding:2px 15px 2px 15px;}
+.HaberlerModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;}
+
+.HaberlerModulBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.HaberlerModulBaslikLink:hover {color: #DD187D}
+
+.HaberlerModulKayanAlan{margin:0; padding:0;height:150px}
+.HaberlerModulKayanDiv{border-bottom:#CCCCCC dashed 1px;padding:5px 0 5px 0;margin:5px 0 5px 0;}
+.HaberlerModulKayanDivTarih{font-family:Verdana, Tahoma, Arial, Tahoma;font-size: 9px; color:ada193;}
+
+.HaberlerModulListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.HaberlerModulListeLink:hover {color: #dd187d}
+
+.HaberlerModulTumHaberlerLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #dd187d;text-decoration:none }
+.HaberlerModulTumHaberlerLink:hover {color: #5e534d}
+
+.HaberlerModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+.HaberBaslikTd h2{
+	font-family: Tahoma, Verdana, Arial;
+	color:#766450;
+	font-size:11px;
+	font-weight:bold;
+	background-color:#F8F5F3;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #766450;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+
+.HaberIcerikTd{padding:5px}
+
+/*ÜYELÝK MODÜLÜ*/
+.UyelikModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.UyelikModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.UyelikModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+
+.UyelikModulUyeAdiTr{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb}
+.UyelikModulUyeAdiTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:5px}
+
+.UyelikModulUyeAdiYazi {color: #dd187d}
+
+.UyelikModulMenuTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:2px 15px}
+
+.UyelikModulGirisFormTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:2px 
+
+15px}
+
+.UyelikModulMenuLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none ;}
+.UyelikModulMenuLink:hover {color: #dd187d}
+
+.UyelikModulGirisInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+
+.UyelikModulGirisButon{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+.UyelikModulGirisSifreDiv{color: #dd187d;float:left;margin:0 15px 0 0}
+.UyelikModulGirisSifreDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #ffffff;text-decoration:underline}
+.UyelikModulGirisSifreDiv a:hover {color: #b5016d}
+
+.UyelikModulGirisYeniUyeDiv{color: #dd187d}
+.UyelikModulGirisYeniUyeDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #ffffff;text-decoration:underline}
+.UyelikModulGirisYeniUyeDiv a:hover {color: #b5016d}
+
+.UyelikModulGirisUyeDuyuruDiv{color: #dd187d}
+
+.UyelikModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+.UrunSablonUrunResmi{font-color:#000000;}
+.AnaSayfaUrunGosterimTd{font-color:#000000;}
+.UrunSablonUrunAdiText{font-color:#000000;}
+
+
+.FormKrediVadeAyTr{text-align:center}
+.FormKrediVadeAy8Td{font-weight:bold;BACKGROUND-COLOR: #efeff0;color:#000}
+.FormKrediVadeAy8Td{font-weight:bold;BACKGROUND-COLOR: #fff;color:#000}
+.FormKrediKartAdi8Td{padding: 2px 5px 2px 2px; border-bottom:#4dac22 solid 2px;background-color:#fff}
+.FormKrediKartVade8Td{background-color:#006600;color:#fff}
+.FormKrediKartAdi8Div{color:#006600;font-weight:bold;}
+.FormKrediVade8Tr{background-color:#e2f4da}
+
+
+
+.FormKrediKartAdi6Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#ffbf05 solid 2px;background-color:#fff}
+.FormKrediKartAdi6Div{color:#ebb823;font-weight:bold;}
+.FormKrediKartVade6Td{background-color:#ebb823;color:#fff}
+.FormKrediVade6Tr{background-color:#FFEC9F} 
+.UrunBilgisiUrunResimSlaytTd img{border:none}
+
+#bilginetlogo{background: url("/images/uygulama/bilginet.jpg") no-repeat scroll left bottom transparent; /*resmin yolu */
+display: block;
+height: 18px; /* resmin yuksekligi */
+margin: 0 auto;  /* sayfada ortalama */
+text-indent: -9999em;
+width: 80px; /* resmin genisligi */padding:13px 0 0;}
+.uyeform{line-height:2; width:100; float:left; margin:0px; float:right;}
+
+.SiteAltTabloImzaTd, .UrunBilgisiKurCevriciTr{display:none}
+
+.UrunBilgisiUrunKisaAciklamaTr{display:none;}
+
+/*UST REKLAM BOLUMU  CLASSLARI*/
+
+#UstMenum{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	line-height: 32px;
+}
+
+#UstMenum ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight: bold;
+}
+
+#UstMenum li {
+	display: inline;
+}
+
+#UstMenum a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color:#FFFFFF;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0;
+	padding-left: 8px;
+	}
+
+#UstMenum a:hover {
+	color: #FFFFFF;
+	background-image: url('/images/Tasarim1_25.gif');
+	background-repeat: repeat-x;
+}
+.TextStyle1 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D1D1BA;
+}
+.TextStyle2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+.TextStyle3 {
+	font-size: 28px;
+	font-family: Tahoma, Verdana, Arial;
+	font-weight: normal;
+	color: #726159;
+}
+.TextStyle4 {
+	font-size: 28px;
+	font-family: Tahoma, Verdana, Arial;
+ 	font-weight: normal;
+	color: #0b85cd;
+}
+.TextStyle5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #AA9A93;
+	font-weight: normal;
+}
+.TextStyle6 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.TextStyle7 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2567A1;
+	text-decoration: none;
+}
+.TextStyle8 {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #c80c6f;
+	text-decoration: none;
+}
+.LinkStyle2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.LinkStyle2:hover{
+	color: #0b85cd;
+	text-decoration: none;
+}
+.LinkStyle3 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10px;
+	color: #dd187d;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.LinkStyle3:hover{
+	color: #266BA6;
+	text-decoration: none;
+}
+.LinkStyle4 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #0b85cd;
+	font-weight: normal;
+	text-decoration: none;
+}
+.LinkStyle4:hover{
+	color: #000;
+}
+.LinkStyle5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #D0E4F4;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.LinkStyle5:hover{
+	color: #FFFFFF;
+}
+.LinkStyle6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #e1f1fe;
+	font-weight: bold;
+	text-decoration: none;
+}
+.LinkStyle6:hover{
+	color: #FFFFFF;
+}
+.InputStyle1 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #000;
+	FONT-FAMILY: tahoma, Arial;
+	width:auto;
+	border: 1px solid #750d3c;
+	background-color: #fcdbed;
+	height:18px;
+	padding:1px;
+	margin:0px 2px 0px 2px;
+}
+.InputStyle2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #403631;
+	FONT-FAMILY: tahoma, Arial;
+	width:auto;
+	border: 0px solid #D1CFC2;
+	background-color: #fff;
+	height:20px;
+	padding:1px;
+        margin:4px 0px 0px 0px;
+}
+
+
+#ReklamSepetDiv{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-style: normal;
+color: #dd187d;
+padding:0px;
+margin:0px;
+float:right
+
+}
+#ReklamSepetDiv p{padding:2px;margin:0px;font-size:12px}
+
+#ReklamSepetDiv a{text-decoration:underline; font-weight:bold;color: #000;}
+#ReklamSepetDiv a:hover{color: #dd187d}
+
+
+#ReklamUyelikDiv {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 13px;color: #02B8CB;}
+
+#ReklamUyelikDiv a{font-family: 'Calibri', Helvetica, Tahoma;font-size: 15px;color: #02B8CB;text-decoration: 
+
+none;background:url("/images/uygulama/toplogin3.jpg") no-repeat scroll left bottom transparent;padding:8 16px 6 9px; font-weight:bold;}
+#ReklamUyelikDiv a:hover{color: #FF1596;background:url("/images/uygulama/toploginHover.jpg") no-repeat scroll left bottom transparent;}
+
+#ReklamUyelikDiv form{padding:0px;margin:0px;}
+
+#ReklamAramaDiv{width:250px;position:absolute;display:none;z-index:1500;height:0px;left:522px !important;}
+
+.ReklamAramaKapatDiv{height:18px;float:left;cursor:pointer;padding:2px 5px 0 
+
+19px;background-image:url('/images/ReklamAramaKapat.gif');background-repeat:no-repeat;background-position:2px 2px;}
+
+.AramaSonuclariInput{font-family: Verdana,tahoma, Arial;font-size:10px;width:250px;background:#eee;color:#666;border:solid 1px #999;}
+
+.UstUyeGirisTablo{font-family:Tahoma, Verdana, Arial;font-size:11px;color:#FFFFFF;}
+
+/*SÝTE GENEL CLASSLARI*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url('/images/head-bg94.jpg'); 
+	background-position:center top; 
+	background-repeat:no-repeat;
+
+}
+
+h1,h2,h3,h4{padding:0px;margin:0px;font-weight:normal}
+form{padding:0;magin:0}
+
+.AnaTablo {width:100%; text-align:center;}
+.AnaTabloUstTd{text-align:center}
+.SiteUstTablo{text-align:center; width:100%;}
+.AnaSayfaOrtaAlanTd{padding: 0px;}
+.AnaSayfaUrunGosterimAlanTd{padding:10px;}
+
+.OrtaAlanTabloOrtaTd{padding:0px; }
+
+.OrtaAlanTablo{
+	background-color: #FFFFFF;
+	width:952px;
+}
+
+
+
+/*SÝTE GENEL SAÐ SOL KOLON*/
+.OrtaAlanTabloSolTd{width:202px;padding:5px 0 0 0; display:none;}
+.OrtaAlanTabloSagTd{width:202px;padding:5px 0 0 0; display:none;}
+
+/*KATEGORÝ SAYFASI SAÐ SOL KOLON*/
+
+.KategoriOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.KategoriOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*ÜRÜN BÝLGÝSÝ SAYFASI SAÐ SOL KOLON*/
+.UrunBilgisiOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.UrunBilgisiOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*YARDIM SAYFASI SAÐ SOL KOLON*/
+
+.YardimOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0;}
+.YardimOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0;display:none}
+
+/*ÝÇERÝK SAYFASI SAÐ SOL KOLON*/
+
+.IcerikOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0;}
+.IcerikOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0;display:none}
+
+/*SEPETÝM SAYFASI SAÐ SOL KOLON*/
+
+.SepetOrtaAlanTabloSolTd {width:220px;padding:5px 0 0 0; }
+.SepetOrtaAlanTabloSagTd {width:202px;padding:5px 0 0 0; display:none;}
+
+/*SATIN ALMA AÞAMALARI SAÐ SOL KOLON*/
+
+.SatinAlOrtaAlanTabloSolTd{width:220px;padding:5px 0 0 0; display:none;}
+.SatinAlOrtaAlanTabloSagTd{width:202px;padding:5px 0 0 0;display:none}
+
+
+
+/*ALT KATEGORÝLER ve MARKALAR AÇILIR MENÜ*/
+
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.CollapsiblePanelTab {
+	font-family: Verdana, Arial;
+	color:#766450;
+	font-size:10px;
+	font-weight:bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 6px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	cursor: pointer;
+	background-image:url('/images/AltKategoriLinkBack.gif');
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 2px;
+}
+
+.CollapsiblePanelContent ul {margin: 0;padding: 0;list-style: none;}
+
+.CollapsiblePanelContent li {display: inline;}
+
+.CollapsiblePanelContent a {margin: 1px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:2px 5px;border-right:1px solid #ccc;display: block;float: left;}
+
+.CollapsiblePanelContent a:hover {color: #dd187d;}
+
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-image:url('/images/AltKategoriLinkBackActive.gif');
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	background-color: #FFFFCC;
+}
+
+/*ÜRÜN BÝLGÝSÝ TAB MENÜ*/
+
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%;
+}
+
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:bold;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	border: 1px solid #c7c5c0;
+	background-image: url('/images/TabButonBack.gif');
+}
+
+
+.TabbedPanelsTabHover {
+	color: #dd187d;
+}
+
+
+.TabbedPanelsTabSelected {
+	background-image: url('/images/TabButonBackActive.gif');
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	color: #dd187d;
+}
+
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	background-color: #FFFFFF;
+	border: 1px solid #c7c5c0;
+}
+
+
+.TabbedPanelsContent {
+	padding: 4px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+}
+
+
+.TabbedPanelsContentVisible {
+}
+
+
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
+/*ALT REKLAM ALANI*/
+
+.SiteAltTablo{width:100%;margin:0 auto 0 auto;text-align: left}
+
+
+/*URUN ÞABLONU STÝLLERÝ*/
+
+.UrunSablonUrunAdiLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color:#dd187d ;
+	text-decoration:none;
+	font-weight:bold
+}
+.UrunSablonUrunAdiLink:hover {color: #000}
+
+.UrunSablonKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 18px; color: #5e534d;text-decoration:none;font-weight:bold }
+.UrunSablonKategoriLink:hover {color: #5e534d}
+
+.UrunSablonMarkaLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #dd187d;
+	text-decoration:none;
+	font-weight:bold
+}
+.UrunSablonMarkaLink:hover {color: #dd187d}
+
+.UrunSablonPromosyonKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	letter-spacing: -1px;
+}
+
+.UrunSablonPiyasadaKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonPiyasaFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #999999;
+	font-weight:normal;
+	text-decoration: line-through;
+
+}
+.UrunSablonBizdeKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonBizdeFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #333;
+	font-weight:bold;
+
+
+}
+
+.UrunSablonÝndirimYuzdeOran{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+.UrunSablonÝndirimYuzdeKelimesi{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+}
+
+
+.UrunSablonÝndirimliFiyatKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+}
+
+.UrunSablonÝndirimliFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+
+
+.UrunSablonMinTaksitTutari{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 9px;
+	color: #F28D15;
+	font-weight:bold;
+
+}
+.UrunSablonMinTaksitKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:normal;
+	letter-spacing: -1px;
+
+}
+
+.UrunSablonKurFiyatiDeger{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+.UrunSablonKurKelimesi{
+	font-family: verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #999999;
+	font-weight:bold;
+
+}
+
+.UrunSablonUrunKodLink{ font-family: verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;font-weight:bold }
+.UrunSablonUrunKodLink:hover {color: #5e534d}
+
+
+
+
+
+
+
+/*GENEL SAYFALAR*/
+
+.SayfayiKapatDiv{float:right;margin:0 3px 0 3px;padding:0 2px 0 2px}
+.SayfayiKapatDiv a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SayfayiKapatDiv a:hover{	
+	color: #086ca7;
+}
+.GenelYardimDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url(/images/YardimDivBack.gif);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.GenelYardimDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelYardimDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;
+}
+
+.GenelYardimDiv a{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.GenelYardimDiv a:hover {color: #dd187d}
+
+
+.GenelBilgiDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url(/images/BilgiDivBack.gif);
+
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.GenelBilgiDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelBilgiDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;
+}
+
+.GenelBilgiDiv a{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline;
+	font-weight: bold;
+}
+.GenelBilgiDiv a:hover {color: #dd187d}
+
+
+.SiteUyariDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url('/images/KategoriUrunGrubuYokimage.gif');
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	width: 500px;
+}
+
+.SiteUyariDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.SiteUyariDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;       
+}
+
+
+.SiteUyariDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+.SiteUyariDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+
+#PopUpAlertBackDiv {
+	position: absolute;
+	left:0;
+	width: 100%;
+	background-color: #000;
+	cursor: pointer;
+	z-index: 15;
+	text-align:center;
+}
+#PopUpAlertDiv{
+	position:absolute;
+	z-index:253;
+	width:700px;
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	text-align: left;
+	filter:alpha(opacity=100);
+	-moz-opacity:100;
+	opacity:100;
+	border: 4px solid #d7d6d6;
+	margin: 80px 0 0 220px;
+	
+
+}
+
+#PopUpAlertDiv h2{
+     
+	font-family: Tahoma, Verdana, Arial;
+	color:#086ca7;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 6px 5px 5px 8px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+
+}
+#PopUpAlertDivP{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0;
+	padding: 10px 0 0 0;       
+}
+
+
+#PopUpAlertDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+#PopUpAlertDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+
+#PopUpSepetDiv{
+	position:absolute;
+	z-index:253;
+	width:700px;
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	text-align: left;
+	filter:alpha(opacity=100);
+	-moz-opacity:100;
+	opacity:100;
+
+	border: 4px solid #d7d6d6;
+	margin: 80px 0 0 220px;
+	
+
+}
+
+#PopUpSepetDiv h2{
+     
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 6px 5px 5px 8px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+
+}
+#PopUpSepetDivP{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #dd187d;
+	margin: 0;
+	padding: 10px 0 0 0;       
+}
+
+
+#PopUpSepetDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+#PopUpSepetDiv a:hover{
+
+	color: #6E6159;
+
+}
+
+.GenelUyariDiv{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-image: url('/images/KategoriUrunGrubuYokimage.gif');
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+	line-height: 20px;
+	background-color: #FEFDBA;
+	border: 1px solid #D6D003;
+	padding-left: 15px;
+	margin: 5px;
+}
+
+.GenelUyariDiv h2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D003;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.GenelUyariDiv p{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #6E6159;
+	margin: 0px;
+	padding: 5px;       
+}
+
+
+.GenelUyariDiv a{
+	text-decoration:underline;
+	color: #086ca7;
+	font-weight:bold;
+
+}
+
+.GenelUyariDiv a:hover{
+   color: #6E6159;
+}
+
+.GenelFormTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	width:100%;
+	margin-bottom:10px;
+}
+
+
+.GenelTarihDiv{
+	font-family: verdanaTahoma, Arial, Tahoma;
+	font-size: 10px;
+	font-weight:bold;
+	color: #000000;
+	float:right;margin:0 3px 0 3px;
+	padding:0 2px 0 2px;
+	}
+
+
+.GenelFormIcerikTd{padding:5px 5px 5px 5px}
+
+.GenelFormBaslikTd{
+background-color:#FFFFFF;
+
+}
+
+.GenelFormBaslikTd h2{
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#fcfaec;
+	padding: 5px;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #086ca7;
+}
+
+.GenelFormBaslikTd h3{
+	font-family: Tahoma, Verdana, Arial;
+	color:#6f625c;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 0 2px 0;
+}
+
+
+.GenelFormIlanTd{
+	padding-bottom:10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+	padding-top: 5px;
+}
+.GenelFormIlanTd2{
+	padding-bottom:10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+	padding-top: 5px;
+font-size:16px
+
+}
+
+.GenelFormIlanBaslik{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:bold;
+	color:#06297c;
+	padding:5px 0 5px 0
+}
+
+.GenelFormIlanIcerik{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color:#6e5e57;
+}
+
+.GenelFormAciklamaTd{
+	color:#086ca7;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+.GenelFormAciklamaTd strong{
+	color:#dd187d;
+}
+
+
+.GenelFormAciklamaTd a{
+	color:#086ca7;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.GenelFormElemanUstTd{height:5px}
+.GenelFormElemanAltTd{border-bottom: solid 2px #ebebeb;height:5px}
+.GenelFormTextArea{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #a3c9df;
+	background-color: #f1faff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	padding: 2px;
+}
+
+
+.GenelFormTextArea1{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #999999;
+	background-color: #FFFEDD;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+padding: 2px;
+
+}
+.GenelFormInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #a3c9df;
+	background-color: #f1faff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	height:20px;
+	padding:2px 2px;
+
+
+
+}
+.GenelFormInput1{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #999999;
+	background-color: #FFFEDD;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+	height:20px;
+	padding:2px 1px;
+
+}
+.GenelFormInput2{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #aaaaaa;
+	background-color: #fff;
+	text-align:left;
+	margin:2px 0 2px 0;
+	color: #000000;
+	height:20px;
+	padding:2px 1px;
+}
+
+.GenelFormInput3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	width:auto;
+	border: 1px solid #aaaaaa;
+	background-color: #fff;
+	text-align:left;
+	color: #000000;
+	height:17px;
+	padding:1px;
+	margin-top: 1px;
+	margin-right: 2px;
+	margin-bottom:1px;
+	margin:0px 2px 0px 2px;
+}
+
+.GenelFormButonTd{
+
+padding:2px 0 2px 0;
+}
+.GenelFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+.GenelFormButon1{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #275eb0;border: 1px solid 
+
+#1d4b9a;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+
+
+.GenelFormLink{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #086ca7;
+	text-decoration:underline
+}
+.GenelFormLink:hover {color: #5e534d}
+
+.GenelFormLink1{
+	font-family: verdana,Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:underline;
+}
+.GenelFormLink1:hover {color: #5e534d}
+
+.GenelFormLink2{
+	font-family: verdana,Tahoma, Arial, Tahoma;
+	font-size: 9px;
+	color: #000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.GenelFormLink2:hover {color: #5e534d}
+
+/*SÝTE HARÝTASI BÖLÜMÜ*/
+
+.SiteHaritasiMenu {
+	margin: 0px;
+	width: 100%;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	text-align: left;
+
+}
+.SiteHaritasiMenu ul {
+	line-height: normal;
+	padding: 0px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	
+}
+.SiteHaritasiMenu ul ul {
+	margin-left: 20px;
+	
+}
+.SiteHaritasiMenu ul ul ul {
+	margin-left: 30px;
+	
+}
+
+.SiteHaritasiMenu li a {
+	display: block;
+	border-bottom: 1px solid #EBEBEB;
+	color: #000000;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-weight: normal;
+	padding-left: 3px;
+}
+
+.SiteHaritasiMenu li a:hover{
+	color: #f40200;
+	background-color: #F7F7F7;
+
+}
+.SiteHaritasiMenu a {
+	display: block;
+	border-bottom: 1px solid #EBEBEB;
+	color: #000000;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 3px;
+}
+
+.SiteHaritasiMenu a:hover{
+	color: #f40200;
+	background-color: #F7F7F7;
+
+}
+
+
+
+/*ÝÇERÝK BÖLÜMÜ*/
+.IcerikOrtaTablo{background-color: #FFFFFF; width:100% }
+.IcerikOrtaTabloBaslikTd{
+	border-bottom: solid 1px #ccc;
+	padding-top: 8px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+
+.IcerikOrtaTabloBaslikTd h2{font-family: tahoma;color:#000000;font-size:13px;font-weight:bold;padding:0;margin:0}
+
+
+.IcerikOrtaTabloIcerikTd{font-family: tahoma;font-size:11px;padding:10px;text-align:left;margin:0px}
+
+.IcerikMenuDiv{padding:0px 10px 0 10px;}
+
+.IcerikMenuDiv ul{list-style:none;padding:0px;margin:0px}
+
+.IcerikMenuDiv li{border-bottom:1px dashed #ebebeb;padding:5px 0 5px 0}
+
+.IcerikMenuDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #fff;text-decoration:none }
+.IcerikMenuDiv a:hover {color: #fff}
+
+.IcerikMenuTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+
+.IcerikMenuBaslikTr{height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+
+.IcerikMenuBaslikTd{padding:8px 0 0 55px;font-weight:bold;color:#6E6363;font-size:12px;}
+
+.IcerikMenuTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;}
+
+.IcerikMenuAltTd{height:14px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+.ZorunluAlanSpan{color:#FF0000}
+
+
+
+
+/*MÜÞTERÝ HÝZMETLERÝ SAYFASI*/
+
+
+
+
+.MusteriHizmetleriBaslik{
+	background-image:url('/images/MusteriHizmetleriBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:11px;
+	color: #666666;
+	font-weight:normal;
+	padding-left: 15px;
+	margin: 0px;
+
+
+}
+.MusteriHizmetleriBaslik h2{
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-size:12px;
+	color: #dd187d;
+	font-weight:bold;
+}
+.MusteriHizmetleriBaslik p{
+	line-height:18px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.MusteriHizmetleriBaslik a{
+	color: #097ABE;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.MusteriHizmetleriBaslik a:hover {color: #dd187d}
+
+
+
+
+
+/*ALIÞVERÝÞ SEPETÝM SAYFASI*/
+
+.AlisverisSepetimBaslik{
+	font-family: tahoma;
+
+	color:#086ca7;
+	font-size:12px;
+
+	font-weight:bold;
+}
+
+
+
+.AlisverisSepetimBirimFiyat{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;color:#6e6159;font-weight:bold}
+.AlisverisSepetimBirimTutar{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;color:#086ca7;font-weight:bold}
+
+.SepetimToplamTabloAraToplamTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;color:#6e6159;}
+.SepetimToplamTabloAraToplamDegerTd{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 11px;color:#6e6159;font-weight:bold}
+
+.SepetimToplamTabloKdvToplamTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#ef7a2d;}
+.SepetimToplamTabloKdvToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#ef7a2d;font-weight:bold}
+
+.SepetimToplamTabloKdvDahilToplamTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;color:#086ca7;}
+.SepetimToplamTabloKdvDahilToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color:#086ca7;font-weight:bold}
+
+
+.AlisverisSepetimTabloIlanTd{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+}
+
+.AlisverisSepetimKuponInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	border: 1px solid #C1BCA2;
+	background-color: #F3F2ED;
+	height:20px;
+	padding:2px 1px;
+}
+
+
+.AlisverisSepetimAdetInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #FFFFCC;
+	border: 1px solid #CCCCCC;
+	font-weight: normal;
+	height:20px;
+	padding:2px 1px;
+}
+.AlisverisSepetimSatinAlButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #086ca7;
+	border: 1px solid #085887;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+
+.AlisverisSepetimAlisverisListemeEkleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+	font-weight:bold;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.AlisverisSepetimUrunleriSilButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimGuncelleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #009900;
+	border: 1px solid #006600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimSepetiBosaltButon{
+	color:#FFFFFF;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+.AlisverisSepetimSilButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #086ca7;
+	border: 1px solid #085887;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimAlýþveriseDevamButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+
+}
+.AlisverisSepetimHizliSatinAlButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+.AlisverisSepetimSatinAlButon2{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+
+.SepeteAktarButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #FF8D42;
+	border: 1px solid #FF6600;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+	font-weight:bold;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.AlarmDuzenleButon{
+	color:#fff;
+	font-family:Verdana,Tahoma, Arial;
+	font-size:10px;
+	background-color: #6e6159;
+	border: 1px solid #6e6159;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+font-weight:bold;
+}
+
+.SepetimTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimUstTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimToplamTablo{	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;}
+.SepetimTabloUstTd{padding:0px 0 2px 0 }
+
+.SepetimTabloAltTd{padding:5px 0 5px 0 }
+
+.SepetimUstTabloTd{	font-weight: bold;}
+
+/* YORUM OKU*/
+
+.YorumOkuYorumDiv {
+	padding: 5px;
+	border: #ebebeb solid 1 px;
+
+
+}
+.YorumOkuYorumDiv h3{
+	font-family: Tahoma, Verdana, Arial;
+	color:#dd187d;
+	font-size:11px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-bottom: 0px;
+	height:20px;
+	padding-top: 0px;
+}
+.YorumOkuAdTarihDiv{
+	float:right;
+	margin:0 3px 0 3px;
+	padding:0 2px 0 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+
+.YorumOkuAd{
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+
+}
+.YorumDegerlendirmeDiv{
+	width:50%;
+	border:solid 1px #888888;
+	background-color:#f5f5f5;
+	height: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.YorumOranDiv{
+	background-image:url('/images/anketback.gif');
+	float:left;
+	height: 15px;
+	text-align:right;
+	color:#FFFFFF;
+}
+/*KREDÝ KART TABLOSU*/
+
+.FormKrediKartTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	background-color: #CCCCCC;
+       width:98%;
+       margin:0 auto;
+}
+
+.KrediKartToplamDiv{font-family: Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;height:20px;}
+
+.FormKrediKartBosTd{background-color:#fff;}
+
+.FormKrediVadeTr{background-color:#fff;}
+.FormKrediVadeBaslikTr{background-color:#fff;font-family: verdana,Tahoma, Arial, Tahoma;font-size: 
+
+10px;font-weight:bold;height:20px;text-align:center;}
+
+.FormKrediVadeAyTr{text-align:center}
+.FormKrediVadeAy1Td{font-weight:bold;BACKGROUND-COLOR: #efeff0;color:#000}
+.FormKrediVadeAy2Td{font-weight:bold;BACKGROUND-COLOR: #fff;color:#000}
+
+.FormKrediKartAdi1Td{padding: 2px 5px 2px 2px; border-bottom:#4dac22 solid 2px;background-color:#fff}
+.FormKrediKartVade1Td{background-color:#006600;color:#fff}
+.FormKrediKartAdi1Div{color:#006600;font-weight:bold;}
+.FormKrediVade1Tr{background-color:#e2f4da}
+
+
+.FormKrediKartAdi2Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#ffbf05 solid 2px;background-color:#fff}
+.FormKrediKartAdi2Div{color:#ebb823;font-weight:bold;}
+.FormKrediKartVade2Td{background-color:#ebb823;color:#fff}
+.FormKrediVade2Tr{background-color:#ffffe6}
+
+.FormKrediKartAdi3Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#011284 solid 2px;background-color:#fff}
+.FormKrediKartAdi3Div{color:#010c81;font-weight:bold;}
+.FormKrediKartVade3Td{background-color:#010c81;color:#fff}
+.FormKrediVade3Tr{background-color:#e4e9f8}
+
+.FormKrediKartAdi4Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#f01a84 solid 2px;background-color:#fff}
+.FormKrediKartAdi4Div{color:#f01a84;font-weight:bold;}
+.FormKrediKartVade4Td{background-color:#f01a84;color:#fff}
+.FormKrediVade4Tr{background-color:#fbdbeb}
+
+
+
+.FormKrediKartAdi15Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#7d2b92 solid 2px;background-color:#fff}
+.FormKrediKartAdi15Div{color:#7d2b92;font-weight:bold;}
+.FormKrediKartVade15Td{background-color:#7d2b92;color:#ffff}
+.FormKrediVade15Tr{background-color:#ffff}
+
+.Tutar4_7{font-weight:bold;}
+
+.FormKrediKartAdi5Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#663399 solid 2px;background-color:#fff}
+.FormKrediKartAdi5Div{color:#663399;font-weight:bold;}
+.FormKrediKartVade5Td{background-color:#663399;color:#ffffff}
+.FormKrediVade5Tr{background-color:#663399}
+
+.FormKrediKartAdi9Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#7d2b92 solid 2px;background-color:#fff}
+.FormKrediKartAdi9Div{color:#7d2b92;font-weight:bold;}
+.FormKrediKartVade9Td{background-color:#7d2b92;color:#fff}
+.FormKrediVade9Tr{background-color:#f4defa}
+
+
+
+
+
+/* SÝPARÝÞ SAYFASI*/
+
+
+.SiparisBilgileriAsamaTd{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.OdemeToplamDegerTd{font-family: Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;height:20px;color:#d40a0a}
+
+.OdemeBankaDegerTd{font-family:Verdana, Tahoma, Arial, Tahoma;font-size: 10px;}
+
+
+
+.SiparisBilgileriKargoBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+.SiparisBilgileriOdemeBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+.SiparisBilgileriTeslimatBilgileriTd{padding:2px 3px 3px 10px;border-left:solid 1px #ebebeb}
+
+.SiparisIlanTd{
+	font-size:12px;
+	font-weight:bold;
+	font-family: Tahoma, Verdana, Arial;
+	padding-top:10px
+}
+
+.SiparisSozlesmeDiv{
+	overflow:auto;
+	border: 1px solid #ccc;
+	height: 150px;
+	width: 99%;
+	padding: 6px;
+}
+
+.SiparisDuzenleDiv{float:right;margin:0 3px 0 3px;padding:0 2px 0 2px}
+.SiparisDuzenleDiv a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: underline;
+	letter-spacing: -1px;
+}
+.SiparisDuzenleDiv a:hover{	
+	color: #086ca7;
+}
+
+
+.SiparisKargoIndirim{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 10px;font-weight:bold;color:#086ca7;margin-bottom:5px}
+
+.SiparisBilgileriKargoUcreti{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 12px;font-weight:bold;color:#086ca7}
+
+.SiparisBilgileriKargoAdi{font-family: verdana,Tahoma, Arial, Tahoma;font-size: 11px;}
+
+.SiparisHavaleOdeme{color:#5e5346;font-weight:bold}
+.SiparisOdemeTipi{color:#5e5346;font-weight:bold}
+.SiparisKrediKartOdeme{color:#5e5346;font-weight:bold}
+
+.SiparisHavaleIndirim{color:#086ca7;font-weight:bold}
+.SiparisOdemeIndirim{color:#086ca7;font-weight:bold}
+.SiparisNakitIndirim{color:#086ca7;font-weight:bold}
+
+
+.SiparisOdemeTutar{font-weight:bold}
+.SiparisKrediKartTutar{font-weight:bold}
+.SiparisHavaleTutar{font-weight:bold}
+
+
+.SiparisKargoSecimTd{	padding: 10px 0 10px 0;}
+.SiparisOdemeSecimTd{	padding: 5px 0 5px 0;}
+
+
+
+
+
+
+/*ÜRÜN BÝLGÝSÝ SAYFASI*/
+
+
+.urunBalonu{position:absolute;z-index:255;font-family: tahoma;font-size: 11px;padding: 5px;top: 0px;left: 0px;color: 
+
+#003366;background-color: #FFFFFF;border: 1px solid #00ccff;}
+
+.UrunBilgisiAnaOrtaTabloUstTr{background:#f6f6f6;font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #CCCCCC;}
+
+.UrunBilgisiAnaOrtaTabloUstTd{
+	padding:10px 5px 5px 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+}
+
+.UrunBilgisiAnaOrtaTabloOrtaTd{padding:10px 15px 10px 10px;;}
+
+
+.UrunBilgisiOrtaTabloTd{padding:0;font-family:Tahoma, Arial, Tahoma;font-size: 11px;}
+
+
+
+
+.UrunBilgisiOrtaTablo{width:100%;}
+
+.UrunBilgisiResimAlanDiv{float:left;}
+
+.UrunBilgisiBilgiAlanDiv{margin-right:20px;}
+
+
+
+.UrunBilgisiResimTablo{}
+
+.UrunBilgisiUrunResmiTd{padding:10px;border:solid 1px #edead8;margin:0 auto; }
+
+.UrunBilgisiUrunDurumTd{padding-top:10px;text-align:left}
+
+
+.UrunBilgisiUrunResmi{margin:0 auto; }
+
+.UrunBilgisiUrunAdiTd{padding:5px 0 5px 0; }
+
+.UrunBilgisiUrunAdiText{font-family: Tahoma, Arial, Tahoma;font-size: 12px; font-weight:bold;color: #dd187d;}
+
+.UrunBilgisiUrunAdiKucukText{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px;color: #086ca7;text-align:center;}
+
+.UrunBilgisiXmlVeriTd{	font-family: Tahoma, Verdana, Arial;	font-size: 11px;	padding:5px;	background-color: #FFFFF2;	
+
+border: 1px solid #FFFFBB;
+}
+
+.UrunBilgisiAktifUrun{font-weight:bold}
+
+.UrunBilgisiAltKategoriTd{ padding-bottom:10px}
+
+.UrunBilgisiAltKategorilerDiv{
+	background-image:url('/images/AltKategorilerBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+}
+.UrunBilgisiAltKategorilerDiv h3{
+	height:25px;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+}
+
+
+.UrunBilgisiAltKategorilerDiv ul {margin: 0;padding: 0;list-style: none;}
+
+.UrunBilgisiAltKategorilerDiv li {display: inline;}
+
+.UrunBilgisiAltKategorilerDiv a {margin: 1px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:2px 5px;border-right:1px solid #ccc;display: block;float: left;}
+
+.UrunBilgisiAltKategorilerDiv a:hover {color: #dd187d;}
+
+
+
+.UrunBilgisiOneriKutusuTd{padding:0 5px 0 5px;}
+
+
+
+.UrunBilgisiOneriKutusuAciklamaLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiOneriKutusuAciklamaLink:hover {color: #00000}
+
+.UrunBilgisiOneriKutusuBaslikTd{}
+
+.UrunBilgisiOneriKutusuBaslikDiv{
+	height:40px;
+	background-image:url('/images/OnerilerinizBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 45px;
+}
+
+.UrunBilgisiAltKategoriLink{ font-family:verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:none; padding:2px 
+
+4px 2px 4px;border-right: 1px solid #5e5346;}
+.UrunBilgisiAltKategoriLink:hover {color: #5e5346;}
+
+
+.UrunBilgisiPromosyonUrunTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color: #000;padding-top:5px;	}
+
+.PromosyonluUrunDiv{float:left;margin:5px 5px 5px 0px;border: 1px solid #c0d2ee;padding:5px;	}
+
+.PromosyonluUrunText{float:left}
+
+.UrunBilgisiPromosyonUrunBaslik{margin-bottom:5px;font-family:Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold;}
+
+.UrunBilgisiXmlVeriLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiXmlVeriLink:hover {	color: #00000}
+
+.UrunBilgisiUrunMarkaLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiUrunMarkaLink:hover {color: #00000}
+
+.UrunBilgisiDriverLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiDriverLink:hover {color: #00000}
+
+.UrunBilgisiTaksitSecenekLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiTaksitSecenekLink:hover {color: #00000}
+
+.UrunBilgisiOzelliklerDegerLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiOzelliklerDegerLink:hover {color: #00000}
+
+.UrunBilgisiUrunKisaAciklamaTd{font-family:'calibri', Tahoma, Arial;font-size: 25px;color: #02B8CB;padding: 0 0 8px 0;}
+
+
+.UrunBilgisiUrunBilgiBaslikTd{ }
+
+.UrunBilgisiUrunBilgiBaslikDiv{
+	height:48px;
+	background-image:url('/images/UrunBilgisiBack.gif');
+	background-repeat:no-repeat;
+	font-family:Tahoma, Arial, Tahoma;
+	font-size:12px;
+	color: #5e534d;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 45px;
+}
+
+
+
+.UrunBilgisiAksesuarBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiAksesuarBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+.UrunBilgisiBunudaAldiBaslikTd{
+
+	padding-top: 20px
+}
+
+
+.UrunBilgisiBunudaAldiBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiBunudaAldiBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+.UrunBilgisiDigerUrunlerBaslikTd{
+	padding-top: 10px;
+	background-image: 	url('/images/DigerUrunlerBack.gif');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+}
+.UrunBilgisiDigerUrunlerBaslikDiv{
+	font-family:Tahoma, Arial, Tahoma;
+	font-size: 12px;
+	float:left;
+	font-weight:bold;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	color: #000;
+}
+
+
+
+.UrunBilgisiDigerUrunlerTd{padding-bottom: 10px}
+
+
+
+.UrunBilgisiDigerUrunlerTumuLink{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: 
+
+#086ca7;text-decoration:underline;font-weight:normal;}
+.UrunBilgisiDigerUrunlerTumuLink:hover {color: #00000}
+
+.UrunBilgisiUrunBilgiIcerikTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;padding: 0px 4px 15px 10px;}
+
+.UrunBilgisiUrunBilgiKategoriIcerikTd{font-family:Tahoma, Arial, Tahoma;font-size: 11px;padding: 0px 4px 4px 10px;}
+
+.UrunBilgisiUrunMiktarInput{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFF2;
+	width:22px;
+	font-weight: bold;
+	margin: 0px;
+	height:20px;
+	padding:2px 1px;
+}
+
+.UrunBilgisiUrunResimSlaytTd{	padding:5px 0 5px 0;border-top:solid 1px #edead8;text-align:right }
+
+
+.UrunBilgisiUrunDetaylariTablo{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;line-height:22px;}
+
+.pasifresim{float:left;cursor:pointer;border:solid 1px #fff;}
+
+.aktifresim{float:left;cursor:pointer;border:solid 1px #d54444;}
+
+.UrunBilgisiUrunDetaylariTablo{width:100%;border:solid 1px #fafbfb;}
+
+.UrunBilgisiUrunDetaylariTr{height:18px}
+
+.UrunBilgisiUrunKoduTd{ width:30%}
+
+.UrunBilgisiOzelliklerTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold}
+
+.UrunBilgisiUrunSecenekBaslikTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #446dab;font-weight:bold}
+
+.UrunSecenekTablo{font-family: Verdana;Tahoma, Arial;font-size: 10px;border: 1px solid #efe9c1; background-color: #f8f6eb;}
+
+.UrunSecenekTabloSelectBox{font-family: Verdana;Tahoma, Arial;font-size: 10px;border: 1px solid #d0c57a; background-color: #fff;}
+
+.UrunSecenekTabloBaslikTd{font-family: Verdana;Tahoma, Arial;font-size: 11px;font-weight:bold;padding:2px }
+
+.UrunBilgisiKdvDahilTd{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;font-weight:bold}
+.UrunBilgisiKdvDahilDegerTd{ font-family: Tahoma, Arial, Tahoma;font-size: 12px;color: #a70808;font-weight:bold}
+
+.UrunDurumDiv{float:right}
+
+.UrunBilgisiSepeteAtTablo{font-family: Tahoma, Arial, Tahoma;font-size: 11px;color: #000;font-weight:bold;}
+
+.UrunBilgisiSepeteAtTd{padding-top:10px}
+
+
+
+.UrunBilgisiOneriKutusuDusunceTablo{
+	font-family: Tahoma, Arial, Tahoma;
+	font-size: 11px;
+	color: #000;
+	margin-bottom:2px;
+	width:98%;
+	margin-top: 5px;
+	margin-right: auto;
+
+	margin-left: auto;
+}
+.UrunBilgisiOneriKutusuDusunceTr{
+
+}
+
+
+/*KATEGORÝ YAZDIR MENU*/
+
+.KategoriYazdirAnaSayfaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #000;text-decoration:none; font-weight:bold;}
+.KategoriYazdirAnaSayfaLink:hover {color: #06297c}
+
+.KategoriYazdirAktifLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #dd187d;text-decoration:none; }
+.KategoriYazdirAktifLink:hover {color: #000}
+
+.KategoriYazdirKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #06297c;text-decoration:none; }
+.KategoriYazdirKategoriLink:hover {color: #dd187d}
+
+/*KATEGORÝ GÖSTERÝM SAYFASI*/
+.KategoriOrtaTablo{width:100%}
+
+.KategoriAramaFormDiv{float:left}
+
+.KategorilerMarkaSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #baaea8;background-color: 
+
+#f3f1e8;color:#726159}
+
+
+.KategoriOrtaTabloUstTr{font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #CCCCCC;}
+.KategoriOrtaTabloUstTd{
+        font-family: Tahoma, Arial;font-size: 11px; font-weight:normal;color: #666;
+	padding:9px 0 9px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+}
+.KategoriOrtaTabloUstTd h2{
+font-family: Tahoma, Arial, Tahoma;font-size: 13px; font-weight:bold;color: #dd187d;
+padding:0px;
+margin:0px;
+}
+.KategoriOrtaTabloUstTd p{
+font-family: Tahoma, Arial, Tahoma;font-size: 11px; font-weight:normal;color: #666;
+padding:3px 0 0 0;
+margin:0px;
+}
+
+
+.KategoriUrunListeGosterimAlanTd{padding:0px 10px;}
+
+.KategoriOrtaTabloGosterimTd{
+        padding:0px 5px 0px 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c0c0;
+	color:#666666;
+	}
+.KategoriOrtaTabloAltKategoriBaslikDiv{
+	margin:2px 10px 2px 0px;
+	padding:1px 4px 3px 0px;
+	font-family:Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #949393;
+	font-weight:bold;
+	border-bottom: dashed 1px #b7b7b7
+}
+
+.KategoriOrtaTabloAltKategoriDiv{float:left; padding:1px 1px 1px 1px;margin:2px 4px 2px 0;}
+
+.KategoriOrtaTabloAltKategoriLink{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; }
+.KategoriOrtaTabloAltKategoriLink:hover {color: #5e5346;}
+
+.KategoriOrtaTabloAltKategoriTd{ padding:1px 2px;background:#fff;border-bottom: 1px solid #c1c0c0;}
+
+.KategoriOrtaTabloMarkaBaslikDiv{
+	margin:2px 10px 2px 0px;
+	padding:1px 4px 3px 0px;
+	font-family:Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #949393;
+	font-weight:bold;
+	border-bottom: dashed 1px #b7b7b7
+}
+
+.KategoriOrtaTabloMarkaDiv{float:left; padding:1px 1px 1px 1px;margin:2px 4px 2px 0;}
+
+.KategoriOrtaTabloMarkaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; }
+.KategoriOrtaTabloMarkaLink:hover {color: #5e5346;}
+
+.KategoriOrtaTabloMarkaTd{ font-family:Tahoma, Arial, Tahoma;font-size: 9px; color: #5e534d;padding:1px 2px 5px 
+
+5px;background:#fff;height:30px;border-bottom: 1px solid #c1c0c0;}
+
+
+
+
+.KategoriOrtaTabloKriterTd{ padding:1px 2px 0px 5px;border-bottom: 1px solid 
+
+#c1c0c0;margin:0px;height:25px;background-image:url('/images/KriterTdBack.gif');background-repeat:repeat-x;}
+
+.KategoriOrtaTabloKriterLink{	font-family: verdana,Tahoma, Arial, Tahoma;font-size: 9px;color: 
+
+#666;font-weight:normal;text-decoration:none;letter-spacing:-1px; border-top:#c1c0c0 solid 1px;border-left:#c1c0c0 solid 
+
+1px;border-right:#c1c0c0 solid 1px;vertical-align:bottom; padding:2px 3px 2px 
+
+3px;background-image:url('/images/TabloKriterLinkBack.gif');background-repeat:repeat-x;}
+.KategoriOrtaTabloKriterLink:hover {color: #e9292a;}
+
+
+.KategoriOrtaTabloKriterAktifLink{font-family: verdana,Tahoma, Arial, Tahoma;font-weight:bold;font-size: 9px;color: 
+
+#fff;text-decoration:none; border-top:#dd187d solid 1px;border-left:#dd187d solid 1px;border-right:#dd187d solid 
+
+1px;vertical-align:bottom; padding:2px 3px 2px 
+
+3px;background-image:url('/images/TabloKriterLinkAktifBack.gif');background-repeat:repeat-x;background-color:#443b36}
+.KategoriOrtaTabloKriterLink:hover {color: #000;}
+
+
+.KategoriUrunGrubuYokDiv{font-family: Tahoma, Arial, Tahoma;font-size: 11px;font-weight: normal;color: #000000;padding-top: 
+
+8px;padding-right: 2px;	padding-bottom: 5px;padding-left: 35px;	background-image: url('/images/KategoriUrunGrubuYokimage.gif');	
+
+background-repeat: no-repeat;	background-position: 8px 8px;	text-align: left;line-height: 20px;background-color: #FEFDBA;	border: 
+
+1px solid #D6D003;	margin-top: 15px;	margin-bottom: 10px;	margin-right: 15px;	margin-left: 15px;
+}
+
+.KategoriUrunGrubuYokSpan{color: #ff0000;font-weight: bold;}
+
+.KategoriOrtaTabloSayfalamaTablo{text-align:right;}
+
+.KategoriOrtaTabloSayfalarText{font-family: Tahoma, Arial;font-size: 11px; color: #666;}
+.KategoriOrtaTabloSayfalamaTd{padding:8px 5px 3px 5px;text-align:right;border-bottom:solid 1px #ccc}
+.KategoriOrtaTabloSayfalamaSayfalarTd{padding:3px 3px 0 3px }
+.KategoriOrtaTabloAktifSayfaText{font-family: Tahoma, Arial;font-size: 11px; color: #dd187d;}
+
+.KategoriOrtaTabloSayfaLink{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; 
+
+font-weight:bold;}
+.KategoriOrtaTabloSayfaLink:hover {color: #dd187d}
+
+
+.UrunListeGosterimTablo {font-family: Tahoma, Verdana, Arial;font-size: 11px;color: #000000;background:#c7c5c0;width:100%;margin:0px 0 
+
+5px 0}
+
+
+.UrunListeGosterimTabloUstBaslikTr{
+	line-height: 30px;
+	background-color:#FFFFFF;
+
+}
+
+
+.UrunListeGosterimTabloBaslikTr{
+	font-weight: bold;
+	background-image:url('/images/ListeGorunumTabloBaslikBack.gif');
+	background-repeat:repeat-x;
+	background-position:bottom;
+	line-height: 25px;
+	font-family: Verdana, Tahoma, Arial, Tahoma;
+	font-size: 10px;
+	color: #dd187d;
+	background-color:#f7f7f6;
+
+
+}
+
+.UrunListeGosterimTabloListeTr{background:#fdfdf8}
+.UrunListeGosterimTabloListeTr1{background:#fdfdf8}
+.UrunListeGosterimTabloListeTr2{background:#fff}
+
+
+
+.UrunListeGosterimTabloBaslikLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #dd187d;text-decoration:underline; 
+
+font-weight:bold;}
+.UrunListeGosterimTabloBaslikLink:hover {color: #000}
+
+.UrunListeGosterimTabloListeUrunLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #000;text-decoration:none; }
+.UrunListeGosterimTabloListeUrunLink:hover {color: #dd187d}
+dd187d
+.UrunListeGosterimTabloListeLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 10px; color: #a70808;text-decoration:none; }
+.UrunListeGosterimTabloListeLink:hover {color: #dd187d}
+
+.UrunListeGosterimTabloText{font-size: 10px; font-weight:bold;color: #dd187d;}
+
+.UrunListeGosterimTabloStokVar{font-size: 10px; font-weight:bold;color: #dd187d;}
+
+.UrunListeGosterimTabloStokYok{font-size: 10px; font-weight:bold;color: #c01717;}
+
+
+.KategoriUrunGosterimAlanTd{padding:10px;}
+
+
+
+
+/*ÜST KAYAN YAZI*/
+
+.UstKayanYaziTd{text-align:center; width:95%;height:20px;text-align:left;padding-left:10px;background:#ebebeb 
+
+url('/images/KayanYaziTdBack.gif') repeat-x bottom; }
+
+.UstKayanYazi{font-family: Verdana,Tahoma, Arial, Tahoma; font-weight:bold;font-size:11px;color:#000;}
+
+/*ÜST ORTA MENU*/
+.UstOrtaMenuTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color:#000; background:#097abe 
+
+url('/images/UstOrtaMenuBack.gif');background-repeat:repeat-x; text-align:center; 
+
+width:95%;height:30px;text-align:left;padding-left:10px}
+
+.UstOrtaMenuLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #08537f;text-decoration:none; font-weight:bold;}
+.UstOrtaMenuLink:hover {color: #000}
+
+
+/*ALT MENU*/
+
+.AltMenuTablo{width:100%}
+.AltMenuTabloTd{font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px;color:#b7a99a; background:#ebebeb 
+
+url('/images/AltMenuTdBack.gif');background-repeat:repeat-x; 
+
+text-align:center;height:30px;text-align:left;padding-left:10px;text-align:center}
+
+.AltMenuTabloLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; font-weight:bold;}
+.AltMenuTabloLink:hover {color: #ce098c}
+
+
+.AltKategoriMenuTd{ text-align:center;background-color: #ebebeb;}
+/*ÜST KATEGORÝ MENU*/
+
+.UstKategoriMenuTd{ text-align:center;background-color: #ebebeb;}
+
+
+.UstKategoriMenuDiv{height: 34px; margin:3px 2px 3px 0px; padding:4px 5px;width:auto}
+
+.UstKategoriMenuDiv ul {margin: 0;padding: 0;list-style: none;}
+
+
+
+.UstKategoriMenuDiv li {display: inline;}
+
+.UstKategoriMenuDiv a {margin: 2px 4px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: 
+
+#5e534d;text-decoration:none;padding:4px 5px;border:1px solid #ccc; background:#fff 
+
+url('/images/UstKategoriLinkBack.gif');background-repeat:repeat-x;background-position:bottom;display: block;float: left;}
+
+.UstKategoriMenuDiv a:hover {color: #dd187d;background-color: #fff;border:1px solid #ccc;background:#fff 
+
+url('/images/UstKategoriLinkHoverBack.gif');background-repeat:repeat-x;background-position:bottom }
+
+
+
+/*ÜST MARKA MENU*/
+
+.UstMarkaMenuTd{ text-align:center; width:95%;background-color: #ebebeb;}
+
+
+.UstMarkaMenuDiv{height: 34px; margin:3px 2px 3px 0px; padding:4px 5px;width:auto}
+
+.UstMarkaMenuDiv ul {margin: 0;padding: 0;list-style: none;}
+
+.UstMarkaMenuDiv li {display: inline;}
+
+.UstMarkaMenuDiv a {margin: 1px 2px;font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #5e534d;text-decoration:none;padding:4px 
+
+5px;border:1px solid #ccc; background:#fff 
+
+url('/images/UstKategoriLinkHoverBack.gif');background-repeat:repeat-x;background-position:bottom;display: block;float: left;}
+
+.UstMarkaMenuDiv a:hover {color: #dd187d;background-color: #fff;border:1px solid #ccc;background:#fff 
+
+url('/images/UstKategoriLinkBack.gif');background-repeat:repeat-x;background-position:bottom }
+
+
+.UrunAramaAjaxMarkaLink{ font-family: Verdana,Tahoma, Arial, Tahoma;font-size: 9px; color: #dd187d;text-decoration:none; 
+
+font-weight:bold;}
+.UrunAramaAjaxMarkaLink:hover {color: #a70808}
+
+
+
+/*YAN KATEGORÝ MENU*/
+.YanKategoriMenuTablo{font-family: Tahoma, Arial, Tahoma;font-size:11px;width:100%}
+.YanKategoriMenuBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+/* acilir menü tepe baslik rengi*/
+.YanKategoriMenuBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+.YanKategoriMenuListeTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 5px 15px; height:25px; 
+
+line-height:25px}
+.YanKategoriMenuListeTd1{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 0px 0px;}
+.YanKategoriMenuListeTd2{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;padding:0px 0 0px 0px;}
+.YanKategoriMenuListeTd3{padding:0px 0 0px 0px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;}
+
+.YanKategoriMenuListeAltTabloTd{padding:0px 5px 0px 0px;}
+
+.YanKategoriMenuListeLink{line-height:25px;font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: 
+
+/* acilir menü 2 rengi*/
+#333;text-decoration:none;font-weight:bold; background: url('/images/0mbox_ok.gif') no-repeat 0 0px; padding-left:19px }
+.YanKategoriMenuListeLink:hover {color: #FFFFFF}
+
+.YanKategoriMenuListeLink img {display:none;}
+
+
+.YanKategoriMenuListeLink1{line-height:18px; font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #FFFFFF;text-decoration:none; 
+
+margin:2px 10 2px 10px;}
+.YanKategoriMenuListeLink1:hover {color: #5e534d}
+
+.YanKategoriMenuListeLink2{ font-family: Tahoma, Arial, Tahoma;font-size: 10px; color: #FFFFFF;text-decoration:none }
+.YanKategoriMenuListeLink2:hover {color: #dd187d}
+
+.YanKategoriMenuListeLink3{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #FFFFFF;text-decoration:none }
+.YanKategoriMenuListeLink3:hover {color: #dd187d}
+
+.YanKategoriMenuAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*YAN KATEGORÝ CSS POPUP MENU*/
+.KategoriMenu {
+	text-align: left;
+	color:#7b634f;
+	padding:0;
+	width:202px;
+}
+
+.KategoriMenu ul {margin:0px;  list-style : none; padding:0px;z-index:200;}
+.KategoriMenu li {
+	margin: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c7c5c0;
+}
+.KategoriMenu li a {
+	color: #275eb0;
+	text-decoration: none;
+	padding:3px 0 0 5px;
+	display: block;
+	height:20px
+}
+.KategoriMenu li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	background-color: #dd187d;
+}
+.KategoriMenu ul li {position: relative;}
+.KategoriMenu li ul { 
+	position: absolute; 
+	left: 197px;
+	top:-1px;
+	margin:0px;
+	width:100%;
+	padding:0px;
+	background: #fdfdf5;
+border: 1px solid #c9bbaf;
+} 
+
+.KategoriMenu li:hover ul {
+	display: block; 
+
+} 
+.KategoriMenu li:hover>ul { 
+	visibility:visible; 
+
+} 
+.KategoriMenu li:hover>a {
+	color:#FFF;
+	background-color: #dd187d;
+} 
+
+.KategoriMenu ul ul {
+	visibility:hidden; 
+} 
+
+/*SATIÞ ORTAKLIÐI MODÜLÜ*/
+.SatisOrtakligiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+
+
+.SatisOrtakligiListeTr{padding:2px 15px 2px 15px;}
+.SatisOrtakligiListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.SatisOrtakligiListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.SatisOrtakligiListeLink:hover {color: #dd187d}
+
+.SatisOrtakligiKayanAlan{margin:0; padding:0;height:150px}
+
+
+/*HAFTANIN ÜRÜNÜ MODÜLÜ*/
+.HaftaninUrunuTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.HaftaninUrunuBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.HaftaninUrunuBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.HaftaninUrunuListeTr1{background-color: #fefef8;}
+.HaftaninUrunuListeTr2{padding:2px 0px 2px 15px;}
+.HaftaninUrunuListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.HaftaninUrunuBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.HaftaninUrunuBaslikLink:hover {color: #DD187D}
+
+.HaftaninUrunuListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.HaftaninUrunuListeLink:hover {color: #dd187d}
+
+.HaftaninUrunuAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*ALIÞVERÝÞ SEPETÝM MODÜLÜ*/
+.SepetimModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.SepetimModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.SepetimModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.SepetimModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;}
+
+.SepetimModulBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #FFFFFF;text-decoration:none;font-weight:bold; }
+.SepetimModulBaslikLink:hover {color: #DD187D}
+
+#pluginBasket{}
+#pluginBasket form{padding:0px;margin:0px;}
+
+
+.SepetimModulUrunDiv{border-bottom:dashed 1px #c7c5c0;padding:5px 0px;}
+.SepetimModulUrunDiv a{ font-family: verdana, Arial, Tahoma;font-size: 10px; color: #24639c;text-decoration:underline; }
+.SepetimModulUrunDiv a:hover {color: #06297c}
+
+.SepetimModulUrunSilDiv{float:right}
+
+.SepetimModulUrunAdetDiv{float:left;font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;padding:0px;margin:2px 5px 0px 0px;}
+
+.SepetimModulUrunFiyatDiv{font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;font-weight:bold; }
+
+.SepetimModulSepetBosDiv{ font-family: verdana, Arial, Tahoma;font-size: 9px; color: #dd187d;margin:0 auto 0 auto;text-align:center}
+
+.SepetimModulSepeteGitDiv{margin-top:5px;float:right}
+
+.SepetimModulUrunToplamDiv{ font-family: verdana, Arial, Tahoma;font-size: 10px; color: #000;font-weight:bold;padding:5px 0px 0px 0px}
+
+.ToplamDeger{ font-size: 13px; color: #06297c;}
+
+
+
+.SepetimModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*EN ÇOK SATANLAR MODÜLÜ*/
+.EnCokSatanlarTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnCokSatanlarBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnCokSatanlarBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnCokSatanlarListeTr1{background-color: #fefef8;}
+.EnCokSatanlarListeTr2{}
+.EnCokSatanlarListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnCokSatanlarBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.EnCokSatanlarBaslikLink:hover {color: #DD187D}
+
+.EnCokSatanlarListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnCokSatanlarListeLink:hover {color: #dd187d}
+
+.EnCokSatanlarAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*GRUPMODÜLÜ*/
+.GrupModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.GrupModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.GrupModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+
+.GrupModulListeTr{padding:2px 15px 2px 15px;}
+.GrupModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.GrupModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*EN SON BAKILANLAR MODÜLÜ*/
+.EnSonBakilanlarTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnSonBakilanlarBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnSonBakilanlarBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnSonBakilanlarListeTr1{background-color: #fefef8;}
+.EnSonBakilanlarListeTr2{padding:2px 0px 2px 15px;}
+.EnSonBakilanlarListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnSonBakilanlarListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnSonBakilanlarListeLink:hover {color: #dd187d}
+
+.EnSonBakilanlarAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*FÝYAT LÝSTESÝ  MODÜLÜ*/
+.FiyatListesiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.FiyatListesiBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.FiyatListesiBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+
+.FiyatListesiBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.FiyatListesiBaslikLink:hover {color: #DD187D}
+
+.FiyatListesiAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*FÝYATI DÜÞENLER MODÜLÜ*/
+.FiyatiDusenlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.FiyatiDusenlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.FiyatiDusenlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.FiyatiDusenlerListeTr1{background-color: #fefef8;}
+.FiyatiDusenlerListeTr2{padding:2px 0px 2px 15px;}
+.FiyatiDusenlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.FiyatiDusenlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.FiyatiDusenlerBaslikLink:hover {color: #DD187D}
+
+.FiyatiDusenlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.FiyatiDusenlerListeLink:hover {color: #dd187d}
+
+.FiyatiDusenlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*E-POSTA LÝSTESÝ MODÜLÜ*/
+.EPostaListesiTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EPostaListesiBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EPostaListesiBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+
+.EPostaListesiFormTr{padding:2px 15px 2px 15px;}
+.EPostaListesiFormTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: #fcfcfb;}
+.EPostaListesiFormInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #fcfcfb;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+
+.EPostaListesiFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+
+
+
+.EPostaListesiAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+
+/*ANKETMODÜLÜ*/
+.AnketTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.AnketSoruTablo{font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.AnketBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.AnketBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.AnketFormSoruTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+.AnketListeTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 
+
+1px #c7c5c0;background-color:#fcfcfb;}
+.AnketFormButonTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+
+.AnketCevapDiv{font-family: verdana, Tahoma, Arial;font-size:10px;font-weight:bold;padding:2px 0 4px 0}
+.AnketDegerlendirmeDiv{
+	width:50%;
+	border:solid 1px #888888;
+	background-color:#f5f5f5;
+	height: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.AnketOranDiv{
+	background-image:url('/images/anketback.gif');
+	float:left;
+	height: 15px;
+	text-align:right;
+}
+.AnketFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+.AnketFormButon1{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #275eb0;border: 1px solid 
+
+#1d4b9a;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+
+.AnketAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*ÜRÜN ARAMA MODÜLÜ*/
+.UrunAramaTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.UrunAramaBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.UrunAramaBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.UrunAramaFormTr{}
+.UrunAramaFormTd{padding:2px 15px 2px 10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color: 
+
+#fcfcfb;}
+.UrunAramaFormInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #BAB9B9; background-color: #EEEEEE;	
+
+height:20px;
+	padding:2px 1px;}
+.UrunAramaFormButon{color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;margin-top:5px}
+
+.UrunAramaFormSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+.UrunAramaFormMarkaSelectbox{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+.UrunAramaAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+.UrunAramaFormDetayliAramaLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:underline 
+
+;margin-top:5px;}
+.UrunAramaFormDetayliAramaLink:hover {color: #dd187d}
+
+/*DÖVÝZ KURLARI MODÜLÜ*/
+.DovizKurlariTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.DovizKurlariBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+
+.DovizKurlariBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.DovizKurlariDolarTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px #c7c5c0;background-color: 
+
+#fcfcfb;}
+.DovizKurlariEuroTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px #c7c5c0;background-color: 
+
+#fcfcfb;}
+
+.DovizKurlariDolarYazi{font-weight:bold;}
+.DovizKurlariEuroYazi{font-weight:bold;}
+
+.DovizKurlariDolarDeger{color:#796b5a;}
+.DovizKurlariEuroDeger{color:#796b5a;}
+
+.DovizKurlariAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*EN ÇOK GEZÝLENLER MODÜLÜ*/
+.EnCokGezilenlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.EnCokGezilenlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.EnCokGezilenlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.EnCokGezilenlerListeTr1{background-color: #fefef8;}
+.EnCokGezilenlerListeTr2{padding:2px 0px 2px 15px;}
+.EnCokGezilenlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.EnCokGezilenlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.EnCokGezilenlerBaslikLink:hover {color: #DD187D}
+
+.EnCokGezilenlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.EnCokGezilenlerListeLink:hover {color: #dd187d}
+
+.EnCokGezilenlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+/*ÝNDÝRÝMLÝ URUNLER MODÜLÜ*/
+.IndirimliUrunlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.IndirimliUrunlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.IndirimliUrunlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.IndirimliUrunlerListeTr1{background-color: #fefef8;}
+
+.IndirimliUrunlerListeTr2{padding:2px 0px 2px 15px;}
+.IndirimliUrunlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.IndirimliUrunlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.IndirimliUrunlerBaslikLink:hover {color: #DD187D}
+
+.IndirimliUrunlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.IndirimliUrunlerListeLink:hover {color: #dd187d}
+
+.IndirimliUrunlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+
+/*YENÝ ÜRÜNLER MODÜLÜ*/
+.YeniUrunlerTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.YeniUrunlerBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.YeniUrunlerBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.YeniUrunlerListeTr1{background-color: #fefef8;}
+.YeniUrunlerListeTr2{padding:2px 0px 2px 15px;}
+.YeniUrunlerListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;border-bottom:dashed 1px 
+
+#c7c5c0;background-color:#fcfcfb;}
+
+.YeniUrunlerBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.YeniUrunlerBaslikLink:hover {color: #DD187D}
+
+.YeniUrunlerListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.YeniUrunlerListeLink:hover {color: #dd187d}
+
+.YeniUrunlerAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+/*HABERLER MODÜLÜ*/
+.HaberlerModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.HaberlerModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.HaberlerModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#ffffff;font-size:14px;}
+
+.HaberlerModulListeTr{padding:2px 15px 2px 15px;}
+.HaberlerModulListeTd{padding:2px 15px 2px 
+
+10px;background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;}
+
+.HaberlerModulBaslikLink{ font-family: Tahoma, Arial, Tahoma;font-size: 14px; color: #666;text-decoration:none;font-weight:bold; }
+.HaberlerModulBaslikLink:hover {color: #DD187D}
+
+.HaberlerModulKayanAlan{margin:0; padding:0;height:150px}
+.HaberlerModulKayanDiv{border-bottom:#CCCCCC dashed 1px;padding:5px 0 5px 0;margin:5px 0 5px 0;}
+.HaberlerModulKayanDivTarih{font-family:Verdana, Tahoma, Arial, Tahoma;font-size: 9px; color:ada193;}
+
+.HaberlerModulListeLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none }
+.HaberlerModulListeLink:hover {color: #dd187d}
+
+.HaberlerModulTumHaberlerLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #dd187d;text-decoration:none }
+.HaberlerModulTumHaberlerLink:hover {color: #5e534d}
+
+.HaberlerModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+
+
+.HaberBaslikTd h2{
+	font-family: Tahoma, Verdana, Arial;
+	color:#766450;
+	font-size:11px;
+	font-weight:bold;
+	background-color:#F8F5F3;
+	margin-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #766450;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+
+.HaberIcerikTd{padding:5px}
+
+/*ÜYELÝK MODÜLÜ*/
+.UyelikModulTablo{width:100%;font-family: Tahoma, Arial, Tahoma;font-size:11px;}
+.UyelikModulBaslikTr {height:52px;background-image:url('/images/0mbox_ust.gif');background-repeat:no-repeat;}
+.UyelikModulBaslikTd {padding:0px 0 8 55px;font-weight:bold;color:#FFFFFF;font-size:14px;}
+
+.UyelikModulUyeAdiTr{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb}
+.UyelikModulUyeAdiTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:5px}
+
+.UyelikModulUyeAdiYazi {color: #dd187d}
+
+.UyelikModulMenuTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:2px 15px}
+
+.UyelikModulGirisFormTd{background-image:url('/images/0mbox_orta.gif');background-repeat:repeat-y;background-color:#fcfcfb;padding:2px 
+
+15px}
+
+.UyelikModulMenuLink{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #5e534d;text-decoration:none ;}
+.UyelikModulMenuLink:hover {color: #dd187d}
+
+.UyelikModulGirisInput{font-family: Tahoma, Arial, Tahoma;font-size: 11px;border: 1px solid #D1CFC2;background-color: #FCFCFB;	
+
+margin-top:6px;height:20px;padding:2px;width:98%}
+
+
+.UyelikModulGirisButon{	color:#fff;font-family:Verdana,Tahoma, Arial;font-size:10px;background-color: #ce0985;border: 1px solid 
+
+#b5016d;padding-top: 2px;padding-bottom: 2px;cursor:pointer;font-weight:bold;}
+.UyelikModulGirisSifreDiv{color: #dd187d;float:left;margin:0 15px 0 0}
+.UyelikModulGirisSifreDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #ffffff;text-decoration:underline}
+.UyelikModulGirisSifreDiv a:hover {color: #b5016d}
+
+.UyelikModulGirisYeniUyeDiv{color: #dd187d}
+.UyelikModulGirisYeniUyeDiv a{ font-family: Tahoma, Arial, Tahoma;font-size: 11px; color: #ffffff;text-decoration:underline}
+.UyelikModulGirisYeniUyeDiv a:hover {color: #b5016d}
+
+.UyelikModulGirisUyeDuyuruDiv{color: #dd187d}
+
+.UyelikModulAltTd{height:20px;background-image:url('/images/0mbox_alt.gif');background-repeat:no-repeat;background-position:top}
+.UrunSablonUrunResmi{font-color:#000000;}
+.AnaSayfaUrunGosterimTd{font-color:#000000;}
+.UrunSablonUrunAdiText{font-color:#000000;}
+
+
+.FormKrediVadeAyTr{text-align:center}
+.FormKrediVadeAy8Td{font-weight:bold;BACKGROUND-COLOR: #efeff0;color:#000}
+.FormKrediVadeAy8Td{font-weight:bold;BACKGROUND-COLOR: #fff;color:#000}
+.FormKrediKartAdi8Td{padding: 2px 5px 2px 2px; border-bottom:#4dac22 solid 2px;background-color:#fff}
+.FormKrediKartVade8Td{background-color:#006600;color:#fff}
+.FormKrediKartAdi8Div{color:#006600;font-weight:bold;}
+.FormKrediVade8Tr{background-color:#e2f4da}
+
+
+
+.FormKrediKartAdi6Td{padding: 2px 5px 2px 2px;font-weight:bold; border-bottom:#ffbf05 solid 2px;background-color:#fff}
+.FormKrediKartAdi6Div{color:#ebb823;font-weight:bold;}
+.FormKrediKartVade6Td{background-color:#ebb823;color:#fff}
+.FormKrediVade6Tr{background-color:#FFEC9F} 
+.UrunBilgisiUrunResimSlaytTd img{border:none}
+
+#bilginetlogo{background: url("/images/uygulama/bilginet.jpg") no-repeat scroll left bottom transparent; /*resmin yolu */
+display: block;
+height: 18px; /* resmin yuksekligi */
+margin: 0 auto;  /* sayfada ortalama */
+text-indent: -9999em;
+width: 80px; /* resmin genisligi */padding:13px 0 0;}
+.uyeform{line-height:2; width:100; float:left; margin:0px; float:right;}
+
+.SiteAltTabloImzaTd, .UrunBilgisiKurCevriciTr{display:none}

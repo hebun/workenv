@@ -1,0 +1,19 @@
+package setest;
+
+public class Main {
+
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+
+		StringMap map = new StringMap();
+		
+		for(int k=0;k<100;k++){
+			map.put(k+"", "value of: "+k)
+		}
+
+	}
+
+}

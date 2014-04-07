@@ -1,0 +1,5 @@
+content hga content/
+
+overlay chrome://browser/content/browser.xul chrome://hga/content/overlay.xul
+
+

@@ -1,0 +1,46 @@
+[delayed]-excele/word/yazdir
+-toplam satiri(from hesap)
+-copy tarih to compaigns
+-admin menu for upload
+-tiklama ve gosterime gore siralama 
+- tarih araliginda toplam gosterimi, coklu gun rapoarlari, sum clicks/imp group by keyword
+last: sum sql/multi days
+
+kupon 
+
+*- iki bakye(nakiet ve kupon bakiyesi)
+*- kupon girme menusu. 
+ (serinolu bir tablo.[delayed] )
+*- odeme girme menusu olcak(girilen kadar arti o kadar carpi kupon tipi kadar gercek bakiye artacak. kullanilan kupon kadar kbakiye duscek,
+
+kbakiye surekli dusen bir sayi olacak.
+)
+
+- toplam harcama gercek bakiyeden dusecek.(rapor yuklenirken)
+*- muhasebe sayfasi(both admin and user)
+*- dekont girme olacak(odemenin tersi)
+*- iki kupon ayni anda aktif olamaz.  kupon yuklemek icin bakye 0 olmali. 
+(kupon tipi: hesaba bagimli olacak. hesabin kaydinda bakiye-kupon bakiyesi ve kupon tipi dye 3 alan olacak.)
+
+*- kullanicilar menusu olacak. bu menude kullanicin; bakye-kupon bakiyesi
+olacak ve silinecebilecek. recursively. 
+
+-stylize lighbox content
+*-odeme gir
+*-dekont gir
+*-[k]bakiye line on top
+*-do not include deleted users on update users
+,
+
+                                     WHERE u.customerId=h.customerId)
+
+
+----------------------------********************-------------------
+
+
+-kupon icin tablo
+-decrese bakiye on hesap upload
+-ligtbox style
+- muhasebe tablosu (like google adwords)
+----
+-- para formati

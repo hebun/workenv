@@ -1,0 +1,187 @@
+/* h1 is changed. old color:
+
+#acaf2c
+
+*/
+body {
+	margin : 0;
+	padding : 0;
+	text-align : left;
+	color : #000000;
+	background : #858563 url(img/bgd.png) repeat-y top center;
+	font : 75% "Trebuchet MS", verdana, arial, tahoma, sans-serif;
+}
+#container {
+	width : 850px;
+	margin : 0 auto;
+	padding : 0;
+	color : #000000;
+	background : #ffffff;
+}
+			/*BANNER*/
+#banner {
+	float : left;
+	width : 750px;
+	height : 180px;
+	padding : 0;
+	margin-bottom : 0;
+	background : #eee url(img/banner.jpg);
+}
+#banner h1 {
+	margin : 140px 0 0 20px;
+	font : normal 2em georgia, verdana, arial, tahoma, sans-serif;
+	text-transform : none;
+	letter-spacing : 3px;
+	color : #ffffff;
+	background : transparent;
+}
+			/*MAIN CONTENT*/
+#content {
+	padding : 0 10px 0 10px;
+	margin-left : 160px;
+	margin-right : 150px;
+	margin-top : 0;
+	line-height : 1.8em;
+}
+#content h1 {
+	padding : 20px 0 0 0;
+	font : normal 1.4em verdana, tahoma, arial, sans-serif;
+	text-transform : uppercase;
+	letter-spacing : 3px;
+	color : #236bac;
+	background : inherit;
+	text-align : center;
+}
+			/*LEFT SIDEBAR*/
+#sidebar {
+	float : left;
+	width : 150px;
+	margin : 0 0 0 0;
+	padding : 5px;
+}
+			/*NAVIGATION*/
+.menu {
+	margin-bottom : 20px;
+	width : 150px;
+	padding : 15px 0 0 0;
+}
+.menu ul {
+	margin : 0;
+	padding : 0;
+	list-style-type : none;
+}
+.menu li {
+	margin : 0 0 1em 0;
+}
+.menu a {
+	display : block;
+	font-size : 11px;
+	color : #ffffff;
+	background : #2e79bc;
+	width : 120px;
+	padding : 0.5em 0.8em;
+	text-decoration : none;
+	border-left : 10px solid #1f5688;
+}
+.menu a:hover {
+	border-left : 10px solid #1f5688;
+	background-color : #236bac;
+	color : #fff;
+}
+.links {
+	font-size : 1.4em;
+	text-transform : uppercase;
+	letter-spacing : 3px;
+}
+			/*RIGHT SIDEBAR*/
+#sidebar-b {
+	float : right;
+	width : 150px;
+	margin : 0 0 0 0;
+	padding : 5px;
+}
+			/*FOOTER*/
+#footer {
+
+background : #ffffff url(img/footer.gif) repeat-x top;
+text-align:center;
+}
+#footer p{
+	float : bottom;
+	padding : 20px;
+	margin-top : 5px;
+	height : 40px;
+	font-size : 0.8em;
+	border-top : 1px solid #236bac;
+	color : #000000;
+}
+#footer a:link, #footer a:visited {
+	color : #236bac;
+	text-decoration : none;
+}
+#footer a:hover {
+	color : #3186d3;
+}
+			/*TYPOGRAPHY*/
+h1 {
+	margin : 0 0 10px 0;
+	font : normal 1.4em verdana, arial, tahoma, sans-serif;
+	text-transform : uppercase;
+	color : #236bac;
+	background : inherit;
+
+}
+blockquote {
+	font-weight : bold;
+	font-style : italic;
+	color : #b29b35;
+}
+			/*LINKS*/
+a {
+	color : #236bac;
+	font-weight : bold;
+	text-decoration : none;
+	background : inherit;
+}
+a:hover {
+	text-decoration : none;
+	color : #369;
+	background : inherit;
+}
+linkNormal{
+	color : #000000;	
+	text-decoration : none;
+	
+}
+a img {
+border: 0;
+}
+			/*CLASS*/
+.clear {
+	clear : both;
+	overflow : hidden;
+	width : 0;
+	height : 2px;
+}
+.post {
+	background-color : #404040;
+	padding : 3px;
+	margin : 20px 10px 0 5px;
+	border : 0 dashed #8a795d;
+	font-size : 80%;
+}
+.post .date {
+	background : url(img/clock.gif) no-repeat left center;
+	padding-left : 15px;
+	margin : 0 15px 0 5px;
+}
+.post .comments {
+	background : url(img/comment.gif) no-repeat left center;
+	padding-left : 15px;
+	margin : 0 15px 0 5px;
+}
+.post .readmore {
+	background : url(img/document.gif) no-repeat left center;
+	padding-left : 15px;
+	margin : 0 15px 0 5px;
+}

@@ -1,0 +1,9 @@
+.addbutton {
+background-image: url(../icons/addx.ico) !important;
+}
+.editbutton {
+background-image: url(../icons/editx.ico) !important;
+}
+.deletebutton {
+background-image: url(../icons/deletex.ico) !important;
+}

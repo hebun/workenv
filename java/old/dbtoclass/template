@@ -1,0 +1,17 @@
+<?php 
+class #classname#{
+	#fields#
+
+	public function __construct($column,$value) {
+		
+		$sql="select * from #tablename#  where $column='$value'";
+		
+		$res=mysql_query($sql);
+		
+		$row= mysql_fetch_assoc($res);
+		
+	    	#sets#
+	}
+	
+}
+?>

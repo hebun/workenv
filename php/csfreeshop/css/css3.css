@@ -1,0 +1,140 @@
+.list li a,
+.name a,
+.bestsellers li a:hover,
+.name a:hover,
+#back-top a,
+#back-top span,
+.hover:hover .wrapper_pic_t,
+.hover:hover .wrapper_pic_r,
+.hover:hover .wrapper_pic_b,
+.hover:hover .wrapper_pic_l					{
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-ms-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;	
+}
+.sf-menu > li > a:hover					{
+	-webkit-transition: all 1.2s ease-in-out 0s;
+	-moz-transition: all 1.2s ease-in-out 0s;
+	-ms-transition: all 1.2s ease-in-out 0s;
+	-o-transition: all 1.2s ease-in-out 0s;
+	transition: all 1.2s ease-in-out 0s;	
+}
+
+
+.cart_products_options	{
+  	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+ 	-webkit-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+	position:relative;
+}.prods_info .infoBoxWrapper,
+.listing_padd,
+.contentPadd.txtPage,
+.ui-dialog,
+.ui-dialog-titlebar,
+.cart,
+.ui-progressbar,
+.ui-datepicker	{
+	-moz-border-radius: 7px 7px 7px 7px; /* Firefox */
+  	-webkit-border-radius: 7px 7px 7px 7px; /* Safari, Chrome */
+ 	-khtml-border-radius: 7px 7px 7px 7px; /* KHTML */
+  	border-radius: 7px 7px 7px 7px;
+	position:relative;
+}
+.bg_button .button-t	{
+  	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+ 	-webkit-border-radius: 4px 4px 4px 4px;
+	-khtml-border-radius: 4px 4px 4px 4px;
+
+}
+.bg_button .button-b	{
+  	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+ 	-webkit-border-radius: 2px 2px 2px 2px;
+	-khtml-border-radius: 2px 2px 2px 2px;
+
+	
+}
+.prods_info .infoBoxWrapper .infoBoxContents,
+.div_cat_navbar,
+.contentInfoText	{
+  	border-radius: 0px 0px 7px 7px;
+	-moz-border-radius: 0px 0px 7px 7px;
+ 	-webkit-border-radius: 0px 0px 7px 7px;
+	-khtml-border-radius: 0px 0px 7px 7px;
+	 position:relative;
+}
+
+.prods_info .infoBoxWrapper .infoBoxHeading,
+.sf-menu a.sf-with-ul .wrapper_level,
+.contentPadd h3	{
+  	border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+ 	-webkit-border-radius: 7px 7px 0px 0px;
+	-khtml-border-radius: 7px 7px 0px 0px;
+	position:relative;
+}
+
+.cart th.th1	{
+  	border-radius: 7px 0px 0px 0px;
+	-moz-border-radius: 7px 0px 0px 0px;
+ 	-webkit-border-radius: 7px 0px 0px 0px;
+	-khtml-border-radius: 7px 0px 0px 0px;
+	position:relative;
+}
+.cart th.th3	{
+  	border-radius: 0px 7px 0px 0px;
+	-moz-border-radius: 0px 7px 0px 0px;
+ 	-webkit-border-radius: 0px 7px 0px 0px;
+	-khtml-border-radius: 0px 7px 0px 0px;
+	position:relative;
+}
+
+
+/* ************************************************************************************* */
+::selection {
+background:#cc7e36;
+color:#fff;
+}
+::-moz-selection {
+background:#cc7e36; 
+color:#fff;
+}
+/* ************************************************************************************* */
+.nivo-nextNav	{
+  	border-radius: 0px 7px 7px 0px;
+	-moz-border-radius: 0px 7px 7px 0px;
+ 	-webkit-border-radius: 0px 7px 7px 0px;
+	-khtml-border-radius: 0px 7px 7px 0px;
+	position:relative;
+	
+}
+.nivo-prevNav	{
+  	border-radius: 7px 0px 0px 7px;
+	-moz-border-radius: 7px 0px 0px 7px;
+ 	-webkit-border-radius: 7px 0px 0px 7px;
+	-khtml-border-radius: 7px 0px 0px 7px;
+	position:relative;
+	
+}
+#piGal ul.thumbs li a,
+.hover  .wrapper_pic_div	{
+   -webkit-box-shadow: 0 0 3px #c4c4c4;
+   -moz-box-shadow: 0 0 3px #c4c4c4;
+   box-shadow: 0 0 3px #c4c4c4;
+}
+#piGal ul.thumbs li a:hover,
+.hover:hover  .wrapper_pic_div	 {
+   -webkit-box-shadow: 0 0 3px #575757;
+   -moz-box-shadow: 0 0 3px #575757;
+   box-shadow: 0 0 3px #575757;
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+	 
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;w&apos; from expression &apos;new DualMatchs()&apos;&#x0A;- Original project: &apos;betting&apos;&#x0A;- Variable name: &apos;w&apos;&#x0A;- Destination method: &apos;betting.client.Betting.onModuleLoad().new ValueChangeHandler() {...}.onValueChange()&apos;&#x0A;- Variable expression: &apos;new DualMatchs()&apos;" description="Extract local variable &apos;w&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;betting.client{Betting.java" name="w" replace="false" selection="1627 16" stamp="1393552584866" version="1.0"/>
+</session>

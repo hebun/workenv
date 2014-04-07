@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestTempobet" project="betfair" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="TestTempobet" time="0.4">
+    <testcase name="trucateDb" classname="TestTempobet" time="0.395"/>
+    <testcase name="testTempobet" classname="TestTempobet" time="0.0"/>
+    <testcase name="testGetExternId" classname="TestTempobet" time="0.005"/>
+  </testsuite>
+</testrun>

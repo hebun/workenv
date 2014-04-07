@@ -1,0 +1,3 @@
+-size dosent check on uploads
+-there isint a validation picture on sending messages
+-

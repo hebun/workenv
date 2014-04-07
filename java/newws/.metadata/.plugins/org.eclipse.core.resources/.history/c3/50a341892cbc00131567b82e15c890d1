@@ -1,0 +1,18 @@
+package model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "duplicateAll", catalog = "betting")
+public class Match {
+
+	Integer id;
+	Integer siteId;
+	String externId;
+	String homeTeam;
+	public Match() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

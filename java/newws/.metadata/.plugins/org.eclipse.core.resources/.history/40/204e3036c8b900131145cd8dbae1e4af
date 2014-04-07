@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-03-31T23:01:35</date>
+  <millis>1396296095464</millis>
+  <sequence>1</sequence>
+  <logger>com.betfair.aping.ApiNGDemo</logger>
+  <level>INFO</level>
+  <class>com.betfair.aping.ApiNGDemo</class>
+  <method>fetchMarketBook</method>
+  <thread>16</thread>
+  <message>fetchbook started</message>
+</record>
+</log>

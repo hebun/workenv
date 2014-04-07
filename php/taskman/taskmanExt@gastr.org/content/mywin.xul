@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  
+    <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>  
+      
+    <window onload="init();"  
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+       <script src="chrome://taskmanExt/content/taskman.js" type="application/x-javascript"/>
+	   
+	   	<vbox style="width:100px">  
+   <groupbox align="start"> 
+   
+      <caption label="Yeni İş Ekle"/>  
+          
+		  <hbox>
+		  <vbox>
+            <label control="istanimi"  value="İş Tanımı:"/> 
+			<textbox id="istanimi" value=""/>   
+			  <label  control="days"  value="Süre:"/>
+			<textbox id="days" value=""/>
+  <label  value=""/> 
+		<button label="Kaydet" oncommand="saveToJson()">             
+            </button>
+			</vbox>
+			<vbox>
+			<label  control="stime"  value="Başlangiç Zamanı:"/>  
+			<datepicker id="stime" type="popup"/>
+				 			
+			</vbox>
+			 </hbox>
+       </groupbox > 
+  </vbox>  
+   <description>   Isler:</description>  
+    <tree id="elementList" flex="1" context="taskmenu">  
+      <treecols>  
+        <treecol id="0" label="Element" primary="true" flex="1"/>  
+		<treecol id="1" label="2.ele" primary="false" flex="1"/>  
+      </treecols>  
+      <treechildren/>  
+    </tree>  
+  	<menupopup id="taskmenu">  
+	  <menuitem label="Goster" onclick="showSelected()" />  
+	  <menuitem label="Ekle" onclick=""/>  
+	  <menuitem label="Sil" onclick="remChild()"/>  
+	</menupopup> 
+    </window>  

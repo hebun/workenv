@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Match.java&apos; to &apos;betfair/src/main/java/model&apos;&#x0A;- Original project: &apos;betting&apos;&#x0A;- Destination element: &apos;betfair/src/main/java/model&apos;&#x0A;- Original element: &apos;betting.server.Match.java&apos;" description="Copy compilation unit" destination="=betfair/src\/main\/java&lt;model" element1="/src&lt;betting.server{Match.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1396638516543" units="1" version="1.0"/>
+</session>

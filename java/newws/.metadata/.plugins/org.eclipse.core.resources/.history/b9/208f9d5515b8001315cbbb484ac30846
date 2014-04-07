@@ -1,0 +1,37 @@
+package work;
+
+import java.util.Iterator;
+
+public class xxx implements Iterator<String>, Iterable<String> {
+	String[] dizi = { "blbla", "xxxx", "yyy" };
+	public int k = 0;
+
+	public xxx() {
+
+	}
+
+	@Override
+	public boolean hasNext() {
+
+
+		return k < 3;
+	}
+
+	@Override
+	public String next() {
+
+		return dizi[k++];
+	}
+
+	@Override
+	public void remove() {
+
+	}
+
+	@Override
+	public Iterator<String> iterator() {
+		// TODO Auto-generated method stub
+		return this;
+	}
+
+}

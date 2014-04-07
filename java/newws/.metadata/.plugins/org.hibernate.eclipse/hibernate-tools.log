@@ -1,0 +1,5 @@
+2014-03-11 01:16:37,269 0      [      Worker-92] WARN  hibernate.cfg.AnnotationBinder  - Package not found or wo package-info.java: model
+2014-03-11 01:16:37,329 60     [      Worker-92] WARN  hibernate.cfg.AnnotationBinder  - Package not found or wo package-info.java: model
+2014-03-11 01:17:31,275 54006  [      Worker-93] WARN  hibernate.cfg.AnnotationBinder  - Package not found or wo package-info.java: model
+2014-03-11 01:17:31,313 54044  [      Worker-93] WARN  hibernate.cfg.AnnotationBinder  - Package not found or wo package-info.java: model
+2014-03-14 21:25:54,070 0      [           main] WARN  hibernate.cfg.AnnotationBinder  - Package not found or wo package-info.java: model

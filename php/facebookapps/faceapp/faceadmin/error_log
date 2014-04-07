@@ -1,0 +1,10 @@
+[12-Feb-2013 11:27:30 America/Denver] PHP Parse error:  syntax error, unexpected T_ECHO in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:27:39 America/Denver] PHP Fatal error:  Call to undefined function getDateFromDay() in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:28:01 America/Denver] PHP Fatal error:  Call to undefined function getDateFromDay() in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:28:20 America/Denver] PHP Parse error:  syntax error, unexpected ',', expecting '&' or T_VARIABLE in /home/clicks/public_html/faceapp/faceadmin/config.php on line 22
+[12-Feb-2013 11:28:36 America/Denver] PHP Parse error:  syntax error, unexpected ',', expecting '&' or T_VARIABLE in /home/clicks/public_html/faceapp/faceadmin/config.php on line 22
+[12-Feb-2013 11:29:03 America/Denver] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:30:05 America/Denver] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:31:20 America/Denver] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 11:32:31 America/Denver] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 33
+[12-Feb-2013 12:18:36 America/Denver] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/clicks/public_html/faceapp/faceadmin/publisher.php on line 68

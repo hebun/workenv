@@ -1,0 +1,5 @@
+-excele/word/yazdir
+-toplam satiri(from hesap)
+-copy tarih to compaigns
+-admin menu for upload
+-tiklama ve gosterime gore siralama 

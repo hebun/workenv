@@ -1,0 +1,38 @@
+String url = "jdbc:mysql://localhost:3306";
+		Connection con = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		String query;
+		
+		 try {
+			 try{
+			 Class.forName("com.mysql.jdbc.Driver").newInstance();
+			 }
+			 catch(Exception e)
+			 {
+			 System.out.println("driver not found"+e.getMessage());
+			 }
+			 con = DriverManager.getConnection (url, "", "");
+			 stmt = con.createStatement();
+			 query = "select * from test;";
+			 ResultSet result = stmt.executeQuery(query);
+
+			 while(result.next())
+			 {
+			 String callNumResult = result.getString("name");
+			 System.out.println(callNumResult);
+			 }
+
+			 }
+
+			 catch(Exception e)
+			 {
+			 System.out.println("SQLException caught: " + e.getMessage());
+			 }
+
+			 finally {
+			 try {
+			 if (con != null) con.close();
+			 }
+			 catch (SQLException e) {}
+			 }

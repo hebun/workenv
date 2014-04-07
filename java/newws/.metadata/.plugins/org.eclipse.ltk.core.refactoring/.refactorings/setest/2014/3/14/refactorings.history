@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void run(Map&lt;String,String&gt; map, final int LOOP)&apos; from &apos;setest.Main.main()&apos; to &apos;setest.Main&apos;&#x0A;- Original project: &apos;setest&apos;&#x0A;- Method name: &apos;run&apos;&#x0A;- Destination type: &apos;setest.Main&apos;&#x0A;- Declared visibility: &apos;public&apos;&#x0A;- Generate method comment" comments="true" description="Extract method &apos;run&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/main\/java&lt;setest{Main.java" name="run" replace="false" selection="332 243" stamp="1396264408102" version="1.0" visibility="1"/>
+</session>
