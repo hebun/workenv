@@ -1,0 +1,160 @@
+<ui:composition template="/master.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<style type="text/css">
+.vertAlign {
+	vertical-align: top;
+}
+</style>
+
+	<h:outputStylesheet target="head">
+
+	</h:outputStylesheet>
+
+	<ui:define name="content">
+
+		<h:form id="form">
+
+			<p:tabView id="tabView" activeIndex="#{carts.activeIndex}">
+				<p:ajax update=":form:tabView" event="tabClose"
+					listener="#{carts.onTabClose}"></p:ajax>
+
+				<p:tab title="#{msg.carts}" id="mainTab"
+					disabled="#{carts.detailRendered}">
+
+					<p:toolbar id="toolbar">
+						<p:toolbarGroup align="left">
+							<p:commandButton id="viewButton" value="#{msg.add}"
+								icon="ui-icon-circle-plus" update=":form:tabView"
+								actionListener="#{carts.add}" />
+							<p:separator />
+							<p:commandButton value="#{msg.edit}" icon="ui-icon-document"
+								update=":form:tabView" disabled="#{carts.selected==null}"
+								actionListener="#{carts.edit}" widgetVar="editButton" />
+							<p:separator />
+							<p:commandButton value="#{msg.delete}"
+								icon="ui-icon-circle-close" update=":form:tabView:memberTable"
+								actionListener="#{carts.delete}"
+								disabled="#{carts.selected==null}" widgetVar="delButton">
+								<p:confirm header="Onayla" message="#{msg.sureToDelete}"
+									icon="ui-icon-alert" />
+							</p:commandButton>
+							<p:separator />
+							<p:commandButton value="#{msg.refresh}" icon="ui-icon-refresh"
+								update=":form:tabView" actionListener="#{carts.refresh}" />
+							<p:separator />
+
+							<button type="button" onclick="PF('columnsDialog').show()"
+								class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left"
+								id="editTableButton">
+								<span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span>
+								<span class="ui-button-text ui-c">#{msg.editTable}</span>
+							</button>
+							<p:separator />
+
+						</p:toolbarGroup>
+
+					</p:toolbar>
+					<p:dataTable value="#{carts.carts}" var="var" paginator="false"
+						selection="#{carts.selected}" selectionMode="single"
+						id="memberTable" widgetVar="grid" rowKey="#{var.id}">
+						<p:ajax event="rowSelect" listener="#{carts.onRowSelect}"
+							immediate="true" update=":form:tabView:toolbar"></p:ajax>
+
+						<p:columns value="#{carts.columns}" var="column"
+							columnIndexVar="colIndex" rendered="#{column.header !=''}">
+							<f:facet name="header">#{column.header}</f:facet>
+
+							<h:outputText rendered="#{column.column !='member'}"
+								value="#{var[column.column]}"></h:outputText>
+
+							<h:outputText rendered="#{column.column =='member'}"
+								value="#{var[column.column].mname}"></h:outputText>
+						</p:columns>
+
+					</p:dataTable>
+				</p:tab>
+				<p:tab closable="true" title="#{msg.detail}"
+					rendered="#{carts.detailRendered}" widgetVar="secondTab">
+					<p:messages style="width: 420px;"></p:messages>
+					<p:panelGrid columns="2" style="width:100%"
+						columnClasses="vertAlign,vertAlign">
+						<p:column styleClass="vertAlign">
+
+							<p:panelGrid columns="4">
+
+								<h:outputLabel for="code" value="Code"></h:outputLabel>
+								<p:inputText id="code" value="#{carts.currentRow.code}"></p:inputText>
+
+								<h:outputLabel for="bakiye" value="bakiye"></h:outputLabel>
+								<p:inputText readonly="true" id="bakiye"
+									value="#{carts.currentRow.bakiye}"></p:inputText>
+
+								<h:outputLabel for="sifre" value="#{msg.password}"></h:outputLabel>
+								<p:inputText id="sifre" value="#{carts.currentRow.password}"></p:inputText>
+
+								<h:outputLabel rendered="#{login.status eq 'ADMIN'}" for="member" value="#{msg.member}"></h:outputLabel>
+
+								<p:selectOneMenu rendered="#{login.status eq 'ADMIN'}"
+									id="member" value="#{carts.currentRow.member}" filter="true"
+									filterMatchMode="contains" var="p" converter="MemberConverter">
+									<f:selectItem itemLabel="#{msg.chooseMember}" itemValue=""></f:selectItem>
+									<f:selectItems value="#{carts.members}" var="pl"
+										itemLabel="#{pl.mname}" />
+
+									<p:column>	#{p.mname} 			</p:column>
+									<p:column>	#{p.email} 			</p:column>
+								</p:selectOneMenu>
+								<f:facet name="footer">
+									<p:commandButton icon="ui-icon-save" value="Kaydet"
+										actionListener="#{carts.save}" update=":form:tabView"></p:commandButton>
+								</f:facet>
+							</p:panelGrid>
+
+						</p:column>
+						<p:column>
+					
+					</p:column>
+					</p:panelGrid>
+				</p:tab>
+
+			</p:tabView>
+			<p:confirmDialog global="true" showEffect="fade" hideEffect="explode">
+				<p:commandButton value="Evet" type="button"
+					styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />
+				<p:commandButton value="Hayir" type="button"
+					styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+			</p:confirmDialog>
+
+			<p:dialog header="#{msg.editTable}" widgetVar="columnsDialog"
+				resizable="false" width="400" showEffect="clip" hideEffect="fold"
+				id="dialog">
+
+				<h:panelGrid id="columns" columns="2" cellpadding="5">
+					<table>
+						<ui:repeat value="#{carts.columns}" var="col" varStatus="status">
+							<tr>
+								<td><h:outputText value="#{col.column}" id="col#{col.id}" />
+								</td>
+								<td><h:inputText value="#{col.header}" id="head#{col.id}" />
+								</td>
+							</tr>
+
+						</ui:repeat>
+					</table>
+					<f:facet name="footer">
+						<p:commandButton icon="ui-icon-save" value="Kaydet"
+							actionListener="#{carts.saveColumns}" update=":form:tabView"></p:commandButton>
+					</f:facet>
+				</h:panelGrid>
+
+			</p:dialog>
+		</h:form>
+
+	</ui:define>
+
+</ui:composition>

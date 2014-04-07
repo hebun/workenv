@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:composite="http://java.sun.com/jsf/composite">
+
+<composite:interface>
+	<composite:attribute name="usernameValue"></composite:attribute>
+	<composite:attribute name="passwordValue"></composite:attribute>
+	<composite:attribute name="comAction"
+		method-signature="java.lang.String action()"></composite:attribute>
+
+</composite:interface>
+
+<composite:implementation>
+
+	<h:form>
+		<h:message for="loginPanel" style="color:red"></h:message>
+
+		<h:panelGrid columns="2" id="loginPanel">
+		User Name: <h:inputText id="username"
+				value="#{cc.attrs.usernameValue}"></h:inputText>
+		Password : <h:inputText id="password"
+				value="#{cc.attrs.paswordValue}"></h:inputText>
+		</h:panelGrid>
+		<h:commandButton value="Login" action="#{cc.attrs.comAction}"></h:commandButton>
+	</h:form>
+</composite:implementation>
+
+</html>

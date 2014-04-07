@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:free="http://java.sun.com/jsf/composite/free"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>First JSF Example</title>
+	<style>
+.parentPanel {
+	height: 600px;
+	width: 100%;
+	background: #efefef;
+}
+
+.loginPanel {
+	padding-top: 200px;
+	padding-left: 400px;
+}
+
+td {
+	text-align: right;
+}
+
+</style>
+</h:head>
+<h:body> 
+	<f:view locale="tr">
+		<p:panel header="ClickCart Otomasyon" styleClass="parentPanel">
+			<h:form id="loginForm" styleClass="loginPanel">
+
+
+
+				<p:panel header="#{msg.login}" style="width: 420px;">
+					<p:messages for="auth" style="width: 420px;"></p:messages>
+
+					<h:panelGrid id="loginPanel" columns="2">
+
+						<h:outputText value="#{msg.username}:" />
+
+						<p:inputText required="true"
+							requiredMessage="#{msg.usernameRequired}" id="username"
+							value="#{login.username}"></p:inputText>
+
+						<p:spacer></p:spacer>
+
+						<p:message for="username"></p:message>
+
+						<h:outputText align="right" value="#{msg.password}:" />
+
+						<p:password required="true"
+							requiredMessage="#{msg.passwordRequired}" id="password"
+							value="#{login.password}"  feedback="false"></p:password>
+
+						<p:spacer></p:spacer>
+
+						<p:message for="password"></p:message>
+
+						<p:spacer></p:spacer>
+
+						<h:commandButton action="#{login.login}"
+							 value="#{msg.login}"></h:commandButton>
+
+					</h:panelGrid>
+
+				</p:panel>
+
+			</h:form>
+
+		</p:panel>
+		<p:ajaxStatus
+			style="width:16px;height:16px; position:fixed; right:50px;bottom:50px;"
+			id="ajaxStatusPanel">
+			<f:facet name="start">
+				<h:graphicImage library="theme" name="images/loading.gif" />
+			</f:facet>
+
+			<f:facet name="complete">
+				<h:outputText value="" />
+			</f:facet>
+		</p:ajaxStatus>
+	</f:view>
+</h:body>
+</html>

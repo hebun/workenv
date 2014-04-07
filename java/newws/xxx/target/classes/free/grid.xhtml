@@ -1,0 +1,70 @@
+<ui:component xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:cc="http://java.sun.com/jsf/composite"
+	xmlns:p="http://primefaces.org/ui">
+
+	<cc:interface>
+		<cc:attribute name="gridId" type="java.lang.Integer" />
+
+		<cc:attribute name="bean" type="Members" />
+		<cc:attribute name="onRowSelect" method-signature="void onRowSelect()" />
+		<cc:attribute name="add" method-signature="void add(javax.faces.event.ActionEvent)" />
+	</cc:interface>
+
+
+	<cc:implementation>
+
+		<p:toolbar id="toolbar">
+			<p:toolbarGroup align="left">
+				<p:commandButton id="viewButton" value="#{msg.add}"
+					icon="ui-icon-circle-plus" update=":form:tabView:freeGrid"
+					actionListener="#{cc.attrs.add}" />
+				<p:separator />
+				<p:commandButton value="#{msg.edit}" icon="ui-icon-document"
+					update=":form:tabView" disabled="#{cc.attrs.bean.selected==null}"
+					actionListener="#{cc.attrs.bean.edit}" widgetVar="editButton" />
+				<p:separator />
+				<p:commandButton value="#{msg.delete}" icon="ui-icon-circle-close"
+					update=":form:tabView:freeGrid:memberTable"
+					actionListener="#{cc.attrs.bean.delete}"
+					disabled="#{cc.attrs.bean.selected==null}" widgetVar="delButton">
+					<p:confirm header="Onayla" message="#{msg.sureToDelete}"
+						icon="ui-icon-alert" />
+				</p:commandButton>
+				<p:separator />
+				<p:commandButton value="#{msg.refresh}" icon="ui-icon-refresh"
+					update=":form:tabView" actionListener="#{cc.attrs.bean.refresh}" />
+				<p:separator />
+
+				<button type="button" onclick="PF('columnsDialog').show()"
+					class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left"
+					id="editTableButton">
+					<span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span>
+					<span class="ui-button-text ui-c">#{msg.editTable}</span>
+				</button>
+				<p:separator />
+
+			</p:toolbarGroup>
+
+		</p:toolbar>
+		<p:dataTable value="#{cc.attrs.bean.members}" var="var"
+			paginator="false" selection="#{cc.attrs.bean.selected}"
+			selectionMode="single" id="memberTable" widgetVar="grid"
+			rowKey="#{var.id}">
+			<p:ajax event="rowSelect" listener="#{cc.attrs.bean.onRowSelect}"
+				immediate="true" update=":form:tabView:freeGrid:toolbar"></p:ajax>
+
+			<p:columns value="#{cc.attrs.bean.columns}" var="column"
+				columnIndexVar="colIndex">
+				<f:facet name="header">#{column.header}</f:facet>
+					
+					#{var[column.column]}
+					
+					</p:columns>
+
+		</p:dataTable>
+
+	</cc:implementation>
+</ui:component>

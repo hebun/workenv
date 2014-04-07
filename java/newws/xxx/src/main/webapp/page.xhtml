@@ -1,0 +1,52 @@
+<ui:composition template="/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<ui:define name="title">
+        New page title here
+    </ui:define>
+
+	<ui:define name="content">
+		<h1>New content here</h1>
+
+
+
+		<h:messages style="color:red;margin:8px;" />
+
+		<h:form>
+
+			<h:link outcome="hello" id="hlink" value="personal greeting page!"
+				includeViewParams="true">
+				<f:param name="Result" value="#{helloBean.name}" />
+			</h:link>
+
+			<c:if test="${helloBean.isDebug}">
+				<h:outputText value="debug label"></h:outputText>
+			</c:if>
+
+			<h:inputText id="myInput" value="#{helloBean.email}" size="20"
+				required="true" requiredMessage="email can not be empty">
+				<f:ajax />
+			</h:inputText>
+
+			<h:message for="myInput" style="color:red" />
+
+			<h:outputText value="#{helloBean.isDebug}"></h:outputText>
+			<h:outputText id="ajaxTarget" value="ajax target"></h:outputText>
+			<h:selectOneMenu id="sol" value="solvalue">
+				<f:selectItems value="#{helloBean.list}"></f:selectItems>
+			</h:selectOneMenu>
+
+			<p>
+				<h:commandButton value="click me" >
+				<f:ajax render="ajaxTarget" execute="hlink"></f:ajax>
+				</h:commandButton>
+			</p>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>

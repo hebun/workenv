@@ -1,0 +1,178 @@
+<ui:composition template="/master.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<style type="text/css">
+.vertAlign {
+	vertical-align: top;
+}
+</style>
+
+	<h:outputStylesheet target="head">
+
+	</h:outputStylesheet>
+
+	<ui:define name="content">
+
+		<h:form id="form">
+
+			<p:tabView id="tabView" activeIndex="#{members.activeIndex}">
+				<p:ajax update=":form:tabView" event="tabClose"
+					listener="#{members.onTabClose}"></p:ajax>
+			
+				<p:tab title="#{msg.members}" id="mainTab"
+					disabled="#{members.detailRendered}">
+
+					<p:toolbar id="toolbar">
+						<p:toolbarGroup align="left">
+							<p:commandButton id="viewButton" value="#{msg.add}"
+								icon="ui-icon-circle-plus" update=":form:tabView"
+								actionListener="#{members.add}" />
+							<p:separator />
+							<p:commandButton value="#{msg.edit}" icon="ui-icon-document"
+								update=":form:tabView" disabled="#{members.selected==null}"
+								actionListener="#{members.edit}" widgetVar="editButton" />
+							<p:separator />
+							<p:commandButton value="#{msg.delete}"
+								icon="ui-icon-circle-close" update=":form:tabView:memberTable"
+								actionListener="#{members.delete}"
+								disabled="#{members.selected==null}" widgetVar="delButton">
+								<p:confirm header="Onayla" message="#{msg.sureToDelete}"
+									icon="ui-icon-alert" />
+							</p:commandButton>
+							<p:separator />
+							<p:commandButton value="#{msg.refresh}" icon="ui-icon-refresh"
+								update=":form:tabView" actionListener="#{members.refresh}" />
+							<p:separator />
+
+							<button type="button" 
+								onclick="PF('columnsDialog').show()"
+								class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left"
+								id="editTableButton">
+								<span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span>
+								<span class="ui-button-text ui-c">#{msg.editTable}</span>
+							</button>
+							<p:separator />
+
+						</p:toolbarGroup>
+
+					</p:toolbar>
+					<p:dataTable value="#{members.members}" var="var" paginator="false"
+						selection="#{members.selected}" selectionMode="single"
+						id="memberTable" widgetVar="grid" rowKey="#{var.id}">
+						<p:ajax event="rowSelect" listener="#{members.onRowSelect}"
+							immediate="true" update=":form:tabView:toolbar"></p:ajax>
+
+						<p:columns value="#{members.columns}" var="column"
+							columnIndexVar="colIndex" rendered="#{column.header !=''}">
+							<f:facet name="header">#{column.header}</f:facet>
+					
+					#{var[column.column]}
+					
+					</p:columns>
+
+					</p:dataTable>
+				</p:tab>
+				<p:tab closable="true" title="#{msg.detail}"
+					rendered="#{members.detailRendered}" widgetVar="secondTab">
+					<p:messages style="width: 420px;"></p:messages>
+					<p:panelGrid columns="2" style="width:100%"
+						columnClasses="vertAlign,vertAlign">
+						<p:column styleClass="vertAlign">
+
+							<p:panelGrid columns="4">
+
+								<h:outputLabel for="email" value="email"></h:outputLabel>
+								<p:inputText id="email" value="#{members.currentRow.email}"></p:inputText>
+
+								<h:outputLabel for="isim" value="isim"></h:outputLabel>
+								<p:inputText id="isim" value="#{members.currentRow.mname}"></p:inputText>
+								<h:outputLabel for="address" value="Adres"></h:outputLabel>
+								<p:inputText id="address" value="#{members.currentRow.address}"></p:inputText>
+								<h:outputLabel for="company" value="#{msg.company}"></h:outputLabel>
+								<p:inputText id="company" value="#{members.currentRow.company}"></p:inputText>
+
+								<h:outputLabel for="username" value="#{msg.username}"></h:outputLabel>
+
+								<p:inputText id="username"
+									value="#{members.currentRow.username}"></p:inputText>
+
+								<h:outputLabel for="password" value="#{msg.password}"></h:outputLabel>
+								<p:inputText id="password"
+									value="#{members.currentRow.password}">
+
+								</p:inputText>
+								<h:outputLabel for="bakiye" value="Bakiye"></h:outputLabel>
+								<p:inputText
+									onkeypress="if((event.which &lt; 48 &#38;&#38; event.which &gt; 31 )  || event.which &gt; 57) return false;"
+									id="bakiye" value="#{members.currentRow.bakiye}"></p:inputText>
+								<h:outputLabel for="yetkili" value="Yetkili"></h:outputLabel>
+								<p:inputText id="yetkili" value="#{members.currentRow.yetkili}"></p:inputText>
+								<f:facet name="footer">
+									<p:commandButton icon="ui-icon-save" value="Kaydet"
+										actionListener="#{members.save}" update=":form:tabView"></p:commandButton>
+								</f:facet>
+							</p:panelGrid>
+
+						</p:column>
+						<p:column style="valign:top;">
+							<p:dataTable style="valign:top;"
+								value="#{members.currentRow.carts.toArray()}" var="cart"
+								paginator="false" id="cartTable" rowKey="#{cart.id}">
+								<f:facet name="header">
+									<h:outputText value="Bagli kartlar"></h:outputText>
+								</f:facet>
+								<p:column headerText="QR Kodu" id="code"> 	       #{cart.code}  
+					 </p:column>
+								<p:column headerText="Bakiye" id="bakiye"> 	       #{cart.bakiye}  
+					 </p:column>
+								<p:column headerText="Sifre" id="Sifre"> 	       #{cart.password}  
+					 </p:column>
+							</p:dataTable>
+						</p:column>
+					</p:panelGrid>
+				</p:tab>
+
+			</p:tabView>
+			<p:confirmDialog global="true" showEffect="fade" hideEffect="explode">
+				<p:commandButton value="Evet" type="button"
+					styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />
+				<p:commandButton value="Hayir" type="button"
+					styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+			</p:confirmDialog>
+
+			<p:dialog header="#{msg.editTable}" widgetVar="columnsDialog"
+				resizable="false" width="400" showEffect="clip" hideEffect="fold"
+				id="dialog">
+
+				<h:panelGrid id="columns" columns="2" cellpadding="5">
+					<table>
+						<ui:repeat value="#{members.columns}" var="col" varStatus="status">
+							<tr>
+								<td><h:outputText value="#{col.column}" id="col#{col.id}" />
+								</td>
+								<td><h:inputText value="#{col.header}" id="head#{col.id}" />
+								</td>
+							</tr>
+
+						</ui:repeat>
+					</table>
+					<f:facet name="footer">
+						<p:commandButton icon="ui-icon-save" value="Kaydet"
+							actionListener="#{members.saveColumns}" update=":form:tabView"></p:commandButton>
+					</f:facet>
+				</h:panelGrid>
+
+			</p:dialog>
+		</h:form>
+		<script type="text/javascript">
+		$(document).ready(function(){
+	
+		});
+	</script>
+	</ui:define>
+
+</ui:composition>
