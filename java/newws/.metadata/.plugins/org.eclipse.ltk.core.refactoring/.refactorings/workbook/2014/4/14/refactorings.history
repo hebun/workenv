@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;XTable.java&apos; to &apos;util&apos;&#x0A;- Original project: &apos;workbook&apos;&#x0A;- Destination element: &apos;util&apos;&#x0A;- Original element: &apos;Xpack.XTable.java&apos;" description="Copy compilation unit" element1="/src&lt;Xpack{XTable.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1396427597731" target="/betfair/src/main/java/com/betfair/aping/util" units="1" version="1.0"/>
-</session>

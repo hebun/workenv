@@ -1,9 +1,0 @@
-package setest;
-
-public class StringMap {
-
-	public StringMap() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

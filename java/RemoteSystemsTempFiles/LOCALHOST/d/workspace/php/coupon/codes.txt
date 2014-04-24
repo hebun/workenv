@@ -1,4 +1,0 @@
-https://www.facebook.com/dialog/pagetab?app_id=YOUR_APP_ID &display=popup&next=http://admin.clicksem.net/coupon/index1.php
-
-0->115913018564165->c66240e1b3d16b2737b51d4c00ef6fe9
-1->371490429600513->1b70f3377035b0728853c72a1e10d33f

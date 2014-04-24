@@ -1,4 +1,0 @@
-1395171045402	Extract local variable 'filter'
-1395253740941	Extract method 'fetchMartkets'
-1395260797538	Extract local variable 'hashSet'
-1395347015825	Extract method 'fetchMarketBook'

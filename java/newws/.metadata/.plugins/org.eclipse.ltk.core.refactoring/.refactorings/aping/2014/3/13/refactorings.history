@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract local variable &apos;string&apos; from expression &apos;rs.getString(i)&apos;&#x0A;- Original project: &apos;aping&apos;&#x0A;- Variable name: &apos;string&apos;&#x0A;- Destination method: &apos;com.betfair.aping.util.Jdbc.select()&apos;&#x0A;- Variable expression: &apos;rs.getString(i)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;string&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.betfair.aping.util{Jdbc.java" name="string" replace="true" selection="2072 15" stamp="1395624982214" version="1.0"/>
-</session>
